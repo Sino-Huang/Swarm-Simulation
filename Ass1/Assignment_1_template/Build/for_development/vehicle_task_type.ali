@@ -1,0 +1,259 @@
+V "GNAT Lib v2017"
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -fstack-check=specific
+A -gnato
+A -mtune=generic
+A -march=pentium4
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASKING
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+RV MAX_TASK_ENTRIES=1
+RV MAX_ASYNCHRONOUS_SELECT_NESTING=1+
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U vehicle_task_type%b	vehicle_task_type.adb	99a113e0 DE OO PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W exceptions%s		exceptions.adb		exceptions.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W vehicle_interface%s	vehicle_interface.adb	vehicle_interface.ali
+
+U vehicle_task_type%s	vehicle_task_type.ads	58fd0c20 DE EE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.task_identification%s  a-taside.adb	a-taside.ali
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20170516105950 76789da1 ada%s
+D a-calend.ads		20170516105954 2d5f01d4 ada.calendar%s
+D a-charac.ads		20170516105954 2d3ec45b ada.characters%s
+D a-chlat1.ads		20170516105952 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20170516105950 61e5e089 ada.containers%s
+D a-cohata.ads		20170516105956 80a8c839 ada.containers.hash_tables%s
+D a-cohama.ads		20170516105952 8205bf40 ada.containers.hashed_maps%s
+D a-conhel.ads		20170516105950 20298884 ada.containers.helpers%s
+D a-except.ads		20170516105952 291912d5 ada.exceptions%s
+D a-finali.ads		20170516105954 bf4f806b ada.finalization%s
+D a-ioexce.ads		20170516105948 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20170516105952 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20170516105950 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20170516105954 7e738940 ada.numerics.generic_elementary_functions%s
+D a-reatim.ads		20170516105950 a87e2da7 ada.real_time%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-ststio.ads		20170516105952 c3455b31 ada.streams.stream_io%s
+D a-string.ads		20170516105952 90ac6797 ada.strings%s
+D a-strmap.ads		20170516105952 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20170516105950 ecdfa332 ada.strings.unbounded%s
+D a-stunha.ads		20170516105952 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20170516105954 d3a89129 ada.tags%s
+D a-taside.ads		20170516105954 c6417f71 ada.task_identification%s
+D a-textio.ads		20170516105954 386df5d4 ada.text_io%s
+D a-tiflio.ads		20170516105948 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D a-uncdea.ads		20170516105954 f15a5ed1 ada.unchecked_deallocation%s
+D exceptions.ads	20180911080944 93f8a807 exceptions%s
+D generic_protected.ads	20180911080944 3536765d generic_protected%s
+D gl.ads		20180911080944 28e5b432 gl%s
+D gl-buffer.ads		20180911080942 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20180911080942 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20180911080942 e6b92a39 gl.buffer.texture_coords%s
+D gl-frustums.ads	20180911080942 3d23f8e0 gl.frustums%s
+D gl-geometry.ads	20180911080942 398a5530 gl.geometry%s
+D gl-materials.ads	20180911080942 4d170091 gl.materials%s
+D gl-skinned_geometry.ads  20180911080942 0d393283 gl.skinned_geometry%s
+D gl-skins.ads		20180911080942 f0134d84 gl.skins%s
+D gl-textures.ads	20180911080942 6f569eb0 gl.textures%s
+D globe_3d.ads		20180911080942 4b81e8db globe_3d%s
+D graphics_structures.ads  20180911080944 168856d0 graphics_structures%s
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-c.ads		20170516105948 5421119b interfaces.c%s
+D i-cpoint.ads		20170516105956 ee8a93ec interfaces.c.pointers%s
+D i-cstrin.ads		20170516105952 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
+D matrices.ads		20180911080944 85f7982e matrices%s
+D quaternions.ads	20180911080944 9d9d58c2 quaternions%s
+D real_type.ads		20180911080944 cdd2e5cc real_type%s
+D rotations.ads		20180911080944 3eeded66 rotations%s
+D swarm_structures_base.ads  20180911080944 12dd854b swarm_structures_base%s
+D system.ads		20170516105954 32a08138 system%s
+D s-atacco.ads		20170516105954 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20170516105956 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-fatgen.ads		20170516105956 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20170516105952 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
+D s-finmas.ads		20170516105954 7811a767 system.finalization_masters%s
+D s-finroo.ads		20170516105954 4ff27390 system.finalization_root%s
+D s-multip.ads		20170516105948 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20170516105954 2e5b26a9 system.os_interface%s
+D s-parame.ads		20170516105954 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20170516105948 ede33ef8 system.pool_global%s
+D s-secsta.ads		20170516105954 9751b57e system.secondary_stack%s
+D s-soflin.ads		20170516105950 14e1eb6c system.soft_links%s
+D s-stache.ads		20170516105954 a37c21ec system.stack_checking%s
+D s-stausa.ads		20170516105954 017a0a05 system.stack_usage%s
+D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
+D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20170516105954 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20170516105950 b16154c2 system.storage_pools%s
+D s-stposu.ads		20170516105948 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20170516105948 aedef97e system.stream_attributes%s
+D s-string.ads		20170516105954 8fe54fb7 system.strings%s
+D s-ststop.ads		20170516105950 e6693757 system.strings.stream_ops%s
+D s-tasinf.ads		20170516105952 601f6b72 system.task_info%s
+D s-taspri.ads		20170516105952 6c1d93d4 system.task_primitives%s
+D s-taprop.ads		20170516105950 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20170516105956 05d6152c system.tasking%s
+D s-taprob.ads		20170516105950 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20170516105956 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20170516105954 5f548bb3 system.tasking.protected_objects.operations%s
+D s-tasren.ads		20170516105950 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20170516105952 5a53a7c6 system.tasking.stages%s
+D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170516105952 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
+D s-win32.ads		20170516105948 b7f96285 system.win32%s
+D vectors_2d_n.ads	20180911080944 27f53fc0 vectors_2d_n%s
+D vectors_3d.ads	20180911080944 121733f3 vectors_3d%s
+D vectors_xd.ads	20180911080944 4c943a4c vectors_xd%s
+D vectors_xd_i.ads	20180911080944 32b570f3 vectors_xd_i%s
+D vehicle_interface.ads	20180911080944 8a08d9c4 vehicle_interface%s
+D vehicle_message_type.ads  20180911080944 0ef3db3d vehicle_message_type%s
+D vehicle_task_type.ads	20180911080944 9ebc7351 vehicle_task_type%s
+D vehicle_task_type.adb	20180911080944 1eed1172 vehicle_task_type%b
+D zip.ads		20180911080944 6e4a4be8 zip%s
+D zip_streams.ads	20180911080944 088b1cbe zip_streams%s
+X 1 ada.ads
+16K9*Ada 20e8 97|1r6 1r35
+X 7 a-cohama.ads
+53R9*Map<10|43R9>
+X 12 a-iteint.ads
+24h9 Forward_Iterator
+X 23 a-taside.ads
+39K13*Task_Identification 97e28 97|1w10 1r39
+49P9*Task_Id<81|109P9> 97|6r70 98|28r71
+61V13*Current_Task{49P9} 98|30s28
+X 28 exceptions.ads
+17K10*Exceptions 22e15 98|5w6 5r38
+19U14*Show_Exception 98|56s26
+X 32 gl-buffer-general.ads
+14R9 base_Object<31|20R9>
+X 69 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 81 s-taskin.ads
+109P9*Task_Id(107R9)
+X 95 vehicle_interface.ads
+10K9*Vehicle_Interface 66e22 98|10w6 10r38
+47U14*Wait_For_Next_Physics_Update 98|47s13
+60w14*Flight_Termination 98|41r10
+62Y13 Stop 98|41s29
+X 97 vehicle_task_type.ads
+3K9*Vehicle_Task_Type 9l5 9e22 98|15b14 60l5 60t22
+5T14*Vehicle_Task 7l8 7e20 98|17b14 58l8 58t20
+6Y13 Identify 6>23 6<50 98|28b14 31l11 31t19
+6i23 Set_Vehicle_No{positive} 98|29r28
+6p50 Local_Task_Id{23|49P9} 98|30m10 30r10
+X 98 vehicle_task_type.adb
+19i7 Vehicle_No{positive} 19r51 29m10
+28i24 Set_Vehicle_No{positive}
+28p51 Local_Task_Id{23|49P9}
+45l10 Outer_task_loop 51l19 51e34
+56r12 E{9|63R9} 56r42
+

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Locations>
+  <Project>
+    <vfs_file>C:\Users\huang\Documents\COMP2310_lectures\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_lectures\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_lectures\Ass1\Assignment_1_template\Sources\swarm.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_lectures\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_lectures\Ass1\Assignment_1_template\Sources\callback_procedures.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 8" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_lectures\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_lectures\Ass1\Assignment_1_template\Sources\Swarm\swarm_control_concurrent_generic.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 9" line=" 142" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_lectures\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_lectures\Ass1\Assignment_1_template\Sources\Globe_3d\glut-devices.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
