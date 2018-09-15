@@ -19,6 +19,8 @@ package Vehicle_Message_Type is
 
    protected type Local_Vehicle_Messages is
       procedure Update_Record (Vehicles : Known_Vehicles_Type; Globes : Known_Globes_Type; VSize : Integer; GSize : Integer);
+      procedure Init_Vehicle (Vehicle : Known_Vehicles_Type);
+      procedure Init_Globe (Globe : Known_Globes_Type);
       function Read_Vehicles_Record return Known_Vehicles_Type;
       function Read_Globes_Record return Known_Globes_Type;
       function Read_Vehicles_Size return Positive;
@@ -29,7 +31,5 @@ package Vehicle_Message_Type is
          Known_Globes : Known_Globes_Type;
          Known_Vehicles : Known_Vehicles_Type;
    end Local_Vehicle_Messages;
-
-
 
 end Vehicle_Message_Type;

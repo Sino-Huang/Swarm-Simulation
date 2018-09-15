@@ -108,7 +108,7 @@ RV MAX_TASKS=1+
 RV MAX_ASYNCHRONOUS_SELECT_NESTING=1+
 RV MAX_ENTRY_QUEUE_LENGTH=1+
 
-U swarm_control%b	swarm_control.adb	997197fd DE NE OO PK
+U swarm_control%b	swarm_control.adb	de9d38be DE NE OO PK
 W ada%s			ada.ads			ada.ali
 W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
 W ada.containers%s	a-contai.ads		a-contai.ali
@@ -274,7 +274,7 @@ D vectors_3d_lf.ads	20180911080944 e76b7655 vectors_3d_lf%s
 D vectors_conversions.ads  20180911080944 de572ea9 vectors_conversions%s
 D vectors_xd.ads	20180911080944 4c943a4c vectors_xd%s
 D vectors_xd_i.ads	20180911080944 32b570f3 vectors_xd_i%s
-D vehicle_message_type.ads  20180915110554 8b851b8b vehicle_message_type%s
+D vehicle_message_type.ads  20180915124436 cc69b4c8 vehicle_message_type%s
 D vehicle_task_type.ads	20180911080944 9ebc7351 vehicle_task_type%s
 D zip.ads		20180911080944 6e4a4be8 zip%s
 D zip_streams.ads	20180911080944 088b1cbe zip_streams%s

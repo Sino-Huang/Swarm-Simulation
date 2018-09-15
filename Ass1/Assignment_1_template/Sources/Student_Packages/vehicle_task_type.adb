@@ -13,15 +13,16 @@ with Swarm_Structures;           use Swarm_Structures;
 with GNAT.IO; use GNAT.IO;
 with Swarm_Structures_Base; use Swarm_Structures_Base;
 with Vehicle_Message_Type; use Vehicle_Message_Type;
+with Vehicle_Behaviour; use Vehicle_Behaviour;
 
 package body Vehicle_Task_Type is
 
    task body Vehicle_Task is
 
-      Vehicle_No : Positive; pragma Unreferenced (Vehicle_No);
+      Vehicle_No : Positive; -- pragma Unreferenced (Vehicle_No);
       -- You will want to take the pragma out, once you use the "Vehicle_No"
-      -- Store the communication content
-      Local_Storage : Local_Vehicle_Messages;
+      Local_Storage : Local_Vehicle_Messages; -- Store the communication content
+      Vehicle_Behaviour : Vehicle_Behaviour_Type := Idle; -- state and init the vehicle behaviour
 
    begin
 
@@ -30,8 +31,16 @@ package body Vehicle_Task_Type is
       -- in communications with other vehicles.
 
       accept Identify (Set_Vehicle_No : Positive; Local_Task_Id : out Task_Id) do
-         Vehicle_No     := Set_Vehicle_No;
-         Local_Task_Id  := Current_Task;
+         declare
+            Init_Vehicle_Info : Known_Vehicles_Type;
+         begin
+            Vehicle_No     := Set_Vehicle_No;
+            Local_Task_Id  := Current_Task;
+            -- initiate Local_Storage in this section
+            Init_Vehicle_Info (1).Vehicle_ID := Vehicle_No;
+            -- Init_Vehicle_Info(1).LastMetTime := TIME
+            Local_Storage.Init_Vehicle (Vehicle => Init_Vehicle_Info);
+         end;
       end Identify;
 
       -- Replace the rest of this task with your own code.
@@ -51,6 +60,7 @@ package body Vehicle_Task_Type is
             Wait_For_Next_Physics_Update;
 
             -- Your vehicle should respond to the world here: sense, listen, talk, act?
+            Put_Line (Integer'Image( Local_Storage.Read_Vehicles_Size));
 
          end loop Outer_task_loop;
       end select;

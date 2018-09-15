@@ -809,7 +809,7 @@ package ada_main is
    pragma Export (C, u00386, "system__tasking__rendezvousB");
    u00387 : constant Version_32 := 16#ea18a31e#;
    pragma Export (C, u00387, "system__tasking__rendezvousS");
-   u00388 : constant Version_32 := 16#997197fd#;
+   u00388 : constant Version_32 := 16#de9d38be#;
    pragma Export (C, u00388, "swarm_controlB");
    u00389 : constant Version_32 := 16#0e1b7ab5#;
    pragma Export (C, u00389, "swarm_controlS");
@@ -817,7 +817,7 @@ package ada_main is
    pragma Export (C, u00390, "swarm_dataS");
    u00391 : constant Version_32 := 16#a3e1fbc0#;
    pragma Export (C, u00391, "swarm_structuresB");
-   u00392 : constant Version_32 := 16#7874bfb3#;
+   u00392 : constant Version_32 := 16#3f9810f0#;
    pragma Export (C, u00392, "swarm_structuresS");
    u00393 : constant Version_32 := 16#5aabc651#;
    pragma Export (C, u00393, "barrier_typeB");
@@ -827,13 +827,13 @@ package ada_main is
    pragma Export (C, u00395, "generic_realtime_bufferB");
    u00396 : constant Version_32 := 16#a4c755fe#;
    pragma Export (C, u00396, "generic_realtime_bufferS");
-   u00397 : constant Version_32 := 16#0cac69cb#;
+   u00397 : constant Version_32 := 16#6edef5cd#;
    pragma Export (C, u00397, "vehicle_message_typeB");
-   u00398 : constant Version_32 := 16#50b82c7f#;
+   u00398 : constant Version_32 := 16#1754833c#;
    pragma Export (C, u00398, "vehicle_message_typeS");
    u00399 : constant Version_32 := 16#619e9f18#;
    pragma Export (C, u00399, "shared_message_structureS");
-   u00400 : constant Version_32 := 16#a5a7c293#;
+   u00400 : constant Version_32 := 16#cb047f9b#;
    pragma Export (C, u00400, "vehicle_task_typeB");
    u00401 : constant Version_32 := 16#58fd0c20#;
    pragma Export (C, u00401, "vehicle_task_typeS");
@@ -847,36 +847,38 @@ package ada_main is
    pragma Export (C, u00405, "system__tasking__stagesB");
    u00406 : constant Version_32 := 16#e9cef940#;
    pragma Export (C, u00406, "system__tasking__stagesS");
-   u00407 : constant Version_32 := 16#9dfcf290#;
-   pragma Export (C, u00407, "vehicle_interfaceB");
-   u00408 : constant Version_32 := 16#cc95913b#;
-   pragma Export (C, u00408, "vehicle_interfaceS");
-   u00409 : constant Version_32 := 16#bbc4ca1a#;
-   pragma Export (C, u00409, "system__tasking__async_delaysB");
-   u00410 : constant Version_32 := 16#47f015f3#;
-   pragma Export (C, u00410, "system__tasking__async_delaysS");
-   u00411 : constant Version_32 := 16#0110e3c6#;
-   pragma Export (C, u00411, "system__interrupt_management__operationsB");
-   u00412 : constant Version_32 := 16#19b909c9#;
-   pragma Export (C, u00412, "system__interrupt_management__operationsS");
-   u00413 : constant Version_32 := 16#a6d7988d#;
-   pragma Export (C, u00413, "vectors_3d_lfB");
-   u00414 : constant Version_32 := 16#abff4c19#;
-   pragma Export (C, u00414, "vectors_3d_lfS");
-   u00415 : constant Version_32 := 16#1e27852c#;
-   pragma Export (C, u00415, "vectors_conversionsB");
-   u00416 : constant Version_32 := 16#923ddf49#;
-   pragma Export (C, u00416, "vectors_conversionsS");
-   u00417 : constant Version_32 := 16#cdecf3e0#;
-   pragma Export (C, u00417, "vectors_2dS");
-   u00418 : constant Version_32 := 16#3b68dc9f#;
-   pragma Export (C, u00418, "vectors_2d_iS");
-   u00419 : constant Version_32 := 16#e9217b79#;
-   pragma Export (C, u00419, "vectors_2d_pS");
-   u00420 : constant Version_32 := 16#878e5819#;
-   pragma Export (C, u00420, "swarm_control_concurrent_genericB");
-   u00421 : constant Version_32 := 16#7d3a30dd#;
-   pragma Export (C, u00421, "swarm_control_concurrent_genericS");
+   u00407 : constant Version_32 := 16#4bda9897#;
+   pragma Export (C, u00407, "vehicle_behaviourS");
+   u00408 : constant Version_32 := 16#9dfcf290#;
+   pragma Export (C, u00408, "vehicle_interfaceB");
+   u00409 : constant Version_32 := 16#8b793e78#;
+   pragma Export (C, u00409, "vehicle_interfaceS");
+   u00410 : constant Version_32 := 16#bbc4ca1a#;
+   pragma Export (C, u00410, "system__tasking__async_delaysB");
+   u00411 : constant Version_32 := 16#47f015f3#;
+   pragma Export (C, u00411, "system__tasking__async_delaysS");
+   u00412 : constant Version_32 := 16#0110e3c6#;
+   pragma Export (C, u00412, "system__interrupt_management__operationsB");
+   u00413 : constant Version_32 := 16#19b909c9#;
+   pragma Export (C, u00413, "system__interrupt_management__operationsS");
+   u00414 : constant Version_32 := 16#a6d7988d#;
+   pragma Export (C, u00414, "vectors_3d_lfB");
+   u00415 : constant Version_32 := 16#abff4c19#;
+   pragma Export (C, u00415, "vectors_3d_lfS");
+   u00416 : constant Version_32 := 16#1e27852c#;
+   pragma Export (C, u00416, "vectors_conversionsB");
+   u00417 : constant Version_32 := 16#923ddf49#;
+   pragma Export (C, u00417, "vectors_conversionsS");
+   u00418 : constant Version_32 := 16#cdecf3e0#;
+   pragma Export (C, u00418, "vectors_2dS");
+   u00419 : constant Version_32 := 16#3b68dc9f#;
+   pragma Export (C, u00419, "vectors_2d_iS");
+   u00420 : constant Version_32 := 16#e9217b79#;
+   pragma Export (C, u00420, "vectors_2d_pS");
+   u00421 : constant Version_32 := 16#878e5819#;
+   pragma Export (C, u00421, "swarm_control_concurrent_genericB");
+   u00422 : constant Version_32 := 16#7d3a30dd#;
+   pragma Export (C, u00422, "swarm_control_concurrent_genericS");
 
    --  BEGIN ELABORATION ORDER
    --  ada%s
@@ -1225,6 +1227,7 @@ package ada_main is
    --  vectors_2d_p%s
    --  vectors_conversions%s
    --  vectors_conversions%b
+   --  vehicle_behaviour%s
    --  zip_streams%s
    --  zip%s
    --  zip_streams%b

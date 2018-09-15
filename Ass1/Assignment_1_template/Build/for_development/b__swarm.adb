@@ -49,7 +49,7 @@ package body ada_main is
    E158 : Short_Integer; pragma Import (Ada, E158, "system__tasking__protected_objects__entries_E");
    E152 : Short_Integer; pragma Import (Ada, E152, "system__tasking__queuing_E");
    E406 : Short_Integer; pragma Import (Ada, E406, "system__tasking__stages_E");
-   E410 : Short_Integer; pragma Import (Ada, E410, "system__tasking__async_delays_E");
+   E411 : Short_Integer; pragma Import (Ada, E411, "system__tasking__async_delays_E");
    E394 : Short_Integer; pragma Import (Ada, E394, "barrier_type_E");
    E286 : Short_Integer; pragma Import (Ada, E286, "bzip2_E");
    E138 : Short_Integer; pragma Import (Ada, E138, "exceptions_E");
@@ -75,8 +75,8 @@ package body ada_main is
    E327 : Short_Integer; pragma Import (Ada, E327, "quaternions_E");
    E374 : Short_Integer; pragma Import (Ada, E374, "screenshots_E");
    E329 : Short_Integer; pragma Import (Ada, E329, "vectors_3d_E");
-   E414 : Short_Integer; pragma Import (Ada, E414, "vectors_3d_lf_E");
-   E416 : Short_Integer; pragma Import (Ada, E416, "vectors_conversions_E");
+   E415 : Short_Integer; pragma Import (Ada, E415, "vectors_3d_lf_E");
+   E417 : Short_Integer; pragma Import (Ada, E417, "vectors_conversions_E");
    E294 : Short_Integer; pragma Import (Ada, E294, "zip_streams_E");
    E290 : Short_Integer; pragma Import (Ada, E290, "zip_E");
    E292 : Short_Integer; pragma Import (Ada, E292, "zip__headers_E");
@@ -109,11 +109,11 @@ package body ada_main is
    E376 : Short_Integer; pragma Import (Ada, E376, "swarm_configuration_E");
    E398 : Short_Integer; pragma Import (Ada, E398, "vehicle_message_type_E");
    E401 : Short_Integer; pragma Import (Ada, E401, "vehicle_task_type_E");
-   E408 : Short_Integer; pragma Import (Ada, E408, "vehicle_interface_E");
+   E409 : Short_Integer; pragma Import (Ada, E409, "vehicle_interface_E");
    E392 : Short_Integer; pragma Import (Ada, E392, "swarm_structures_E");
    E390 : Short_Integer; pragma Import (Ada, E390, "swarm_data_E");
    E389 : Short_Integer; pragma Import (Ada, E389, "swarm_control_E");
-   E421 : Short_Integer; pragma Import (Ada, E421, "swarm_control_concurrent_generic_E");
+   E422 : Short_Integer; pragma Import (Ada, E422, "swarm_control_concurrent_generic_E");
    E095 : Short_Integer; pragma Import (Ada, E095, "callback_procedures_E");
 
    Local_Priority_Specific_Dispatching : constant String := "";
@@ -123,7 +123,7 @@ package body ada_main is
 
    procedure finalize_library is
    begin
-      E408 := E408 - 1;
+      E409 := E409 - 1;
       E389 := E389 - 1;
       declare
          procedure F1;
@@ -509,7 +509,7 @@ package body ada_main is
       System.Tasking.Stages'Elab_Body;
       E406 := E406 + 1;
       System.Tasking.Async_Delays'Elab_Body;
-      E410 := E410 + 1;
+      E411 := E411 + 1;
       Barrier_Type'Elab_Spec;
       E394 := E394 + 1;
       E286 := E286 + 1;
@@ -549,8 +549,8 @@ package body ada_main is
       E327 := E327 + 1;
       E374 := E374 + 1;
       E329 := E329 + 1;
-      E414 := E414 + 1;
-      E416 := E416 + 1;
+      E415 := E415 + 1;
+      E417 := E417 + 1;
       Zip_Streams'Elab_Spec;
       Zip'Elab_Spec;
       Zip_Streams'Elab_Body;
@@ -616,10 +616,10 @@ package body ada_main is
       E390 := E390 + 1;
       Swarm_Control'Elab_Spec;
       E389 := E389 + 1;
-      E408 := E408 + 1;
+      E409 := E409 + 1;
       Vehicle_Task_Type'Elab_Body;
       E401 := E401 + 1;
-      E421 := E421 + 1;
+      E422 := E422 + 1;
       Callback_Procedures'Elab_Body;
       E095 := E095 + 1;
    end adainit;
@@ -696,6 +696,7 @@ package body ada_main is
    --   C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\vectors_2d_n.o
    --   C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\vectors_2d_p.o
    --   C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\vectors_conversions.o
+   --   C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\vehicle_behaviour.o
    --   C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\zip_streams.o
    --   C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\zip-headers.o
    --   C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\zip.o

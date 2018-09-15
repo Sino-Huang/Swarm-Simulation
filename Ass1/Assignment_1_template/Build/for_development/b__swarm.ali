@@ -18,20 +18,20 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_OBSOLESCENT_FEATURES
 RV SPARK_05
 
-U ada_main%b		b__swarm.adb		51b71ca9 NE OO PK IL
+U ada_main%b		b__swarm.adb		150cddd2 NE OO PK IL
 W ada%s			ada.ads			ada.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
 W system%s		system.ads		system.ali
 W system.restrictions%s	s-restri.adb		s-restri.ali
 
-U ada_main%s		b__swarm.ads		4d56001b EE NE OO PK IL
+U ada_main%s		b__swarm.ads		c4ed5053 EE NE OO PK IL
 W system%s		system.ads		system.ali
 
 D ada.ads		20170516105950 76789da1 ada%s
 D a-except.ads		20170516105952 291912d5 ada.exceptions%s
 D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
-D b__swarm.ads		20180915110624 7ff68123 ada_main%s
-D b__swarm.adb		20180915110624 1cc5892d ada_main%b
+D b__swarm.ads		20180915124610 f64dd16b ada_main%s
+D b__swarm.adb		20180915124610 d1c5181e ada_main%b
 D system.ads		20170516105954 32a08138 system%s
 D s-parame.ads		20170516105954 7e2a0d7f system.parameters%s
 D s-restri.ads		20170516105952 1b9d0672 system.restrictions%s
@@ -43,7 +43,7 @@ X 1 ada.ads
 X 2 a-except.ads
 54K13*Exceptions 349e19 5|8w10
 X 4 b__swarm.ads
-4K9*ada_main 1305l5 1305e13 5|10b14 752l5 752t13
+4K9*ada_main 1308l5 1308e13 5|10b14 753l5 753t13
 6i4*gnat_argc{integer} 10m22 10r22 5|647m7
 7m4*gnat_argv{6|67M9} 11m22 11r22 5|648m7
 8m4*gnat_envp{6|67M9} 12m22 12r22 5|649m7
@@ -94,7 +94,7 @@ X 4 b__swarm.ads
 . 810r22 812r22 814r22 816r22 818r22 820r22 822r22 824r22 826r22 828r22 830r22
 . 832r22 834r22 836r22 838r22 840r22 842r22 844r22 846r22 848r22 850r22 852r22
 . 854r22 856r22 858r22 860r22 862r22 864r22 866r22 868r22 870r22 872r22 874r22
-. 876r22 878r22
+. 876r22 878r22 880r22
 38m4*u00001{37M9} 39r22
 40m4*u00002{37M9} 41r22
 42m4*u00003{37M9} 43r22
@@ -516,6 +516,7 @@ X 4 b__swarm.ads
 874m4*u00419{37M9} 875r22
 876m4*u00420{37M9} 877r22
 878m4*u00421{37M9} 879r22
+880m4*u00422{37M9} 881r22
 X 5 b__swarm.adb
 12i4 E068{short_integer} 12m46 12r46 440m7 440r15
 13i4 E011{short_integer} 13m46 13r46 437m7 437r15
@@ -557,7 +558,7 @@ X 5 b__swarm.adb
 49i4 E158{short_integer} 49m46 49r46 245m7 245r15 506m7 506r15
 50i4 E152{short_integer} 50m46 50r46 508m7 508r15
 51i4 E406{short_integer} 51m46 51r46 510m7 510r15
-52i4 E410{short_integer} 52m46 52r46 512m7 512r15
+52i4 E411{short_integer} 52m46 52r46 512m7 512r15
 53i4 E394{short_integer} 53m46 53r46 238m7 238r15 514m7 514r15
 54i4 E286{short_integer} 54m46 54r46 515m7 515r15
 55i4 E138{short_integer} 55m46 55r46 516m7 516r15
@@ -583,8 +584,8 @@ X 5 b__swarm.adb
 75i4 E327{short_integer} 75m46 75r46 549m7 549r15
 76i4 E374{short_integer} 76m46 76r46 550m7 550r15
 77i4 E329{short_integer} 77m46 77r46 551m7 551r15
-78i4 E414{short_integer} 78m46 78r46 552m7 552r15
-79i4 E416{short_integer} 79m46 79r46 553m7 553r15
+78i4 E415{short_integer} 78m46 78r46 552m7 552r15
+79i4 E417{short_integer} 79m46 79r46 553m7 553r15
 80i4 E294{short_integer} 80m46 80r46 196m7 196r15 557m7 557r15
 81i4 E290{short_integer} 81m46 81r46 560m7 560r15
 82i4 E292{short_integer} 82m46 82r46 559m7 559r15
@@ -617,11 +618,11 @@ X 5 b__swarm.adb
 109i4 E376{short_integer} 109m46 109r46 610m7 610r15
 110i4 E398{short_integer} 110m46 110r46 611m7 611r15
 111i4 E401{short_integer} 111m46 111r46 621m7 621r15
-112i4 E408{short_integer} 112m46 112r46 126m7 126r15 619m7 619r15
+112i4 E409{short_integer} 112m46 112r46 126m7 126r15 619m7 619r15
 113i4 E392{short_integer} 113m46 113r46 141m7 141r15 614m7 614r15
 114i4 E390{short_integer} 114m46 114r46 138m10 138r18 616m7 616r15
 115i4 E389{short_integer} 115m46 115r46 127m7 127r15 618m7 618r15
-116i4 E421{short_integer} 116m46 116r46 622m7 622r15
+116i4 E422{short_integer} 116m46 116r46 622m7 622r15
 117i4 E095{short_integer} 117m46 117r46 624m7 624r15
 119a4 Local_Priority_Specific_Dispatching{string} 410r9
 120a4 Local_Interrupt_States{string} 413r27
