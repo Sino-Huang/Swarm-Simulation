@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project>
-    <vfs_file />
+  <Project >
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
       <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\callback_procedures.ads</vfs_file>
@@ -134,139 +133,135 @@
       <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
       <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 49" line=" 25" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 13" line=" 24" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 13" line=" 47" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 48" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 23" line=" 28" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 117" line=" 21" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 26" line=" 30" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 22" line=" 31" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 23" line=" 51" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 26" line=" 53" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 22" line=" 31" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 3" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 25" line=" 32" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 25" line=" 36" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 22" line=" 54" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 25" line=" 55" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 25" line=" 59" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 41" line=" 86" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 29" line=" 21" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 17" line=" 14" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 12" line=" 22" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 61" line=" 45" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Swarm\swarm_structures.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 34" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 35" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 34" >
-      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 23" line=" 24" >
+    <file_marker column=" 29" line=" 20" >
       <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
       <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 33" >
+    <file_marker column=" 3" line=" 3" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_behaviour.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 53" line=" 25" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 36" line=" 3" >
+      <vfs_project />
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_behaviour.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 63" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 64" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 37" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 38" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 61" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 38" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 88" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 38" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 86" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 39" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 84" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 43" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 83" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 45" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 81" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 46" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 25" line=" 80" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 47" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 54" line=" 39" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 37" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 33" line=" 35" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 11" >
       <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
       <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 34" line=" 17" >
+    <file_marker column=" 26" line=" 42" >
       <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
       <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 10" line=" 13" >
+    <file_marker column=" 1" line=" 40" >
       <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
       <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 49" >
+    <file_marker column=" 6" line=" 44" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 25" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 42" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 25" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 42" >
       <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
       <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
     </file_marker>
@@ -274,148 +269,89 @@
       <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
       <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 54" line=" 22" >
+    <file_marker column=" 26" line=" 42" >
       <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.ads</vfs_file>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 1" line=" 1" >
+    <file_marker column=" 7" line=" 25" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
       <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\shared_message_structure.ads</vfs_file>
     </file_marker>
-  </Project>
-  <Project >
-    <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_file>
-    <file_marker column=" 1" line=" 1">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\callback_procedures.ads</vfs_file>
+    <file_marker column=" 53" line=" 35" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\callback_procedures.adb</vfs_file>
+    <file_marker column=" 6" line=" 14" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.ads</vfs_file>
+    <file_marker column=" 53" line=" 35" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
+    <file_marker column=" 7" line=" 25" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.ads</vfs_file>
+    <file_marker column=" 1" line=" 10" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Library\vectors_xd.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Graphics\graphics_configuration.ads</vfs_file>
+    <file_marker column=" 1" line=" 32" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Swarm\swarm_configuration.adb</vfs_file>
+    <file_marker column=" 6" line=" 14" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Swarm\swarm_configurations.adb</vfs_file>
+    <file_marker column=" 30" line=" 10" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Swarm\swarm_control.adb</vfs_file>
+    <file_marker column=" 28" line=" 16" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 70" line=" 54">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Swarm\swarm_control.adb</vfs_file>
+    <file_marker column=" 71" line=" 42" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 10" line=" 98">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Swarm\swarm_structures.ads</vfs_file>
+    <file_marker column=" 6" line=" 14" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 12" line=" 39">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Swarm\swarm_structures_base.ads</vfs_file>
+    <file_marker column=" 70" line=" 63" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 38" line=" 43">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Swarm\swarm_structures_base.ads</vfs_file>
+    <file_marker column=" 1" line=" 9" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 9" line=" 28">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Library\generic_protected.ads</vfs_file>
+    <file_marker column=" 1" line=" 15" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 14">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Library\generic_protected.ads</vfs_file>
+    <file_marker column=" 7" line=" 25" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Swarm\swarm_control.adb</vfs_file>
+    <file_marker column=" 13" line=" 63" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 70" line=" 54">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Swarm\swarm_control.adb</vfs_file>
+    <file_marker column=" 18" line=" 66" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 10" line=" 98">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Swarm\swarm_structures.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 22" line=" 93">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Swarm\swarm_structures.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Swarm\swarm_control_concurrent_generic.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Swarm\swarm_control_concurrent_generic.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Swarm\swarm_data.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 41" line=" 17">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Swarm\swarm_data.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 57">
-      <vfs_project  />
-      <vfs_file >C:\GNAT\2017_32\lib\gcc\i686-pc-mingw32\6.3.1\adainclude\a-convec.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Swarm\swarm_structures_base.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Swarm\swarm_structures.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Swarm\swarm_structures_base.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 41" line=" 43">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Swarm\swarm_structures_base.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 10">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 22" line=" 93">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Swarm\swarm_structures.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.ads</vfs_file>
-    </file_marker>
-    <file_marker current="true" column=" 1" line=" 1">
-      <vfs_project >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
-      <vfs_file >C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
+    <file_marker current="true" column=" 6" line=" 14" >
+      <vfs_project>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\swarm_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Sources\Student_Packages\vehicle_task_type.adb</vfs_file>
     </file_marker>
   </Project>
   <Project >
