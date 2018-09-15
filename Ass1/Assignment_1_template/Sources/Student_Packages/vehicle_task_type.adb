@@ -8,9 +8,11 @@ with Exceptions;                 use Exceptions;
 --  with Rotations;                  use Rotations;
 --  with Vectors_3D;                 use Vectors_3D;
 with Vehicle_Interface;          use Vehicle_Interface;
---  with Vehicle_Message_Type;       use Vehicle_Message_Type;
---  with Swarm_Structures;           use Swarm_Structures;
+with Swarm_Structures;           use Swarm_Structures;
 --  with Ada.Text_IO; use Ada.Text_IO;
+with GNAT.IO; use GNAT.IO;
+with Swarm_Structures_Base; use Swarm_Structures_Base;
+with Vehicle_Message_Type; use Vehicle_Message_Type;
 
 package body Vehicle_Task_Type is
 
@@ -18,6 +20,8 @@ package body Vehicle_Task_Type is
 
       Vehicle_No : Positive; pragma Unreferenced (Vehicle_No);
       -- You will want to take the pragma out, once you use the "Vehicle_No"
+      -- Store the communication content
+      Local_Storage : Local_Vehicle_Messages;
 
    begin
 
@@ -49,7 +53,6 @@ package body Vehicle_Task_Type is
             -- Your vehicle should respond to the world here: sense, listen, talk, act?
 
          end loop Outer_task_loop;
-
       end select;
 
    exception

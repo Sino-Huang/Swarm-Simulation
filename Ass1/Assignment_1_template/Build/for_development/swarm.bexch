@@ -43,7 +43,6 @@ C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_deve
 C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\vectors_2d_n.o
 C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\vectors_2d_p.o
 C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\vectors_conversions.o
-C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\vehicle_message_type.o
 C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\zip_streams.o
 C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\zip-headers.o
 C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\zip.o
@@ -73,13 +72,15 @@ C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_deve
 C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\graphics_setup.o
 C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\graphics_opengl.o
 C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\swarm_structures_base.o
+C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\shared_message_structure.o
 C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\swarm_configurations.o
 C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\swarm_configuration.o
-C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\vehicle_task_type.o
+C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\vehicle_message_type.o
 C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\swarm_structures.o
 C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\swarm_data.o
 C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\swarm_control.o
 C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\vehicle_interface.o
+C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\vehicle_task_type.o
 C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\swarm_control_concurrent_generic.o
 C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\callback_procedures.o
 C:\Users\huang\Documents\COMP2310_Ass1\Ass1\Assignment_1_template\Build\for_development\swarm.o

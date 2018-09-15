@@ -224,6 +224,7 @@ D quaternions.ads	20180911080944 9d9d58c2 quaternions%s
 D real_type.ads		20180911080944 cdd2e5cc real_type%s
 D rotations.ads		20180911080944 3eeded66 rotations%s
 D screenshots.ads	20180911080944 fb6ddf6f screenshots%s
+D shared_message_structure.ads  20180915105710 db3d37f4 shared_message_structure%s
 D swarm_configuration.ads  20180911080944 a292d765 swarm_configuration%s
 D swarm_configurations.ads  20180911080944 621cfddb swarm_configurations%s
 D swarm_control.ads	20180911080944 2697fa7c swarm_control%s
@@ -282,7 +283,7 @@ D vectors_2d_n.ads	20180911080944 27f53fc0 vectors_2d_n%s
 D vectors_3d.ads	20180911080944 121733f3 vectors_3d%s
 D vectors_xd.ads	20180911080944 4c943a4c vectors_xd%s
 D vectors_xd_i.ads	20180911080944 32b570f3 vectors_xd_i%s
-D vehicle_message_type.ads  20180911080944 0ef3db3d vehicle_message_type%s
+D vehicle_message_type.ads  20180915110554 8b851b8b vehicle_message_type%s
 D vehicle_task_type.ads	20180911080944 9ebc7351 vehicle_task_type%s
 D zip.ads		20180911080944 6e4a4be8 zip%s
 D zip_streams.ads	20180911080944 088b1cbe zip_streams%s
@@ -295,11 +296,11 @@ X 7 a-cohama.ads
 X 9 a-convec.ads
 51I12*Extended_Index{integer}
 57R9*Vector<11|43R9>
-99V13*Length{5|20I9} 31|135s37[74|110] 416s99[74|110]
-115V13*Element{74|93R9} 31|195s35[74|110] 198s66[74|110] 199s66[74|110] 213s60[74|110]
-. 228s85[74|38] 231s70[74|110]
-285V13*First_Index{integer} 31|211s28[74|110] 226s56[74|38]
-291V13*Last_Index{51I12[74|110]} 31|211s57[74|110] 226s118[74|38]
+99V13*Length{5|20I9} 31|135s37[75|110] 416s99[75|110]
+115V13*Element{75|93R9} 31|195s35[75|110] 198s66[75|110] 199s66[75|110] 213s60[75|110]
+. 228s85[75|38] 231s70[75|110]
+285V13*First_Index{integer} 31|211s28[75|110] 226s56[75|38]
+291V13*Last_Index{51I12[75|110]} 31|211s57[75|110] 226s118[75|38]
 X 13 a-iteint.ads
 24h9 Forward_Iterator
 32h9 Reversible_Iterator<24R9[9|72]>
@@ -321,10 +322,10 @@ X 31 callback_procedures.adb
 35K12 Mean_Radius_Stats[35|12] 39r46
 38K12 Centre_Of_Gravity_Averages[35|20] 38r84
 39K12 Mean_Radius_Averages[35|20] 39r84
-43K12 Swarm_Control_Concurrent[71|9] 44r8
+43K12 Swarm_Control_Concurrent[72|9] 44r8
 46K12 Execute_Commands 52E7 53l8 53e24 55b17 161l8 161t24 182r13 191r13
 47U17*Act_On_Input 47=31 48=31 49>31 50>31 57b17 160l11 160t23 182s30 191s30
-47a31 Position{123|14A12} 57b31 82m28 85m28 157m13 157r32
+47a31 Position{124|14A12} 57b31 82m28 85m28 157m13 157r32
 48r31 Rotation{66|20R12} 58b31 83m28 86m28 110m39 111r25 112m40 113r25 114m37
 . 115r25 116m39 117r25 118m37 119r25 120m41 121r25 152r49
 49f31 Time{65|5F12} 59b31 63r52 64r52
@@ -336,10 +337,10 @@ X 31 callback_procedures.adb
 . 121r49
 64f10 Moving_Speed{65|5F12} 74m22 74r40 124r66 125r66 126r66 127r66 128r66
 . 129r66
-65a10 Step{123|14A12} 124m43 124r55 125m43 125r55 126m43 126r55 127m43 127r55
+65a10 Step{124|14A12} 124m43 124r55 125m43 125r55 126m43 126r55 127m43 127r55
 . 128m43 128r55 129m43 129r55 152m27 152r43 156r22 157r50
 68e14 Command{61|9E9} 69r26 70r21
-156e14 Axes{123|10E9} 157r23 157r42 157r56
+156e14 Axes{124|10E9} 157r23 157r42 157r56
 169o7 Time_Interval{16|56O9} 170r79 171r70
 170i7 FrameRate{natural} 415r53
 171f7 Time_Interval_Real{65|5F12} 182r76 191r77 266r112 301r117 306r117 342r117
@@ -348,11 +349,11 @@ X 31 callback_procedures.adb
 198f22 Element_Pitch{66|24F12} 202r79
 199f22 Element_Yaw{66|24F12} 201r62
 211i11 Element_Index{integer} 213r82
-213r13 This_Element{74|93R9} 215r32 219r16 220r70 220r102 222r70 222r102
+213r13 This_Element{75|93R9} 215r32 219r16 220r70 220r102 222r70 222r102
 . 226r69 226r130 228r94 231r38
 214i13 Charge_Index{positive} 220r55 222r55
 226i20 Neighbour_Index{integer} 228r123
-228r22 Distance_Entry{74|26R9} 230r25 231r92
+228r22 Distance_Entry{75|26R9} 230r25 231r92
 247i17 Globe_Ix{integer} 266r27 266r81 267r27
 250f19 Sin_x{65|5F12} 261r80
 251f19 Cos_x{65|5F12} 259r80 260r80
@@ -361,8 +362,8 @@ X 31 callback_procedures.adb
 254f19 Sin_z{65|5F12} 259r63 260r63
 255f19 Cos_z{65|5F12} 261r63
 257f19 Radius{65|5F12} 259r71 260r71 261r71
-259a19 Sphere_Offset{75|15A12} 263r100
-263a19 New_Position{75|15A12} 266r58 267r57 268r45
+259a19 Sphere_Offset{76|15A12} 263r100
+263a19 New_Position{76|15A12} 266r58 267r57 268r45
 276i17 Globe_Ix{integer} 300r22 301r30 301r86 302r30 306r30 306r86 307r30
 279f19 Sin_x{65|5F12} 290r82
 280f19 Cos_x{65|5F12} 288r82 289r82
@@ -371,10 +372,10 @@ X 31 callback_procedures.adb
 283f19 Sin_z{65|5F12} 288r65 289r65
 284f19 Cos_z{65|5F12} 290r65
 286f19 Radius{65|5F12} 288r73 289r73 290r73
-288a19 Sphere_Offset_1{75|15A12} 292r66 293r66 294r66 296r102
-292a19 Sphere_Offset_2{75|15A12} 297r102
-296a19 New_Position_1{75|15A12} 301r61 302r60 303r48
-297a19 New_Position_2{75|15A12} 306r61 307r60 308r48
+288a19 Sphere_Offset_1{76|15A12} 292r66 293r66 294r66 296r102
+292a19 Sphere_Offset_2{76|15A12} 297r102
+296a19 New_Position_1{76|15A12} 301r61 302r60 303r48
+297a19 New_Position_2{76|15A12} 306r61 307r60 308r48
 317i17 Globe_Ix{integer} 341r22 342r30 342r86 343r30 347r30 347r86 348r30
 320f19 Sin_x{65|5F12} 331r82
 321f19 Cos_x{65|5F12} 329r82 330r82
@@ -383,12 +384,12 @@ X 31 callback_procedures.adb
 324f19 Sin_z{65|5F12} 329r65 330r65
 325f19 Cos_z{65|5F12} 331r65
 327f19 Radius{65|5F12} 329r73 330r73 331r73
-329a19 Sphere_Offset_1{75|15A12} 333r66 334r66 335r66 337r102
-333a19 Sphere_Offset_2{75|15A12} 338r102
-337a19 New_Position_1{75|15A12} 342r61 343r60 344r48
-338a19 New_Position_2{75|15A12} 347r61 348r60 349r48
+329a19 Sphere_Offset_1{76|15A12} 333r66 334r66 335r66 337r102
+333a19 Sphere_Offset_2{76|15A12} 338r102
+337a19 New_Position_1{76|15A12} 342r61 343r60 344r48
+338a19 New_Position_2{76|15A12} 347r61 348r60 349r48
 356i17 Globe_Ix{integer} 358r124 360r27 360r81 361r27 362r53
-358a19 New_Position{75|15A12} 360r58 361r57
+358a19 New_Position{76|15A12} 360r58 361r57
 368i17 Globe_Ix{integer} 369r24 370r24 370r62 371r50
 385a13 Beam_Colour_Red{55|20A9} 393r124
 386a13 Beam_Colour_Green{55|20A9} 394r124
@@ -405,14 +406,14 @@ X 32 exceptions.ads
 19U14*Show_Exception 31|454s26 468s26
 X 33 generic_protected.ads
 14W19*Monitor
-16V16 Read{124|10A9[123|12]} 31|195s73[75|38] 198s104[74|91] 199s104[74|91]
-. 220s96[75|38] 220s128[74|91] 222s96[75|38] 222s128[74|91] 231s64[75|38]
-. 231s127[75|38] 266s104[75|38] 301s109[75|38] 306s109[75|38] 342s109[75|38]
-. 347s109[75|38] 360s104[75|38] 362s76[75|38] 370s85[75|38] 371s73[75|38]
-18U17 Write 31|266s50[75|39] 267s50[75|38] 301s53[75|39] 302s53[75|38] 306s53[75|39]
-. 307s53[75|38] 342s53[75|39] 343s53[75|38] 347s53[75|39] 348s53[75|38] 360s50[75|39]
-. 361s50[75|38] 369s47[75|39] 370s47[75|38]
-28P9*Monitor_Ptr(14W19[75|38])
+16V16 Read{125|10A9[124|12]} 31|195s73[76|38] 198s104[75|91] 199s104[75|91]
+. 220s96[76|38] 220s128[75|91] 222s96[76|38] 222s128[75|91] 231s64[76|38]
+. 231s127[76|38] 266s104[76|38] 301s109[76|38] 306s109[76|38] 342s109[76|38]
+. 347s109[76|38] 360s104[76|38] 362s76[76|38] 370s85[76|38] 371s73[76|38]
+18U17 Write 31|266s50[76|39] 267s50[76|38] 301s53[76|39] 302s53[76|38] 306s53[76|39]
+. 307s53[76|38] 342s53[76|39] 343s53[76|38] 347s53[76|39] 348s53[76|38] 360s50[76|39]
+. 361s50[76|38] 369s47[76|39] 370s47[76|38]
+28P9*Monitor_Ptr(14W19[75|91])
 X 35 generic_sliding_statistics.ads
 9+9 Element 31|33r71 35r71
 10i4 Buffer_Size{positive} 31|34r71 36r71
@@ -437,7 +438,7 @@ X 52 graphics_data.ads
 28b4*Show_Text_Overlay{boolean} 31|99m25 99r50 408r10
 29b4*Show_Connecting_Lines{boolean} 31|95m25 95r54 225r16
 30b4*Show_Axis{boolean} 31|91m25 91r42 383r10
-34a4*Sphere_Angles{123|14A12} 31|245m13 245r30 250r49 251r49 252r49 253r49
+34a4*Sphere_Angles{124|14A12} 31|245m13 245r30 250r49 251r49 252r49 253r49
 . 254r49 255r49 274m13 274r30 279r49 280r49 281r49 282r49 283r49 284r49 315m13
 . 315r30 320r49 321r49 322r49 323r49 324r49 325r49
 X 53 graphics_framerates.ads
@@ -481,10 +482,10 @@ X 55 graphics_structures.ads
 17F12*Colour_Component_Range{65|5F12}
 20A9*RGBA_Colour(17F12)<15E9> 31|385r44 386r44 387r44 388r44 389r44 390r44
 . 410r36
-32A12*Point_3D{123|14A12}<123|10E9>
-39a10*Position{123|14A12} 31|185m23 195m23
-40a10*Scene_Offset{123|14A12} 31|82r67 182m48
-41a10*Object_Offset{123|14A12} 31|85r67 191m48
+32A12*Point_3D{124|14A12}<124|10E9>
+39a10*Position{124|14A12} 31|185m23 195m23
+40a10*Scene_Offset{124|14A12} 31|82r67 182m48
+41a10*Object_Offset{124|14A12} 31|85r67 191m48
 42r10*Rotation{66|20R12} 31|83r67 86r67 182m66 191m67 201m26 202m26 202r50
 51n27*Scene{51E9} 31|81r30 104r33 105r57 152r18 181r15 184r21 193r21
 51n34*Chase{51E9} 31|84r30 104r57 105r33 153r18 186r21 190r15 194r21
@@ -533,7 +534,7 @@ X 65 real_type.ads
 7K12*Real_Elementary_Functions[15|39] 31|29r8
 X 66 rotations.ads
 12K9*Rotations 31|16w6 16r45 66|68e14
-19A12*Vector{123|14A12}<123|10E9>
+19A12*Vector{124|14A12}<124|10E9>
 20R12*Quaternion_Rotation{64|9R9} 31|48r50 58r50
 24F12*Radiants{65|5F12} 31|198r47 199r47
 37V13*To_Rotation{20R12} 31|111s35 113s35 115s35 117s35 119s35 121s35 201s38
@@ -546,66 +547,66 @@ X 66 rotations.ads
 X 67 screenshots.ads
 5K9*Screenshots 31|17w6 17r45 67|9e16
 7U14*Take_Shot 31|88s39
-X 68 swarm_configuration.ads
-16K9*Swarm_Configuration 31|18w6 18r45 68|83e24
-19e4*Configuration{69|8E9} 31|241r12
+X 69 swarm_configuration.ads
+16K9*Swarm_Configuration 31|18w6 18r45 69|83e24
+19e4*Configuration{70|8E9} 31|241r12
 44f4*Comms_Range{65|5F12} 31|230r52
 51i4*No_of_Cores_for_Swarm{positive} 31|43r78
-58a4*Energy_Globes_Defaults{75|36A9} 31|358r100
-59a4*Energy_Globes_Velocity{123|14A12} 31|369r54 370r92
-62a4*Sphere_Increment{123|14A12} 31|245r46 274r46
-66a4*Sphere_Increment_Fast{123|14A12} 31|315r46
-X 69 swarm_configurations.ads
-6K9*Swarm_Configurations 31|19w6 19r45 69|48e25
+58a4*Energy_Globes_Defaults{76|36A9} 31|358r100
+59a4*Energy_Globes_Velocity{124|14A12} 31|369r54 370r92
+62a4*Sphere_Increment{124|14A12} 31|245r46 274r46
+66a4*Sphere_Increment_Fast{124|14A12} 31|315r46
+X 70 swarm_configurations.ads
+6K9*Swarm_Configurations 31|19w6 19r45 70|48e25
 8n28*Single_Globe_In_Orbit{8E9} 31|243r15
 8n51*Dual_Globes_In_Orbit{8E9} 31|272r15
 8n73*Dual_Globes_In_Orbit_Fast{8E9} 31|313r15
 8n100*Globe_Grid_In_Centre{8E9} 31|354r15
 8n122*Globe_Grid_Drifting{8E9} 31|366r15
-X 70 swarm_control.ads
-13K9*Swarm_Control 31|20w6 20r45 20r102 70|68e18
+X 71 swarm_control.ads
+13K9*Swarm_Control 31|20w6 20r45 20r102 71|68e18
 17w14*Swarm_Monitor 31|136r28 138r28 138r66 185r35 257r54 263r65 286r54 296r67
 . 297r67 327r54 337r67 338r67 358r65 417r105 418r87 419r87 420r87 421r87
 . 466r7
 30U17 Append_Random_Swarm 31|136s42 138s42 466s21
-36V16 Centre_Of_Gravity{123|14A12} 31|138s80 185s49 263s79 296s81 297s81
+36V16 Centre_Of_Gravity{124|14A12} 31|138s80 185s49 263s79 296s81 297s81
 . 337s81 338s81 358s79
-37V16 Mean_Velocity{123|14A12} 31|417s119
+37V16 Mean_Velocity{124|14A12} 31|417s119
 38V16 Mean_Velocity{65|5F12} 31|418s101
 39V16 Maximal_Radius{65|5F12} 31|419s101
 40V16 Mean_Radius{65|5F12} 31|257s68 286s68 327s68 420s101
 41V16 Mean_Closest_Distance{65|5F12} 31|421s101
 52U14*Remove_Vehicles 31|143s25
 66U14*Remove_Empties 31|449s7
-X 71 swarm_control_concurrent_generic.ads
-9k9*Swarm_Control_Concurrent_Generic 31|21w6 21r102 43r44 71|15e37
+X 72 swarm_control_concurrent_generic.ads
+9k9*Swarm_Control_Concurrent_Generic 31|21w6 21r102 43r44 72|15e37
 11E9*Job_Type
 11n22*Set_Accelerations{11E9[31|43]} 31|445r24[43]
 11n41*Forward_Messages{11E9[31|43]} 31|446r24[43]
 11n59*Move_Elements{11E9[31|43]} 31|447r24[43]
 11n74*Update_Rotations{11E9[31|43]} 31|448r24[43]
 13U14*Distribute_Jobs 31|445s7[43] 446s7[43] 447s7[43] 448s7[43]
-X 73 swarm_data.ads
-10K9*Swarm_Data 31|22w6 22r45 73|21e15
-17r4*Swarm_State{9|57R9[74|110]} 31|135r45 195r44 198r75 199r75 211r41 211r69
+X 74 swarm_data.ads
+10K9*Swarm_Data 31|22w6 22r45 74|21e15
+17r4*Swarm_State{9|57R9[75|110]} 31|135r45 195r44 198r75 199r75 211r41 211r69
 . 213r69 231r79 416r107
-19a4*Globes{75|46A9} 31|247r29 266r19 266r73 267r19 276r29 300r33 301r22
+19a4*Globes{76|46A9} 31|247r29 266r19 266r73 267r19 276r29 300r33 301r22
 . 301r78 302r22 306r22 306r78 307r22 317r29 341r33 342r22 342r78 343r22 347r22
 . 347r78 348r22 356r29 360r19 360r73 361r19 362r45 368r29 369r16 370r16 370r54
 . 371r42
-X 74 swarm_structures.ads
-19K9*Swarm_Structures 31|23w6 23r45 74|124e21
-26R9*Distance_Entries 31|228r48 74|32e17
-28i10*Index{75|19I12} 31|231r107
-29f10*Distance{75|12F12} 31|230r40
+X 75 swarm_structures.ads
+19K9*Swarm_Structures 31|23w6 23r45 75|124e21
+26R9*Distance_Entries 31|228r48 75|32e17
+28i10*Index{76|19I12} 31|231r107
+29f10*Distance{76|12F12} 31|230r40
 35V14*"<"{boolean} 9|344i22
 38K12*Distance_Vectors[9|46] 31|226r39 226r101 228r68
-67V16 Read_Throttle{75|20F12} 31|219s42
-80f7*Level{75|25F9} 31|215r52
+67V16 Read_Throttle{76|20F12} 31|219s42
+80f7*Level{76|25F9} 31|215r52
 86P9*Neighbours_P(9|57R9[38])
 88P9*Vehicle_Controls_P(63W19)
-93R9*Swarm_Element_State 31|213r37 74|108e17
-95p10*Position{33|28P9[75|38]} 31|195r60 220r83 222r83 231r51 231r114
+93R9*Swarm_Element_State 31|213r37 75|108e17
+95p10*Position{33|28P9[76|38]} 31|195r60 220r83 222r83 231r51 231r114
 96p10*Rotation{33|28P9[91]} 31|198r91 199r91 220r115 222r115
 99r10*Charge{79R9} 31|215r45
 100p10*Neighbours{86P9} 31|226r82 226r143 228r107
@@ -613,10 +614,10 @@ X 74 swarm_structures.ads
 110K12*Swarm_Vectors[9|46] 31|41r8
 117w14*Simulator_Tick 31|451r7
 119U17 Tick 31|451s22
-X 75 swarm_structures_base.ads
-10K9*Swarm_Structures_Base 31|24w6 24r45 75|48e26
+X 76 swarm_structures_base.ads
+10K9*Swarm_Structures_Base 31|24w6 24r45 76|48e26
 12F12*Distances{65|5F12}
-15A12*Positions{55|32A12}<123|10E9> 31|259r44 263r43 288r46 292r46 296r45
+15A12*Positions{55|32A12}<124|10E9> 31|259r44 263r43 288r46 292r46 296r45
 . 297r45 329r46 333r46 337r45 338r45 358r43
 19I12*Swarm_Element_Index{positive}
 20F12*Throttle_T{65|5F12}
@@ -628,33 +629,33 @@ X 75 swarm_structures_base.ads
 . 343r40 347r96 348r40 360r91 361r37 362r63 370r34 370r72 371r60
 43p7*Velocity{33|28P9[39]} 31|266r37 301r40 306r40 342r40 347r40 360r37 369r34
 46A9*Energy_Globes_Protected(41R9)<integer>
-X 76 system.ads
+X 77 system.ads
 67M9*Address
-X 91 s-memory.ads
-53V13*Alloc{76|67M9} 103i<c,__gnat_malloc>22
+X 92 s-memory.ads
+53V13*Alloc{77|67M9} 103i<c,__gnat_malloc>22
 68U14*Free 104i<c,__gnat_free>22
-76V13*Realloc{76|67M9} 105i<c,__gnat_realloc>22
-X 99 s-stausa.ads
+76V13*Realloc{77|67M9} 105i<c,__gnat_realloc>22
+X 100 s-stausa.ads
 203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
 268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
-X 101 s-stalib.adb
+X 102 s-stalib.adb
 93U14 Break_Start 94i<c,__gnat_break_start>22
-X 123 vectors_3d.ads
-8K9*Vectors_3D 31|25w6 25r45 417r87 123|36e15
+X 124 vectors_3d.ads
+8K9*Vectors_3D 31|25w6 25r45 417r87 124|36e15
 10n25*x{10E9} 31|124r49 124r61 125r49 125r61 250r64 251r64 259r58 279r64
 . 280r64 288r60 292r60 292r83 320r64 321r64 329r60 333r60 333r83
 10n28*y{10E9} 31|128r49 128r61 129r49 129r61 252r64 253r64 260r58 281r64
 . 282r64 289r60 293r60 293r83 322r64 323r64 330r60 334r60 334r83
 10n31*z{10E9} 31|126r49 126r61 127r49 127r61 254r64 255r64 261r58 283r64
 . 284r64 290r60 294r60 294r83 324r64 325r64 331r60 335r60 335r83
-14A12*Vector_3D{124|10A9[12]}<10E9> 31|33r87 47r50 57r50 65r32 417r119
-23V14*"*"=23:85{124|10A9[12]} 31|370s115
-24V14*"/"=24:85{124|10A9[12]} 31|266s110 301s115 306s115 342s115 347s115
+14A12*Vector_3D{125|10A9[12]}<10E9> 31|33r87 47r50 57r50 65r32 417r119
+23V14*"*"=23:85{125|10A9[12]} 31|370s115
+24V14*"/"=24:85{125|10A9[12]} 31|266s110 301s115 306s115 342s115 347s115
 . 360s110 35|18i22
-31V14*"+"=31:84{124|10A9[12]} 31|245s44 263s98 274s44 296s100 297s100 315s44
+31V14*"+"=31:84{125|10A9[12]} 31|245s44 263s98 274s44 296s100 297s100 315s44
 . 337s100 338s100 358s98 370s90 35|17i22
-32V14*"-"=32:84{124|10A9[12]} 31|266s71 301s76 306s76 342s76 347s76 360s71
+32V14*"-"=32:84{125|10A9[12]} 31|266s71 301s76 306s76 342s76 347s76 360s71
 34V14*"abs"=34:67{long_float} 31|417s99
-X 124 vectors_xd.ads
-10A9*Vector_xD(long_float)<123|10E9>
+X 125 vectors_xd.ads
+10A9*Vector_xD(long_float)<124|10E9>
 

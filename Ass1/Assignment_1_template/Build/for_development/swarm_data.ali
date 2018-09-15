@@ -156,6 +156,7 @@ D matrices.ads		20180911080944 85f7982e matrices%s
 D quaternions.ads	20180911080944 9d9d58c2 quaternions%s
 D real_type.ads		20180911080944 cdd2e5cc real_type%s
 D rotations.ads		20180911080944 3eeded66 rotations%s
+D shared_message_structure.ads  20180915105710 db3d37f4 shared_message_structure%s
 D swarm_configuration.ads  20180911080944 a292d765 swarm_configuration%s
 D swarm_configurations.ads  20180911080944 621cfddb swarm_configurations%s
 D swarm_data.ads	20180911080944 847cbabf swarm_data%s
@@ -203,38 +204,38 @@ D vectors_2d_n.ads	20180911080944 27f53fc0 vectors_2d_n%s
 D vectors_3d.ads	20180911080944 121733f3 vectors_3d%s
 D vectors_xd.ads	20180911080944 4c943a4c vectors_xd%s
 D vectors_xd_i.ads	20180911080944 32b570f3 vectors_xd_i%s
-D vehicle_message_type.ads  20180911080944 0ef3db3d vehicle_message_type%s
+D vehicle_message_type.ads  20180915110554 8b851b8b vehicle_message_type%s
 D vehicle_task_type.ads	20180911080944 9ebc7351 vehicle_task_type%s
 D zip.ads		20180911080944 6e4a4be8 zip%s
 D zip_streams.ads	20180911080944 088b1cbe zip_streams%s
 X 7 a-cohama.ads
 53R9*Map<11|43R9>
 X 9 a-convec.ads
-57R9*Vector<11|43R9> 58|17r41[59|110]
-75r4*Empty_Vector{57R9[59|110]} 58|17r68[59|110]
+57R9*Vector<11|43R9> 59|17r41[60|110]
+75r4*Empty_Vector{57R9[60|110]} 59|17r68[60|110]
 X 13 a-iteint.ads
 24h9 Forward_Iterator
 32h9 Reversible_Iterator<24R9[9|72]>
 X 34 gl-buffer-general.ads
 14R9 base_Object<33|20R9>
-X 56 swarm_configuration.ads
-16K9*Swarm_Configuration 83e24 58|5w6 5r33
-19e4*Configuration{57|8E9} 58|19r80
-X 57 swarm_configurations.ads
-6K9*Swarm_Configurations 48e25 58|6w6 6r33 6r77
-46V13*Default_Protected_Globes{60|46A9} 58|19s54
-X 58 swarm_data.ads
+X 57 swarm_configuration.ads
+16K9*Swarm_Configuration 83e24 59|5w6 5r33
+19e4*Configuration{58|8E9} 59|19r80
+X 58 swarm_configurations.ads
+6K9*Swarm_Configurations 48e25 59|6w6 6r33 6r77
+46V13*Default_Protected_Globes{61|46A9} 59|19s54
+X 59 swarm_data.ads
 10K9*Swarm_Data 21l5 21e15
-17r4*Swarm_State{9|57R9[59|110]}
-19a4*Globes{60|46A9}
-X 59 swarm_structures.ads
-19K9*Swarm_Structures 58|7w6 7r33 59|124e21
+17r4*Swarm_State{9|57R9[60|110]}
+19a4*Globes{61|46A9}
+X 60 swarm_structures.ads
+19K9*Swarm_Structures 59|7w6 7r33 60|124e21
 35V14*"<"{boolean} 9|344i22
-110K12*Swarm_Vectors[9|46] 58|17r27 17r54
-X 60 swarm_structures_base.ads
-10K9*Swarm_Structures_Base 58|8w6 8r33 60|48e26
-46A9*Energy_Globes_Protected(41R9)<integer> 58|19r27
-X 79 s-stausa.ads
+110K12*Swarm_Vectors[9|46] 59|17r27 17r54
+X 61 swarm_structures_base.ads
+10K9*Swarm_Structures_Base 59|8w6 8r33 61|48e26
+46A9*Energy_Globes_Protected(41R9)<integer> 59|19r27
+X 80 s-stausa.ads
 203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
 268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
 
