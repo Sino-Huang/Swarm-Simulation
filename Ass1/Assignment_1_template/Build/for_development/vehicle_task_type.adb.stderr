@@ -1,7 +1,6 @@
-vehicle_task_type.adb:3:09: warning: unit "Ada.Real_Time" is not referenced
 vehicle_task_type.adb:14:10: warning: no entities of "GNAT.IO" are referenced
 vehicle_task_type.adb:15:06: warning: no entities of "Swarm_Structures_Base" are referenced
 vehicle_task_type.adb:26:07: warning: declaration hides "Vehicle_Behaviour" at vehicle_behaviour.ads:1
 vehicle_task_type.adb:26:07: warning: variable "Vehicle_Behaviour" is not referenced
-vehicle_task_type.adb:28:01: (style) multiple blank lines
-vehicle_task_type.adb:44:30: (style) space required
+vehicle_task_type.adb:32:01: (style) multiple blank lines
+vehicle_task_type.adb:48:30: (style) space required

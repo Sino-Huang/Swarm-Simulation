@@ -1,4 +1,4 @@
-V "GNAT Lib v2017"
+V "GNAT Lib v7"
 A -gnatA
 A -g
 A -gnatVa
@@ -76,9 +76,10 @@ A -gnata
 A -gnatf
 A -gnatE
 A -fstack-check=specific
+A -fno-strict-aliasing
 A -gnato
 A -mtune=generic
-A -march=pentium4
+A -march=x86-64
 P ZX
 
 RN
@@ -101,11 +102,11 @@ U generic_protected%s	generic_protected.ads	c46c288c BN DE EE NE OO PK GE
 W ada%s			ada.ads			ada.ali
 W ada.unchecked_deallocation%s
 
-D ada.ads		20170516105950 76789da1 ada%s
-D a-uncdea.ads		20170516105954 f15a5ed1 ada.unchecked_deallocation%s
-D generic_protected.ads	20180911080944 3536765d generic_protected%s
-D generic_protected.adb	20180911080944 24bbe433 generic_protected%b
-D system.ads		20170516105954 32a08138 system%s
+D ada.ads		20170106103348 76789da1 ada%s
+D a-uncdea.ads		20070406091342 f15a5ed1 ada.unchecked_deallocation%s
+D generic_protected.ads	20180916130930 3536765d generic_protected%s
+D generic_protected.adb	20180916130930 24bbe433 generic_protected%b
+D system.ads		20170510173650 4635ec04 system%s
 X 1 ada.ads
 16K9*Ada 20e8 3|5r6 33r10
 X 2 a-uncdea.ads

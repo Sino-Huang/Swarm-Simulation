@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 43" line=" 46" >
+      <vfs_project>/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 14" >
+      <vfs_project>/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 49" line=" 1" >
+      <vfs_project>/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 10" line=" 14" >
+      <vfs_project>/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

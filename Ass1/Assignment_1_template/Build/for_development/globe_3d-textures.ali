@@ -1,4 +1,4 @@
-V "GNAT Lib v2017"
+V "GNAT Lib v7"
 A -gnatA
 A -g
 A -gnatVa
@@ -76,9 +76,10 @@ A -gnata
 A -gnatf
 A -gnatE
 A -fstack-check=specific
+A -fno-strict-aliasing
 A -gnato
 A -mtune=generic
-A -march=pentium4
+A -march=x86-64
 P SS ZX
 
 RN
@@ -87,6 +88,7 @@ RV NO_ALLOCATORS
 RV NO_DIRECT_BOOLEAN_OPERATORS
 RV NO_DISPATCH
 RV NO_DISPATCHING_CALLS
+RV NO_ENUMERATION_MAPS
 RV NO_EXCEPTION_HANDLERS
 RV NO_EXCEPTION_PROPAGATION
 RV NO_EXCEPTIONS
@@ -110,7 +112,7 @@ RV NO_ELABORATION_CODE
 RV NO_OBSOLESCENT_FEATURES
 RV SPARK_05
 
-U globe_3d.textures%b	globe_3d-textures.adb	ba8f40c0 DE OO PF PK IU
+U globe_3d.textures%b	globe_3d-textures.adb	63106a77 DE OO PF PK IU
 W ada%s			ada.ads			ada.ali
 W ada.characters%s	a-charac.ads		a-charac.ali
 W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
@@ -159,100 +161,99 @@ W system%s		system.ads		system.ali
 W system.exception_table%s  s-exctab.adb	s-exctab.ali
 W system.standard_library%s  s-stalib.adb	s-stalib.ali
 
-D ada.ads		20170516105950 76789da1 ada%s
-D a-calend.ads		20170516105954 2d5f01d4 ada.calendar%s
-D a-charac.ads		20170516105954 2d3ec45b ada.characters%s
-D a-chahan.ads		20170516105950 1601a50f ada.characters.handling%s
-D a-chlat1.ads		20170516105952 66457d31 ada.characters.latin_1%s
-D a-contai.ads		20170516105950 61e5e089 ada.containers%s
-D a-cohata.ads		20170516105956 80a8c839 ada.containers.hash_tables%s
-D a-chtgke.ads		20170516105954 20177f7b ada.containers.hash_tables.generic_keys%s
-D a-chtgke.adb		20170516105950 7d66b1e3 ada.containers.hash_tables.generic_keys%b
-D a-chtgop.ads		20170516105952 d7ee73f5 ada.containers.hash_tables.generic_operations%s
-D a-chtgop.adb		20170516105950 ff326417 ada.containers.hash_tables.generic_operations%b
-D a-cohama.ads		20170516105952 8205bf40 ada.containers.hashed_maps%s
-D a-cohama.adb		20170516105952 b1891ee9 ada.containers.hashed_maps%b
-D a-conhel.ads		20170516105950 20298884 ada.containers.helpers%s
-D a-conhel.adb		20170516105954 9cc5095b ada.containers.helpers%b
-D a-coprnu.ads		20170516105950 0cdf1864 ada.containers.prime_numbers%s
-D a-except.ads		20170516105952 291912d5 ada.exceptions%s
-D a-finali.ads		20170516105954 bf4f806b ada.finalization%s
-D a-ioexce.ads		20170516105948 e4a01f64 ada.io_exceptions%s
-D a-iteint.ads		20170516105952 7c7305e9 ada.iterator_interfaces%s
-D a-numeri.ads		20170516105950 bb51c45a ada.numerics%s
-D a-ngelfu.ads		20170516105954 7e738940 ada.numerics.generic_elementary_functions%s
-D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
-D a-ststio.ads		20170516105952 c3455b31 ada.streams.stream_io%s
-D a-string.ads		20170516105952 90ac6797 ada.strings%s
-D a-strfix.ads		20170516105956 d07c346e ada.strings.fixed%s
-D a-strmap.ads		20170516105952 e8bb714a ada.strings.maps%s
-D a-strunb.ads		20170516105950 ecdfa332 ada.strings.unbounded%s
-D a-stunha.ads		20170516105952 115e053b ada.strings.unbounded.hash%s
-D a-tags.ads		20170516105954 d3a89129 ada.tags%s
-D a-textio.ads		20170516105954 386df5d4 ada.text_io%s
-D a-tiflio.ads		20170516105948 56fbda09 ada.text_io.float_io%s
-D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
-D a-uncdea.ads		20170516105954 f15a5ed1 ada.unchecked_deallocation%s
-D gl.ads		20180911080944 28e5b432 gl%s
-D gl-buffer.ads		20180911080942 d412d3a2 gl.buffer%s
-D gl-buffer-general.ads	20180911080942 8ae6eb44 gl.buffer.general%s
-D gl-buffer-texture_coords.ads  20180911080942 e6b92a39 gl.buffer.texture_coords%s
-D gl-frustums.ads	20180911080942 3d23f8e0 gl.frustums%s
-D gl-geometry.ads	20180911080942 398a5530 gl.geometry%s
-D gl-io.ads		20180911080942 baba5f4e gl.io%s
-D gl-materials.ads	20180911080942 4d170091 gl.materials%s
-D gl-skinned_geometry.ads  20180911080942 0d393283 gl.skinned_geometry%s
-D gl-skins.ads		20180911080942 f0134d84 gl.skins%s
-D gl-textures.ads	20180911080942 6f569eb0 gl.textures%s
-D globe_3d.ads		20180911080942 4b81e8db globe_3d%s
-D globe_3d-textures.ads	20180911080942 619daf8d globe_3d.textures%s
-D globe_3d-textures.adb	20180911080942 42370f3d globe_3d.textures%b
-D interfac.ads		20170516105950 5ab55268 interfaces%s
-D i-c.ads		20170516105948 5421119b interfaces.c%s
-D i-cpoint.ads		20170516105956 ee8a93ec interfaces.c.pointers%s
-D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
-D system.ads		20170516105954 32a08138 system%s
-D s-atacco.ads		20170516105954 4c36d12f system.address_to_access_conversions%s
-D s-assert.ads		20170516105954 cd8d2c94 system.assertions%s
-D s-atocou.ads		20170516105956 b45c2d8d system.atomic_counters%s
-D s-atocou.adb		20170516105956 a9c6d721 system.atomic_counters%b
-D s-carun8.ads		20170516105954 a903718d system.compare_array_unsigned_8%s
-D s-conca2.ads		20170516105952 02a0d7d0 system.concat_2%s
-D s-conca3.ads		20170516105954 0b705ca5 system.concat_3%s
-D s-conca5.ads		20170516105950 875e432e system.concat_5%s
-D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
-D s-exctab.ads		20170516105954 54135002 system.exception_table%s
-D s-fatflt.ads		20170516105952 11beb392 system.fat_flt%s
-D s-fatgen.ads		20170516105956 49cbaf86 system.fat_gen%s
-D s-fatlfl.ads		20170516105952 378cba9f system.fat_lflt%s
-D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
-D s-finmas.ads		20170516105954 7811a767 system.finalization_masters%s
-D s-finroo.ads		20170516105954 4ff27390 system.finalization_root%s
-D s-maccod.ads		20170516105952 6d68a701 system.machine_code%s
-D s-memory.ads		20170516105952 597d6634 system.memory%s
-D s-parame.ads		20170516105954 7e2a0d7f system.parameters%s
-D s-pooglo.ads		20170516105948 ede33ef8 system.pool_global%s
-D s-secsta.ads		20170516105954 9751b57e system.secondary_stack%s
-D s-soflin.ads		20170516105950 14e1eb6c system.soft_links%s
-D s-stache.ads		20170516105954 a37c21ec system.stack_checking%s
-D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
-D s-stalib.adb		20170516105948 f2fe2716 system.standard_library%b
-D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
-D s-stoele.adb		20170516105954 ed88f8fb system.storage_elements%b
-D s-stopoo.ads		20170516105950 b16154c2 system.storage_pools%s
-D s-stposu.ads		20170516105948 97a6219c system.storage_pools.subpools%s
-D s-stratt.ads		20170516105948 aedef97e system.stream_attributes%s
-D s-string.ads		20170516105954 8fe54fb7 system.strings%s
-D s-ststop.ads		20170516105950 e6693757 system.strings.stream_ops%s
-D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
-D s-unstyp.ads		20170516105952 34867c83 system.unsigned_types%s
-D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
-D unzip.ads		20180911080944 91470b63 unzip%s
-D unzip-streams.ads	20180911080944 6ac0cf20 unzip.streams%s
-D zip.ads		20180911080944 6e4a4be8 zip%s
-D zip.adb		20180911080944 801784a5 zip%b
-D zip-headers.ads	20180911080944 2b9b6988 zip.headers%s
-D zip_streams.ads	20180911080944 088b1cbe zip_streams%s
+D ada.ads		20170106103348 76789da1 ada%s
+D a-calend.ads		20160420090448 2d5f01d4 ada.calendar%s
+D a-charac.ads		20070912115821 2d3ec45b ada.characters%s
+D a-chahan.ads		20140611123156 1601a50f ada.characters.handling%s
+D a-chlat1.ads		20140225151544 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20151020122137 61e5e089 ada.containers%s
+D a-cohata.ads		20151020102346 80a8c839 ada.containers.hash_tables%s
+D a-chtgke.ads		20151020102346 20177f7b ada.containers.hash_tables.generic_keys%s
+D a-chtgke.adb		20151020102346 7d66b1e3 ada.containers.hash_tables.generic_keys%b
+D a-chtgop.ads		20160418125822 bea86046 ada.containers.hash_tables.generic_operations%s
+D a-chtgop.adb		20160427131525 9dedfc44 ada.containers.hash_tables.generic_operations%b
+D a-cohama.ads		20151023123735 5b9a95f7 ada.containers.hashed_maps%s
+D a-cohama.adb		20151023123735 6d24e6e5 ada.containers.hashed_maps%b
+D a-conhel.ads		20160420102926 20298884 ada.containers.helpers%s
+D a-conhel.adb		20160427125518 9cc5095b ada.containers.helpers%b
+D a-coprnu.ads		20090409150019 0cdf1864 ada.containers.prime_numbers%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-finali.ads		20151020095656 bf4f806b ada.finalization%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20110906092602 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20080324174807 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20151016131424 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-ststio.ads		20120709130952 c3455b31 ada.streams.stream_io%s
+D a-string.ads		20070406091342 90ac6797 ada.strings%s
+D a-strfix.ads		20101008130255 d07c346e ada.strings.fixed%s
+D a-strmap.ads		20140611123156 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20161012122725 ecdfa332 ada.strings.unbounded%s
+D a-stunha.ads		20070406091342 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiflio.ads		20140717063513 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D a-uncdea.ads		20070406091342 f15a5ed1 ada.unchecked_deallocation%s
+D gl.ads		20180916130930 28e5b432 gl%s
+D gl-buffer.ads		20180916130930 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20180916130930 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20180916130930 e6b92a39 gl.buffer.texture_coords%s
+D gl-frustums.ads	20180916130930 3d23f8e0 gl.frustums%s
+D gl-geometry.ads	20180916130930 398a5530 gl.geometry%s
+D gl-io.ads		20180916130930 baba5f4e gl.io%s
+D gl-materials.ads	20180916130930 4d170091 gl.materials%s
+D gl-skinned_geometry.ads  20180916130930 0d393283 gl.skinned_geometry%s
+D gl-skins.ads		20180916130930 f0134d84 gl.skins%s
+D gl-textures.ads	20180916130930 6f569eb0 gl.textures%s
+D globe_3d.ads		20180916130930 4b81e8db globe_3d%s
+D globe_3d-textures.ads	20180916130930 619daf8d globe_3d.textures%s
+D globe_3d-textures.adb	20180916130930 42370f3d globe_3d.textures%b
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-c.ads		20110801143639 5421119b interfaces.c%s
+D i-cpoint.ads		20130104124955 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D system.ads		20170510173650 4635ec04 system%s
+D s-atacco.ads		20120515093410 4c36d12f system.address_to_access_conversions%s
+D s-assert.ads		20140225151544 cd8d2c94 system.assertions%s
+D s-atocou.ads		20151020101020 b45c2d8d system.atomic_counters%s
+D s-atocou.adb		20151020114917 b65612c0 system.atomic_counters%b
+D s-carun8.ads		20140225151544 a903718d system.compare_array_unsigned_8%s
+D s-conca2.ads		20140225151544 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20140225151544 0b705ca5 system.concat_3%s
+D s-conca5.ads		20140225151544 875e432e system.concat_5%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-fatflt.ads		20090409150019 11beb392 system.fat_flt%s
+D s-fatgen.ads		20150107111315 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20090409150019 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-finmas.ads		20151016130316 7811a767 system.finalization_masters%s
+D s-finroo.ads		20120426095924 4ff27390 system.finalization_root%s
+D s-memory.ads		20160622104833 597d6634 system.memory%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20151118103153 ede33ef8 system.pool_global%s
+D s-secsta.ads		20170112134946 9751b57e system.secondary_stack%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stalib.adb		20140225151139 f2fe2716 system.standard_library%b
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140801093848 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20131010103753 b16154c2 system.storage_pools%s
+D s-stposu.ads		20151020120548 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20131014135145 aedef97e system.stream_attributes%s
+D s-string.ads		20140225151139 8fe54fb7 system.strings%s
+D s-ststop.ads		20140225151139 e6693757 system.strings.stream_ops%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+D unzip.ads		20180916130930 91470b63 unzip%s
+D unzip-streams.ads	20180916130930 6ac0cf20 unzip.streams%s
+D zip.ads		20180916130930 6e4a4be8 zip%s
+D zip.adb		20180916130930 801784a5 zip%b
+D zip-headers.ads	20180916130930 2b9b6988 zip.headers%s
+D zip_streams.ads	20180916130930 088b1cbe zip_streams%s
 X 1 ada.ads
 16K9*Ada 20e8 48|3r6 3r45 4r6 4r45 5r6 5r45 5r58 6r6 6r45 7r6 8r6 9r6 25r28
 . 31r39 32r26 34r26 35r26 165r7 220r14 232r13
@@ -269,7 +270,7 @@ X 12 a-cohama.ads
 42+9 Element_Type 48|33r7
 44V18 Hash{6|19M9} 48|34r7
 45V18 Equivalent_Keys{boolean} 48|35r7
-48k24*Hashed_Maps 470e31 48|8w21 31r54
+48k24*Hashed_Maps 462e31 48|8w21 31r54
 53R9*Map<18|43R9> 48|39r46[31]
 62R9*Cursor 48|142r32[31]
 65r4*Empty_Map{53R9[48|31]} 48|45r28[31]
@@ -277,7 +278,7 @@ X 12 a-cohama.ads
 283V13*Element{46|99I9} 48|230s33[31]
 X 17 a-except.ads
 54K13*Exceptions 349e19 48|4w10 4r49
-58P9*Exception_Id<77|87P9>
+58P9*Exception_Id<76|87P9>
 90U14*Raise_Exception 48|70s11 94s7
 94V13*Exception_Message{string} 48|72s13
 102V13*Exception_Identity{58P9} 48|71s13
@@ -326,8 +327,8 @@ X 46 globe_3d.ads
 473X4*Missing_texture 48|94r24
 572r4 level_data_name{28|79R9} 48|83r34 199r38 242r26
 574r4 global_data_name{28|79R9} 48|88r37 200r38 240r26
-578r4 zif_level{91|53R8} 48|83m12 83r12 199m15 199r15
-578r15 zif_global{91|53R8} 48|88m14 88r14 200m15 200r15
+578r4 zif_level{90|53R8} 48|83m12 83r12 199m15 199r15
+578r15 zif_global{90|53R8} 48|88m14 88r14 200m15 200r15
 580U14 Load_if_needed 48|75s7 190s7
 X 47 globe_3d-textures.ads
 1K18*Textures 46|77k9 47|100l14 100e22 48|11b23 247l14 247t22
@@ -377,9 +378,9 @@ X 48 globe_3d-textures.adb
 55b45 blending_hint{boolean} 64m67
 56a5 tex_name{string} 76r19 79r21 94r65
 58U15 Try 58b15 58=20 58>47 80l9 80t12 83s7 88s9
-58r20 zif{91|53R8} 63r21 75m23
+58r20 zif{90|53R8} 63r21 75m23
 58a47 name{string} 75r28
-60p7 ftex{90|21P9} 63m15 63r15 64r29 65m16 65r16
+60p7 ftex{89|21P9} 63m15 63r15 64r29 65m16 65r16
 61U17 Try_a_type 61b17 61>29 61>52 73l11 73t21 76s7 79s9
 61a29 tex_name_ext{string} 63r26 72r56
 61e52 format{41|49E8} 64r36
@@ -393,13 +394,13 @@ X 48 globe_3d-textures.adb
 143b5 success{boolean} 168m7 170r12
 156i9 i{integer} 157r26 157r57
 177U15 Register 177b15 177=25 177>52 196l9 196t17 199s5 200s5
-177r25 zif{91|53R8} 190m23 191r17
+177r25 zif{90|53R8} 190m23 191r17
 177a52 name{string} 190r28
 179U17 Action 179b17 179>25 186l11 186t17 188r47
 179a25 Name_String{string} 181r44 181r57 181r81 184r29 184r42 184r63
 180i9 dummy{46|99I9} 184m86
 181a9 ext{string} 183r12 183r33
-188U17 Traverse[91|140] 191s7 92|353b14
+188U17 Traverse[90|140] 191s7 91|353b14
 204i5 dummy{46|99I9} 208m49
 207*9 t{47|63E10} 208r45
 213a5 tn{46|79A12} 218m5 220r38 222r14
@@ -407,27 +408,27 @@ X 48 globe_3d-textures.adb
 228a5 up_name{string} 232r56 236r53
 X 53 system.ads
 67M9*Address
-X 71 s-memory.ads
+X 70 s-memory.ads
 53V13*Alloc{53|67M9} 103i<c,__gnat_malloc>22
 68U14*Free 104i<c,__gnat_free>22
 76V13*Realloc{53|67M9} 105i<c,__gnat_realloc>22
-X 77 s-stalib.ads
+X 76 s-stalib.ads
 87P9*Exception_Data_Ptr(86R9)
-X 78 s-stalib.adb
+X 77 s-stalib.adb
 93U14 Break_Start 94i<c,__gnat_break_start>22
-X 89 unzip.ads
-53K9*UnZip 48|1r17 59r11 89|310e10
-X 90 unzip-streams.ads
-17K15*Streams 48|1w23 59r17 90|101e18
+X 88 unzip.ads
+53K9*UnZip 48|1r17 59r11 88|310e10
+X 89 unzip-streams.ads
+17K15*Streams 48|1w23 59r17 89|101e18
 19P12*Stream_Access{24|42P9}
 21P9*Zipped_File_Type 48|60r14
 51U14*Open 48|63s9
 59U14*Close 48|65s9
 64V13*Stream{19P12} 48|64s21
-X 91 zip.ads
+X 90 zip.ads
 45K9*Zip 48|58r33 67r14 78r12 85r12 86r12 91r10 92r10 177r38 188r33 194r12
-. 91|318e8
-53R8*Zip_info 48|58r37 177r42 91|316e13
+. 90|318e8
+53R8*Zip_info 48|58r37 177r42 90|316e13
 73X3*Zip_file_open_Error 48|86r16 92r14 194r16
 140u13*Traverse 48|188r37
 191X3*File_name_not_found 48|67r18 78r16 85r16 91r14

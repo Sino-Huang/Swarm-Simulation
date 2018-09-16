@@ -1,4 +1,4 @@
-V "GNAT Lib v2017"
+V "GNAT Lib v7"
 A -gnatA
 A -g
 A -gnatVa
@@ -76,9 +76,10 @@ A -gnata
 A -gnatf
 A -gnatE
 A -fstack-check=specific
+A -fno-strict-aliasing
 A -gnato
 A -mtune=generic
-A -march=pentium4
+A -march=x86-64
 P SS ZX
 
 RN
@@ -90,7 +91,7 @@ RV NO_UNCHECKED_CONVERSION
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U gl%b			gl.adb			07d67a2d DE NE OO PK IU
+U gl%b			gl.adb			a1e0f341 DE NE OO PK IU
 W gl%s			gl.adb			gl.ali
 W gl.extended%s		gl-extended.ads		gl-extended.ali
 W interfaces%s		interfac.ads		interfac.ali
@@ -109,24 +110,24 @@ W system%s		system.ads		system.ali
 W system.address_to_access_conversions%s
 W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
 
-D ada.ads		20170516105950 76789da1 ada%s
-D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
-D gl.ads		20180911080944 28e5b432 gl%s
-D gl.adb		20180911080944 c6fe6214 gl%b
-D gl-extended.ads	20180911080944 ddd0a1d4 gl.extended%s
-D interfac.ads		20170516105950 5ab55268 interfaces%s
-D i-c.ads		20170516105948 5421119b interfaces.c%s
-D i-cstrin.ads		20170516105952 341d0ddf interfaces.c.strings%s
-D system.ads		20170516105954 32a08138 system%s
-D s-atacco.ads		20170516105954 4c36d12f system.address_to_access_conversions%s
-D s-exctab.ads		20170516105954 54135002 system.exception_table%s
-D s-fatgen.ads		20170516105956 49cbaf86 system.fat_gen%s
-D s-fatlfl.ads		20170516105952 378cba9f system.fat_lflt%s
-D s-parame.ads		20170516105954 7e2a0d7f system.parameters%s
-D s-secsta.ads		20170516105954 9751b57e system.secondary_stack%s
-D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
-D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
-D s-unstyp.ads		20170516105952 34867c83 system.unsigned_types%s
+D ada.ads		20170106103348 76789da1 ada%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D gl.ads		20180916130930 28e5b432 gl%s
+D gl.adb		20180916130930 c6fe6214 gl%b
+D gl-extended.ads	20180916130930 7be628b8 gl.extended%s
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-c.ads		20110801143639 5421119b interfaces.c%s
+D i-cstrin.ads		20140611122922 341d0ddf interfaces.c.strings%s
+D system.ads		20170510173650 4635ec04 system%s
+D s-atacco.ads		20120515093410 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-fatgen.ads		20150107111315 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20090409150019 378cba9f system.fat_lflt%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-secsta.ads		20170112134946 9751b57e system.secondary_stack%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
 X 1 ada.ads
 16K9*Ada 20e8 3|63r6 163r31 166r31 169r31 171r31 172r31 4|70r27
 X 2 a-unccon.ads
@@ -2891,7 +2892,7 @@ X 7 i-c.ads
 43M9*unsigned 3|117r32 124r32 177r23
 44M9*unsigned_short 3|123r32
 47M9*unsigned_char 3|118r32 122r32
-56I9*ptrdiff_t<integer> 3|147r37 148r37
+56I9*ptrdiff_t<long_integer> 3|147r37 148r37
 64F9*C_float<float> 3|126r32 127r32
 65F9*double<long_float> 3|128r32 129r32
 72E9*char<character> 3|119r32
@@ -2901,7 +2902,7 @@ X 8 i-cstrin.ads
 52p4*Null_Ptr{47P9} 4|75r15
 74V13*Value{string} 4|79s38
 X 9 system.ads
-37K9*System 3|64r6 133r30 9|200e11
+37K9*System 3|64r6 133r30 9|156e11
 X 10 s-atacco.ads
 39k16*Address_To_Access_Conversions 3|64w13 133r37 10|63e41
 47P9*Object_Pointer(3|128F9) 3|145r36[133]

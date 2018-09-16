@@ -1,4 +1,4 @@
-V "GNAT Lib v2017"
+V "GNAT Lib v7"
 A -gnatA
 A -g
 A -gnatVa
@@ -76,9 +76,10 @@ A -gnata
 A -gnatf
 A -gnatE
 A -fstack-check=specific
+A -fno-strict-aliasing
 A -gnato
 A -mtune=generic
-A -march=pentium4
+A -march=x86-64
 P ZX
 
 RN
@@ -94,27 +95,26 @@ U keyboard%s		keyboard.ads		e8d894be DE EE OO PK
 W glut%s		glut.adb		glut.ali
 W glut.devices%s	glut-devices.adb	glut-devices.ali
 
-D ada.ads		20170516105950 76789da1 ada%s
-D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
-D gl.ads		20180911080944 28e5b432 gl%s
-D glut.ads		20180911080946 dcd0b122 glut%s
-D glut-devices.ads	20180911080942 e69207c9 glut.devices%s
-D interfac.ads		20170516105950 5ab55268 interfaces%s
-D i-c.ads		20170516105948 5421119b interfaces.c%s
-D i-cstrin.ads		20170516105952 341d0ddf interfaces.c.strings%s
-D keyboard.ads		20180911080944 0e4a9377 keyboard%s
-D keyboard.adb		20180911080944 e28e7e68 keyboard%b
-D system.ads		20170516105954 32a08138 system%s
-D s-atacco.ads		20170516105954 4c36d12f system.address_to_access_conversions%s
-D s-exctab.ads		20170516105954 54135002 system.exception_table%s
-D s-parame.ads		20170516105954 7e2a0d7f system.parameters%s
-D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
-D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
-D s-unstyp.ads		20170516105952 34867c83 system.unsigned_types%s
+D ada.ads		20170106103348 76789da1 ada%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D gl.ads		20180916130930 28e5b432 gl%s
+D glut.ads		20180916130930 7ea5e4c8 glut%s
+D glut-devices.ads	20180916130930 e69207c9 glut.devices%s
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-c.ads		20110801143639 5421119b interfaces.c%s
+D i-cstrin.ads		20140611122922 341d0ddf interfaces.c.strings%s
+D keyboard.ads		20180916130930 0e4a9377 keyboard%s
+D keyboard.adb		20180916130930 e28e7e68 keyboard%b
+D system.ads		20170510173650 4635ec04 system%s
+D s-atacco.ads		20120515093410 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
 X 4 glut.ads
-21K9*GLUT 867e9 9|5r6 42r51 42r76 10|11r51 11r76 14r43 22r74
-235N4*Active_Shift 10|22r79
-237N4*Active_Alt 10|14r48
+22K9*GLUT 877e9 9|5r6 42r51 42r76 10|11r51 11r76 14r43 22r74
+245N4*Active_Shift 10|22r79
+247N4*Active_Alt 10|14r48
 X 5 glut-devices.ads
 11K14*Devices 60e17 9|5w11 42r56 42r81 10|11r56 11r81
 20A9*Key_set(boolean)<character>
