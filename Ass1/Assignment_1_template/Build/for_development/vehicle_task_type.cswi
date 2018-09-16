@@ -1,4 +1,4 @@
-20180915124608
+20180916074236
 -c
 -x
 ada
@@ -14,3 +14,4 @@ ada
 -gnatE
 -fstack-check
 -gnato
+-gnatc

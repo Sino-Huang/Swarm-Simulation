@@ -1,6 +1,7 @@
 -- Suggestions for packages which might be useful:
 
---  with Ada.Real_Time;              use Ada.Real_Time;
+--  with Ada.Real_Time;
+with Ada.Calendar;               use Ada.Calendar;
 --  with Ada.Text_IO;                use Ada.Text_IO;
 with Exceptions;                 use Exceptions;
 --  with Real_Type;                  use Real_Type;
@@ -23,6 +24,12 @@ package body Vehicle_Task_Type is
       -- You will want to take the pragma out, once you use the "Vehicle_No"
       Local_Storage : Local_Vehicle_Messages; -- Store the communication content
       Vehicle_Behaviour : Vehicle_Behaviour_Type := Idle; -- state and init the vehicle behaviour
+      Start_Up_Time : constant Time := Clock;
+
+      -- define receive task
+
+      -- define send task
+
 
    begin
 
@@ -38,8 +45,16 @@ package body Vehicle_Task_Type is
             Local_Task_Id  := Current_Task;
             -- initiate Local_Storage in this section
             Init_Vehicle_Info (1).Vehicle_ID := Vehicle_No;
-            -- Init_Vehicle_Info(1).LastMetTime := TIME
+            Init_Vehicle_Info(1).LastMetTime := Start_Up_Time;
             Local_Storage.Init_Vehicle (Vehicle => Init_Vehicle_Info);
+
+            declare
+            -- start send task using access task type to extend the life of the task
+
+            -- start receive task
+            begin
+               null;
+            end;
          end;
       end Identify;
 
@@ -60,7 +75,6 @@ package body Vehicle_Task_Type is
             Wait_For_Next_Physics_Update;
 
             -- Your vehicle should respond to the world here: sense, listen, talk, act?
-            Put_Line (Integer'Image( Local_Storage.Read_Vehicles_Size));
 
          end loop Outer_task_loop;
       end select;

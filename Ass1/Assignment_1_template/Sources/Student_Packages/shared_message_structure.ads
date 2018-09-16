@@ -1,5 +1,5 @@
 with Swarm_Structures_Base;      use Swarm_Structures_Base;
-with Ada.Real_Time;              use Ada.Real_Time;
+with Ada.Calendar;              use Ada.Calendar;
 package Shared_Message_Structure is
 
    type Globe_Info_Record is record
