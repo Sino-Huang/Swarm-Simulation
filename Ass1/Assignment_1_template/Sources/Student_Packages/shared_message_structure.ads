@@ -1,11 +1,10 @@
-with Swarm_Structures_Base;      use Swarm_Structures_Base;
+with Swarm_Structures_Base;     use Swarm_Structures_Base;
 with Ada.Calendar;              use Ada.Calendar;
 package Shared_Message_Structure is
+   subtype Completed_Energy_Globes is Energy_Globes (1 .. 10);
 
    type Globe_Info_Record is record
-      Globe_Position : Positions;
-      Globe_Velocity : Velocities;
-      Globe_ID : Positive; -- the Globe ID will follows the array index of the Energy_Globes array
+      Globe : Completed_Energy_Globes;
       LastUpdateTime : Time;
    end record;
 

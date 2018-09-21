@@ -1,4 +1,4 @@
-V "GNAT Lib v7"
+V "GNAT Lib v2017"
 A -gnatA
 A -g
 A -gnatVa
@@ -90,7 +90,7 @@ RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U vectors_xd%b		vectors_xd.adb		d82984ee DE NE OO PK GE
+U vectors_xd%b		vectors_xd.adb		1ea7c6e8 DE NE OO PK GE
 W ada%s			ada.ads			ada.ali
 W ada.numerics%s	a-numeri.ads		a-numeri.ali
 Z ada.numerics.aux%s	a-numaux.adb		a-numaux.ali
@@ -100,33 +100,33 @@ W ada.strings.bounded%s	a-strbou.adb		a-strbou.ali
 
 U vectors_xd%s		vectors_xd.ads		4c943a4c BN DE EB NE OO PK GE
 
-D ada.ads		20170106103348 76789da1 ada%s
-D a-charac.ads		20070912115821 2d3ec45b ada.characters%s
-D a-chlat1.ads		20140225151544 66457d31 ada.characters.latin_1%s
-D a-numeri.ads		20080324174807 bb51c45a ada.numerics%s
-D a-numaux.ads		20140801094828 243fe0b7 ada.numerics.aux%s
-D a-ngelfu.ads		20151016131424 b8fdcb46 ada.numerics.generic_elementary_functions%s
-D a-ngelfu.adb		20151020124036 5e96a931 ada.numerics.generic_elementary_functions%b
-D a-string.ads		20070406091342 90ac6797 ada.strings%s
-D a-strbou.ads		20140731124036 53ab54ae ada.strings.bounded%s
-D a-strbou.adb		20090409150019 adb4aa70 ada.strings.bounded%b
-D a-strmap.ads		20140611123156 e8bb714a ada.strings.maps%s
-D a-strsup.ads		20120309145048 a27dcb33 ada.strings.superbounded%s
-D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
-D system.ads		20170510173650 4635ec04 system%s
-D s-exctab.ads		20140225151139 54135002 system.exception_table%s
-D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
-D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
-D vectors_xd.ads	20180916130930 4c943a4c vectors_xd%s
-D vectors_xd.adb	20180916130930 c4bae510 vectors_xd%b
+D ada.ads		20170516105951 76789da1 ada%s
+D a-charac.ads		20170516105954 2d3ec45b ada.characters%s
+D a-chlat1.ads		20170516105952 66457d31 ada.characters.latin_1%s
+D a-numeri.ads		20170516105951 bb51c45a ada.numerics%s
+D a-numaux.ads		20170516105954 243fe0b7 ada.numerics.aux%s
+D a-ngelfu.ads		20170516105954 7e738940 ada.numerics.generic_elementary_functions%s
+D a-ngelfu.adb		20170516105952 a9022048 ada.numerics.generic_elementary_functions%b
+D a-string.ads		20170516105953 90ac6797 ada.strings%s
+D a-strbou.ads		20170516105950 53ab54ae ada.strings.bounded%s
+D a-strbou.adb		20170516105953 adb4aa70 ada.strings.bounded%b
+D a-strmap.ads		20170516105953 e8bb714a ada.strings.maps%s
+D a-strsup.ads		20170516105951 a27dcb33 ada.strings.superbounded%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D system.ads		20170516105953 6326c08a system%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-stalib.ads		20170516105955 09bd3940 system.standard_library%s
+D s-unstyp.ads		20170516105953 34867c83 system.unsigned_types%s
+D vectors_xd.ads	20180921055726 4c943a4c vectors_xd%s
+D vectors_xd.adb	20180921055726 c4bae510 vectors_xd%b
 X 1 ada.ads
 16K9*Ada 20e8 19|5r6 5r53 6r6 7r6 7r53 12r10 15r31
 X 4 a-numeri.ads
 16K13*Numerics 32e17 19|5w10 5r57 6r10 12r14
 X 6 a-ngelfu.ads
-39k22*Generic_Elementary_Functions 170e46 19|6w19 12r23
-42V13 Sqrt 19|135s14[11]
-112V13 Arccos 19|95s17[11]
+39k22*Generic_Elementary_Functions 172e46 19|6w19 12r23
+44V13 Sqrt 19|135s14[11]
+114V13 Arccos 19|95s17[11]
 X 8 a-string.ads
 16K13*Strings 35e16 19|7r10 7r57 15r35
 X 9 a-strbou.ads

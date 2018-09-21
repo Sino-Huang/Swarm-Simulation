@@ -22,14 +22,39 @@ package body Vehicle_Task_Type is
 
       Vehicle_No : Positive; -- pragma Unreferenced (Vehicle_No);
       -- You will want to take the pragma out, once you use the "Vehicle_No"
-      Local_Storage : Local_Vehicle_Messages; -- Store the communication content
+      Local_Storage : aliased Inter_Vehicle_Messages; -- Store the communication content
       Vehicle_Behaviour : Vehicle_Behaviour_Type := Idle; -- state and init the vehicle behaviour
       Start_Up_Time : constant Time := Clock;
+      pragma Unreferenced (Start_Up_Time);
 
       -- define receive task
 
-      -- define send task
+      task type Receive_Message is
+         entry Send_Call (Remote_Message : Inter_Vehicle_Messages);
+         pragma Unreferenced (Send_Call);
+      end Receive_Message;
 
+      type Receive_Message_Pr is access Receive_Message;
+      task body Receive_Message is
+      begin
+         Put_Line ("Init the receive task");
+         loop
+            accept Send_Call (Remote_Message : Inter_Vehicle_Messages) do
+               Put_Line ("Hello" & Positive'Image (Vehicle_No)); -- this is the test code
+               Put_Line (Integer'Image (Read_Vehicles_Size (Records => Remote_Message)));
+               Put_Line ("received success!"); -- this is the test code
+            end Send_Call;
+
+         end loop;
+      end Receive_Message;
+
+      -- define send task
+      task type Send_Message;
+      type Send_Message_Pr is access Send_Message;
+      task body Send_Message is
+      begin
+         Put_Line ("Init to send");
+      end Send_Message;
 
    begin
 
@@ -39,19 +64,21 @@ package body Vehicle_Task_Type is
 
       accept Identify (Set_Vehicle_No : Positive; Local_Task_Id : out Task_Id) do
          declare
-            Init_Vehicle_Info : Known_Vehicles_Type;
          begin
             Vehicle_No     := Set_Vehicle_No;
             Local_Task_Id  := Current_Task;
             -- initiate Local_Storage in this section
-            Init_Vehicle_Info (1).Vehicle_ID := Vehicle_No;
-            Init_Vehicle_Info(1).LastMetTime := Start_Up_Time;
-            Local_Storage.Init_Vehicle (Vehicle => Init_Vehicle_Info);
+            Local_Storage := Inter_Vehicle_Messages'(Globes_Size    => Energy_Globes_Around'Size,
+                                                     Vehicles_Size  => 1,
+                                                     Known_Globes   => Init_Globe (Globe => Energy_Globes_Around),
+                                                     Known_Vehicles => Init_Vehicle (Vehicle_ID => Vehicle_No));
 
             declare
-            -- start send task using access task type to extend the life of the task
+               -- start send task using access task type to extend the life of the task
+               -- Send_Task : Send_Message_Pr := new Send_Message;
 
-            -- start receive task
+               -- start receive task
+               Receive_Task : Receive_Message_Pr := new Receive_Message;
             begin
                null;
             end;
