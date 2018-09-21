@@ -23,38 +23,9 @@ package body Vehicle_Task_Type is
       Vehicle_No : Positive; -- pragma Unreferenced (Vehicle_No);
       -- You will want to take the pragma out, once you use the "Vehicle_No"
       Local_Storage : aliased Inter_Vehicle_Messages; -- Store the communication content
+      Temp_Remote_Storage : Inter_Vehicle_Messages;
       Vehicle_Behaviour : Vehicle_Behaviour_Type := Idle; -- state and init the vehicle behaviour
-      Start_Up_Time : constant Time := Clock;
-      pragma Unreferenced (Start_Up_Time);
-
-      -- define receive task
-
-      task type Receive_Message is
-         entry Send_Call (Remote_Message : Inter_Vehicle_Messages);
-         pragma Unreferenced (Send_Call);
-      end Receive_Message;
-
-      type Receive_Message_Pr is access Receive_Message;
-      task body Receive_Message is
-      begin
-         Put_Line ("Init the receive task");
-         loop
-            accept Send_Call (Remote_Message : Inter_Vehicle_Messages) do
-               Put_Line ("Hello" & Positive'Image (Vehicle_No)); -- this is the test code
-               Put_Line (Integer'Image (Read_Vehicles_Size (Records => Remote_Message)));
-               Put_Line ("received success!"); -- this is the test code
-            end Send_Call;
-
-         end loop;
-      end Receive_Message;
-
-      -- define send task
-      task type Send_Message;
-      type Send_Message_Pr is access Send_Message;
-      task body Send_Message is
-      begin
-         Put_Line ("Init to send");
-      end Send_Message;
+      Whether_Init_Globe : Boolean := False;
 
    begin
 
@@ -68,20 +39,11 @@ package body Vehicle_Task_Type is
             Vehicle_No     := Set_Vehicle_No;
             Local_Task_Id  := Current_Task;
             -- initiate Local_Storage in this section
-            Local_Storage := Inter_Vehicle_Messages'(Globes_Size    => Energy_Globes_Around'Size,
-                                                     Vehicles_Size  => 1,
-                                                     Known_Globes   => Init_Globe (Globe => Energy_Globes_Around),
-                                                     Known_Vehicles => Init_Vehicle (Vehicle_ID => Vehicle_No));
 
-            declare
-               -- start send task using access task type to extend the life of the task
-               -- Send_Task : Send_Message_Pr := new Send_Message;
+            Local_Storage.Globes_Size := 0;
+            Local_Storage.Vehicles_Size := 1;
+            Local_Storage.Known_Vehicles := Init_Vehicle (Vehicle_ID => Vehicle_No);
 
-               -- start receive task
-               Receive_Task : Receive_Message_Pr := new Receive_Message;
-            begin
-               null;
-            end;
          end;
       end Identify;
 
@@ -102,6 +64,25 @@ package body Vehicle_Task_Type is
             Wait_For_Next_Physics_Update;
 
             -- Your vehicle should respond to the world here: sense, listen, talk, act?
+            -- find Globes
+            declare
+               Temp_Globes : constant Energy_Globes := Energy_Globes_Around;
+            begin
+               if not (Temp_Globes'Size = 0) and then not (Whether_Init_Globe) then
+                  Local_Storage.Globes_Size := 1;
+                  --Local_Storage.Known_Globes(1).Globe := Temp_Globes;
+                  Local_Storage.Known_Globes(1).LastUpdateTime := Clock;
+                  Whether_Init_Globe := True;
+                  Put_Line ("Find Globes");
+               end if;
+            end;
+
+
+            --
+            Send(Message => Local_Storage);
+            if Messages_Waiting then
+               Receive(Message => Temp_Remote_Storage);
+            end if;
 
          end loop Outer_task_loop;
       end select;

@@ -1,4 +1,7 @@
-vehicle_task_type.adb:26:07: warning: declaration hides "Vehicle_Behaviour" at vehicle_behaviour.ads:1
-vehicle_task_type.adb:26:07: warning: variable "Vehicle_Behaviour" is not referenced
-vehicle_task_type.adb:53:12: warning: type "Send_Message_Pr" is not referenced
-vehicle_task_type.adb:81:16: warning: variable "Receive_Task" is not referenced
+vehicle_task_type.adb:27:07: warning: declaration hides "Vehicle_Behaviour" at vehicle_behaviour.ads:1
+vehicle_task_type.adb:27:07: warning: variable "Vehicle_Behaviour" is not referenced
+vehicle_task_type.adb:73:21: (style) space required
+vehicle_task_type.adb:74:45: (style) space required
+vehicle_task_type.adb:79:01: (style) multiple blank lines
+vehicle_task_type.adb:82:17: (style) space required
+vehicle_task_type.adb:84:23: (style) space required

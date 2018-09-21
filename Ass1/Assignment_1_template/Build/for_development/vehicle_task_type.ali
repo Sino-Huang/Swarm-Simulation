@@ -83,36 +83,28 @@ A -march=x86-64
 P SS ZX
 
 RN
-RV NO_ALLOCATORS
 RV NO_CALENDAR
 RV NO_DELAY
 RV NO_EXCEPTION_HANDLERS
 RV NO_EXCEPTION_PROPAGATION
 RV NO_EXCEPTIONS
 RV NO_IMPLICIT_CONDITIONALS
-RV NO_LOCAL_ALLOCATORS
 RV NO_SECONDARY_STACK
 RV NO_SELECT_STATEMENTS
-RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
 RV NO_STANDARD_STORAGE_POOLS
-RV NO_TASK_ALLOCATORS
-RV NO_TASK_HIERARCHY
 RV NO_TASKING
-RV NO_DEFAULT_INITIALIZATION
 RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 RV MAX_TASK_ENTRIES=1
-RV MAX_TASKS=1+
 RV MAX_ASYNCHRONOUS_SELECT_NESTING=1+
 RV MAX_ENTRY_QUEUE_LENGTH=1+
 
-U vehicle_task_type%b	vehicle_task_type.adb	d4b58a8f DE OO PK
+U vehicle_task_type%b	vehicle_task_type.adb	34f0ae99 DE OO PK
 W ada%s			ada.ads			ada.ali
 W ada.calendar%s	a-calend.adb		a-calend.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
-W ada.real_time%s	a-reatim.adb		a-reatim.ali
 W ada.tags%s		a-tags.adb		a-tags.ali
 W exceptions%s		exceptions.adb		exceptions.ali
 W gnat%s		gnat.ads		gnat.ali
@@ -121,12 +113,8 @@ W interfaces%s		interfac.ads		interfac.ali
 W swarm_structures%s	swarm_structures.adb	swarm_structures.ali
 W swarm_structures_base%s  swarm_structures_base.ads  swarm_structures_base.ali
 W system%s		system.ads		system.ali
-W system.concat_2%s	s-conca2.adb		s-conca2.ali
-W system.img_int%s	s-imgint.adb		s-imgint.ali
-W system.parameters%s	s-parame.adb		s-parame.ali
 W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 W system.soft_links%s	s-soflin.adb		s-soflin.ali
-W system.task_info%s	s-tasinf.adb		s-tasinf.ali
 W system.tasking%s	s-taskin.adb		s-taskin.ali
 W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
 W system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
@@ -211,7 +199,6 @@ D swarm_structures_base.ads  20180921055727 12dd854b swarm_structures_base%s
 D system.ads		20170516105953 6326c08a system%s
 D s-atacco.ads		20170516105954 4c36d12f system.address_to_access_conversions%s
 D s-atocou.ads		20170516105956 b45c2d8d system.atomic_counters%s
-D s-conca2.ads		20170516105952 02a0d7d0 system.concat_2%s
 D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
 D s-exctab.ads		20170516105954 54135002 system.exception_table%s
 D s-fatflt.ads		20170516105953 11beb392 system.fat_flt%s
@@ -220,7 +207,6 @@ D s-fatlfl.ads		20170516105952 378cba9f system.fat_lflt%s
 D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
 D s-finmas.ads		20170516105954 7811a767 system.finalization_masters%s
 D s-finroo.ads		20170516105954 4ff27390 system.finalization_root%s
-D s-imgint.ads		20170516105950 02dbe0c2 system.img_int%s
 D s-linux.ads		20170516105951 2fda6ad1 system.linux%s
 D s-multip.ads		20170516105948 38ac9f73 system.multiprocessors%s
 D s-oscons.ads		20170516140513 5c5bfdaa system.os_constants%s
@@ -259,15 +245,15 @@ D vehicle_behaviour.ads	20180921055726 4bda9897 vehicle_behaviour%s
 D vehicle_interface.ads	20180921055727 8a08d9c4 vehicle_interface%s
 D vehicle_message_type.ads  20180921074711 bc9c4bcc vehicle_message_type%s
 D vehicle_task_type.ads	20180921055726 9ebc7351 vehicle_task_type%s
-D vehicle_task_type.adb	20180921075941 fe9dd5e2 vehicle_task_type%b
+D vehicle_task_type.adb	20180921085324 1ed8f1f4 vehicle_task_type%b
 D zip.ads		20180921055725 6e4a4be8 zip%s
 D zip_streams.ads	20180921055725 088b1cbe zip_streams%s
 X 1 ada.ads
-16K9*Ada 20e8 113|1r6 1r35 114|4r6 4r38
+16K9*Ada 20e8 111|1r6 1r35 112|4r6 4r38
 X 2 a-calend.ads
-36K13*Calendar 395e17 114|4w10 4r42
-44I9*Time<213I9> 114|27r32
-58V13*Clock{44I9} 114|27s40
+36K13*Calendar 395e17 112|4w10 4r42
+44I9*Time<213I9>
+58V13*Clock{44I9} 112|74s67
 213I9 Time_Rep<long_long_integer>
 X 7 a-cohama.ads
 53R9*Map<11|43R9>
@@ -275,76 +261,73 @@ X 13 a-iteint.ads
 24h9 Forward_Iterator
 32h9 Reversible_Iterator<24R9[9|72]>
 X 24 a-taside.ads
-39K13*Task_Identification 97e28 113|1w10 1r39
-49P9*Task_Id<97|109P9> 113|6r70 114|65r71
-61V13*Current_Task{49P9} 114|69s31
+39K13*Task_Identification 97e28 111|1w10 1r39
+49P9*Task_Id<95|109P9> 111|6r70 112|36r71
+61V13*Current_Task{49P9} 112|40s31
 X 30 exceptions.ads
-17K10*Exceptions 22e15 114|6w6 6r38
-19U14*Show_Exception 114|110s26
+17K10*Exceptions 22e15 112|6w6 6r38
+19U14*Show_Exception 112|91s26
 X 35 gl-buffer-general.ads
 14R9 base_Object<34|20R9>
 X 45 gnat.ads
-34K9*GNAT 37e9 114|14r6 14r19
+34K9*GNAT 37e9 112|14r6 14r19
 X 46 g-io.ads
-41K14*IO 91e12 114|14w11 14r24
-72U14*Put_Line 114|40s10 43s16 44s16 45s16 56s10
+41K14*IO 91e12 112|14w11 14r24
+72U14*Put_Line 112|76s19
+X 58 shared_message_structure.ads
+8i7*LastUpdateTime{2|44I9} 112|74m49
 X 61 swarm_structures.ads
-19K9*Swarm_Structures 124e21 114|12w6 12r38
+19K9*Swarm_Structures 124e21 112|12w6 12r38
 35V14*"<"{boolean} 9|344i22
 X 62 swarm_structures_base.ads
-10K9*Swarm_Structures_Base 48e26 114|15w6 15r33
-36A9*Energy_Globes(31R9)<integer>
-X 85 s-stausa.ads
+10K9*Swarm_Structures_Base 48e26 112|15w6 15r33
+36A9*Energy_Globes(31R9)<integer> 112|69r39
+X 83 s-stausa.ads
 203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
 268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
-X 97 s-taskin.ads
+X 95 s-taskin.ads
 109P9*Task_Id(107R9)
-X 110 vehicle_behaviour.ads
-1K9*Vehicle_Behaviour 5e22 114|17w6 17r29
-3E9*Vehicle_Behaviour_Type 3e83 114|26r27
-3n36*Idle{3E9} 114|26r53
-X 111 vehicle_interface.ads
-10K9*Vehicle_Interface 66e22 114|11w6 11r38
-45V13*Energy_Globes_Around{62|36A9} 114|71s72 73s93
-47U14*Wait_For_Next_Physics_Update 114|102s13
-60w14*Flight_Termination 114|96r10
-62Y13 Stop 114|96s29
-X 112 vehicle_message_type.ads
-7K9*Vehicle_Message_Type 31e25 114|16w6 16r32
+X 108 vehicle_behaviour.ads
+1K9*Vehicle_Behaviour 5e22 112|17w6 17r29
+3E9*Vehicle_Behaviour_Type 3e83 112|27r27
+3n36*Idle{3E9} 112|27r53
+X 109 vehicle_interface.ads
+10K9*Vehicle_Interface 66e22 112|11w6 11r38
+38U14*Send 112|82s13
+38r23 Message{110|14R9} 112|82r18
+39U14*Receive 112|84s16
+39r23 Message{110|14R9} 112|84r24
+40V13*Messages_Waiting{boolean} 112|83s16
+45V13*Energy_Globes_Around{62|36A9} 112|69s56
+47U14*Wait_For_Next_Physics_Update 112|64s13
+60w14*Flight_Termination 112|58r10
+62Y13 Stop 112|58s29
+X 110 vehicle_message_type.ads
+7K9*Vehicle_Message_Type 31e25 112|16w6 16r32
 12A9*Known_Vehicles_Type(58|11R9)<integer>
 13A9*Known_Globes_Type(58|6R9)<integer>
-14R9*Inter_Vehicle_Messages 19e14 114|25r31 33r44 42r48 71r30
-15i10*Globes_Size{integer} 114|71m54
-16i10*Vehicles_Size{integer} 114|72m54
-17a10*Known_Globes{13A9} 114|73m54
-18a10*Known_Vehicles{12A9} 114|74m54
-23V13*Init_Vehicle{12A9} 114|74s72
-23i27 Vehicle_ID{positive} 114|74r86
-24V13*Init_Globe{13A9} 114|73s72
-24a25 Globe{62|36A9} 114|73r84
-27V13*Read_Vehicles_Size{integer} 114|44s41
-27r33 Records{14R9} 114|44r61
-X 113 vehicle_task_type.ads
-3K9*Vehicle_Task_Type 9l5 9e22 114|19b14 114l5 114t22
-5T14*Vehicle_Task 7l8 7e20 114|21b14 112l8 112t20
-6Y13 Identify 6>23 6<50 114|65b14 86l11 86t19
-6i23 Set_Vehicle_No{positive} 114|68r31
-6p50 Local_Task_Id{24|49P9} 114|69m13 69r13
-X 114 vehicle_task_type.adb
-23i7 Vehicle_No{positive} 43r52 68m13 74r100
-25r7 Local_Storage{112|14R9} 71m13
-26e7 Vehicle_Behaviour{110|3E9}
-27i7 Start_Up_Time{2|44I9} 28r28
-32T17 Receive_Message 35l11 35e26 37r41 38b17 49l11 49t26 81r57
-33Y16 Send_Call 33>27 34r31 42b20 46l17 46t26
-33r27 Remote_Message{112|14R9} 44r72
-37P12 Receive_Message_Pr(32T17) 81r31
-42r31 Remote_Message{112|14R9}
-52T17 Send_Message 53r38 54b17 57l11 57t23
-53P12 Send_Message_Pr(52T17)
-65i24 Set_Vehicle_No{positive}
-65p51 Local_Task_Id{24|49P9}
-81p16 Receive_Task{37P12}
-100l10 Outer_task_loop 106l19 106e34
-110r12 E{10|63R9} 110r42
+14R9*Inter_Vehicle_Messages 19e14 112|25r31 26r29
+15i10*Globes_Size{integer} 112|43m27 72m33
+16i10*Vehicles_Size{integer} 112|44m27
+17a10*Known_Globes{13A9} 112|74m33
+18a10*Known_Vehicles{12A9} 112|45m27
+23V13*Init_Vehicle{12A9} 112|45s45
+23i27 Vehicle_ID{positive} 112|45r59
+X 111 vehicle_task_type.ads
+3K9*Vehicle_Task_Type 9l5 9e22 112|19b14 95l5 95t22
+5T14*Vehicle_Task 7l8 7e20 112|21b14 93l8 93t20
+6Y13 Identify 6>23 6<50 112|36b14 48l11 48t19
+6i23 Set_Vehicle_No{positive} 112|39r31
+6p50 Local_Task_Id{24|49P9} 112|40m13 40r13
+X 112 vehicle_task_type.adb
+23i7 Vehicle_No{positive} 39m13 45r73
+25r7 Local_Storage{110|14R9} 43m13 44m13 45m13 72m19 74m19 82r29
+26r7 Temp_Remote_Storage{110|14R9} 84m35
+27e7 Vehicle_Behaviour{108|3E9}
+28b7 Whether_Init_Globe{boolean} 71r60 75m19
+36i24 Set_Vehicle_No{positive}
+36p51 Local_Task_Id{24|49P9}
+62l10 Outer_task_loop 87l19 87e34
+69a16 Temp_Globes{62|36A9} 71r24
+91r12 E{10|63R9} 91r42
 

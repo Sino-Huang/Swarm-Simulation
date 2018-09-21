@@ -837,7 +837,7 @@ package ada_main is
    pragma Export (C, u00400, "vehicle_message_typeS");
    u00401 : constant Version_32 := 16#d1f38d6c#;
    pragma Export (C, u00401, "shared_message_structureS");
-   u00402 : constant Version_32 := 16#d4b58a8f#;
+   u00402 : constant Version_32 := 16#34f0ae99#;
    pragma Export (C, u00402, "vehicle_task_typeB");
    u00403 : constant Version_32 := 16#58fd0c20#;
    pragma Export (C, u00403, "vehicle_task_typeS");
