@@ -1,4 +1,5 @@
 with Ada.Calendar;          use Ada.Calendar;
+with GNAT.IO;               use GNAT.IO;
 package body Vehicle_Message_Type is
 
    -----------------
@@ -53,16 +54,21 @@ package body Vehicle_Message_Type is
    -- Init_Globe --
    ----------------
 
-   function Init_Globe (Globe : Energy_Globes) return Known_Globes_Type is
+   function Update_Globe (Globe : Energy_Globes) return Known_Globes_Type is
       TheTime : constant Time := Clock;
       Globes : Known_Globes_Type;
+      Index : Integer := 1;
 
    begin
       --  Generated stub: replace with real body!
-      Globes (1).Globe := Globe;
-      Globes (1).LastUpdateTime := TheTime;
+      for g of Globe loop
+         Globes (Index).LastUpdateTime := TheTime;
+         Globes (Index).Globe_Velocity := g.Velocity;
+         Globes (Index).Globe_Position := g.Position;
+         Index := Index + 1;
+      end loop;
       return Globes;
-   end Init_Globe;
+   end Update_Globe;
 
    --------------------------
    -- Read_Vehicles_Record --

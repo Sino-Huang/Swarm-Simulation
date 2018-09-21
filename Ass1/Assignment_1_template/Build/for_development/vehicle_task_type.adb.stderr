@@ -1,7 +1,6 @@
-vehicle_task_type.adb:27:07: warning: declaration hides "Vehicle_Behaviour" at vehicle_behaviour.ads:1
-vehicle_task_type.adb:27:07: warning: variable "Vehicle_Behaviour" is not referenced
-vehicle_task_type.adb:73:21: (style) space required
-vehicle_task_type.adb:74:45: (style) space required
-vehicle_task_type.adb:79:01: (style) multiple blank lines
-vehicle_task_type.adb:82:17: (style) space required
-vehicle_task_type.adb:84:23: (style) space required
+vehicle_task_type.adb:15:10: warning: no entities of "GNAT.IO" are referenced
+vehicle_task_type.adb:28:07: warning: declaration hides "Vehicle_Behaviour" at vehicle_behaviour.ads:1
+vehicle_task_type.adb:28:07: warning: variable "Vehicle_Behaviour" is not referenced
+vehicle_task_type.adb:71:16: warning: constant "Start_Up_Time" is not referenced
+vehicle_task_type.adb:73:45: (style) space required
+vehicle_task_type.adb:75:61: (style) space required

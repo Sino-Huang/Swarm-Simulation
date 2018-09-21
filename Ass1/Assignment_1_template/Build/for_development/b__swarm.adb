@@ -110,7 +110,7 @@ package body ada_main is
    E380 : Short_Integer; pragma Import (Ada, E380, "swarm_configurations_E");
    E378 : Short_Integer; pragma Import (Ada, E378, "swarm_configuration_E");
    E400 : Short_Integer; pragma Import (Ada, E400, "vehicle_message_type_E");
-   E403 : Short_Integer; pragma Import (Ada, E403, "vehicle_task_type_E");
+   E406 : Short_Integer; pragma Import (Ada, E406, "vehicle_task_type_E");
    E411 : Short_Integer; pragma Import (Ada, E411, "vehicle_interface_E");
    E394 : Short_Integer; pragma Import (Ada, E394, "swarm_structures_E");
    E392 : Short_Integer; pragma Import (Ada, E392, "swarm_data_E");
@@ -624,7 +624,7 @@ package body ada_main is
       E391 := E391 + 1;
       E411 := E411 + 1;
       Vehicle_Task_Type'Elab_Body;
-      E403 := E403 + 1;
+      E406 := E406 + 1;
       E424 := E424 + 1;
       Callback_Procedures'Elab_Body;
       E097 := E097 + 1;

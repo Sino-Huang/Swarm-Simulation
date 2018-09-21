@@ -1,780 +1,275 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project>
-    <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_file>
-    <file_marker column=" 36" line=" 56" >
+  <Project >
+    <file_marker column=" 7" line=" 28" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 6" line=" 15" >
+    <file_marker column=" 54" line=" 43" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 36" line=" 56" >
+    <file_marker column=" 7" line=" 28" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/swarm.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 36" line=" 56" >
+    <file_marker column=" 1" line=" 47" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 36" line=" 56" >
+    <file_marker column=" 7" line=" 28" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 13" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/swarm.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 36" line=" 56" >
+    <file_marker column=" 54" line=" 43" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 13" >
+    <file_marker column=" 6" line=" 16" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/swarm.adb</vfs_file>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
+    <file_marker column=" 85" line=" 46" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Graphics/graphics_setup.adb</vfs_file>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 78" >
+    <file_marker column=" 6" line=" 16" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Graphics/graphics_setup.adb</vfs_file>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 85" >
+    <file_marker column=" 98" line=" 28" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Graphics/graphics_setup.adb</vfs_file>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 89" >
+    <file_marker column=" 7" line=" 28" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Graphics/graphics_setup.adb</vfs_file>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
+    <file_marker column=" 66" line=" 34" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/bindings/linux/glut.adb</vfs_file>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 56" >
+    <file_marker column=" 7" line=" 28" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/bindings/linux/glut.adb</vfs_file>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 58" >
+    <file_marker column=" 98" line=" 28" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/bindings/linux/glut.adb</vfs_file>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 98" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 98" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 98" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 88" line=" 67" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 47" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 88" line=" 67" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 98" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 14" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 60" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/bindings/linux/glut.adb</vfs_file>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 61" >
+    <file_marker column=" 7" line=" 28" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/bindings/linux/glut.adb</vfs_file>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 65" >
+    <file_marker column=" 88" line=" 67" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/bindings/linux/glut.adb</vfs_file>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 66" >
+    <file_marker column=" 7" line=" 28" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/bindings/linux/glut.adb</vfs_file>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 90" >
+    <file_marker column=" 88" line=" 67" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Graphics/graphics_setup.adb</vfs_file>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 91" >
+    <file_marker column=" 98" line=" 28" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Graphics/graphics_setup.adb</vfs_file>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 92" >
+    <file_marker column=" 98" line=" 28" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Graphics/graphics_setup.adb</vfs_file>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 93" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Graphics/graphics_setup.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 96" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Graphics/graphics_setup.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 97" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Graphics/graphics_setup.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 98" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Graphics/graphics_setup.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 100" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Graphics/graphics_setup.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 104" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Graphics/graphics_setup.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 105" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Graphics/graphics_setup.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 106" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Graphics/graphics_setup.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 107" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Graphics/graphics_setup.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 108" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Graphics/graphics_setup.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 110" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Graphics/graphics_setup.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 113" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Graphics/graphics_setup.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 114" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Graphics/graphics_setup.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 115" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Graphics/graphics_setup.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 116" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Graphics/graphics_setup.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 114" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Graphics/graphics_setup.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 14" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/swarm.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
+    <file_marker column=" 14" line=" 39" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Vehicle_Interface/vehicle_interface.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 41" line=" 45" >
+    <file_marker column=" 98" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 16" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 45" line=" 95" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 16" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 38" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Vehicle_Interface/vehicle_interface.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 9" line=" 36" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 31" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 15" line=" 7" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 31" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 33" line=" 3" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 10" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 33" line=" 24" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 36" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 31" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 21" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 45" line=" 25" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 20" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 55" line=" 26" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 33" line=" 25" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 46" line=" 28" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 62" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 33" line=" 56" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 36" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 55" line=" 56" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 13" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 40" line=" 57" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 34" line=" 47" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 27" line=" 23" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 27" line=" 42" >
-      <vfs_project />
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 57" line=" 23" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 13" line=" 12" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 15" line=" 7" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 31" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Vehicle_Interface/vehicle_interface.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 13" line=" 45" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Vehicle_Interface/vehicle_interface.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 13" line=" 81" >
+    <file_marker column=" 14" line=" 56" >
       <vfs_project />
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/vehicle_interface.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 42" line=" 89" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/vehicle_interface.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 19" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_data.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 15" line=" 7" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 31" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 15" line=" 7" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 36" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 33" line=" 56" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 36" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 51" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 56" line=" 23" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 33" line=" 24" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 36" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 30" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 56" line=" 23" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 38" line=" 56" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 6" line=" 19" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 15" line=" 7" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 13" line=" 123" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 10" line=" 18" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 12" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 11" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 13" line=" 124" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 18" line=" 126" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 6" line=" 19" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 27" line=" 124" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 6" line=" 19" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 19" line=" 129" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 6" line=" 19" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 13" line=" 13" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 20" line=" 20" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 43" line=" 13" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 50" line=" 13" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 48" line=" 26" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 13" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 6" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 16" line=" 35" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 29" line=" 9" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 29" line=" 8" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 24" line=" 27" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 38" line=" 14" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 29" line=" 21" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 26" line=" 6" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 15" line=" 7" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 33" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 10" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 26" line=" 13" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 15" line=" 7" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 16" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 15" line=" 7" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 10" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 15" line=" 7" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 26" line=" 13" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 15" line=" 7" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 26" line=" 13" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 6" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 15" line=" 7" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 36" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 31" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 36" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Vehicle_Interface/vehicle_interface.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 41" line=" 45" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Vehicle_Interface/vehicle_interface.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 36" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Vehicle_Interface/vehicle_interface.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 13" line=" 45" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Vehicle_Interface/vehicle_interface.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 13" line=" 81" >
-      <vfs_project />
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/vehicle_interface.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 25" line=" 96" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/vehicle_interface.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 36" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 33" line=" 5" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Vehicle_Interface/vehicle_interface.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 3" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Library/real_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 33" line=" 6" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Vehicle_Interface/vehicle_interface.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 10" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 36" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 51" line=" 29" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_data.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_control_concurrent_generic.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_data.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_control_concurrent_generic.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_control_concurrent_generic.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_control.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_control.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_configurations.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_configuration.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_behaviour.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 38" line=" 7" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 52" line=" 4" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 36" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 61" line=" 4" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 29" line=" 8" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 52" line=" 4" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 16" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
+    <file_marker column=" 98" line=" 28" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
+    <file_marker column=" 98" line=" 28" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 12" line=" 25" >
+    <file_marker column=" 6" line=" 16" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 29" >
+    <file_marker column=" 98" line=" 28" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 7" line=" 26" >
+    <file_marker column=" 6" line=" 16" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 53" line=" 71" >
+    <file_marker column=" 88" line=" 67" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 13" line=" 23" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 59" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 56" >
-      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
-      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 74" line=" 72" >
+    <file_marker column=" 6" line=" 16" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 7" line=" 26" >
+    <file_marker column=" 13" line=" 95" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 113" line=" 74" >
+    <file_marker column=" 6" line=" 16" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 7" line=" 26" >
+    <file_marker column=" 16" line=" 96" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 7" line=" 50" >
+    <file_marker column=" 52" line=" 27" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 7" line=" 26" >
+    <file_marker column=" 17" line=" 95" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 45" line=" 40" >
+    <file_marker column=" 57" line=" 97" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 7" line=" 26" >
+    <file_marker column=" 1" line=" 5" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 89" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 73" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 73" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 78" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 45" line=" 73" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 68" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 45" line=" 73" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 73" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 45" line=" 73" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
@@ -782,23 +277,527 @@
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 7" line=" 26" >
+    <file_marker column=" 7" line=" 28" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 58" line=" 81" >
+    <file_marker column=" 15" line=" 94" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 7" line=" 26" >
+    <file_marker column=" 7" line=" 28" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 44" line=" 65" >
+    <file_marker column=" 1" line=" 81" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 7" line=" 26" >
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 81" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 78" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 45" line=" 75" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 7" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 11" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 7" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 41" line=" 4" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 36" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 11" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 7" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 10" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 7" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 13" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 50" line=" 2" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 7" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 45" line=" 75" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 45" line=" 75" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 37" line=" 1" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 10" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 64" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 68" line=" 38" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 65" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 45" line=" 66" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 16" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 64" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 24" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 36" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 68" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 44" line=" 67" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 31" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 53" line=" 67" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 65" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 64" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 45" line=" 75" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 5" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 54" line=" 43" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 69" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 2" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 69" line=" 16" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 2" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 67" line=" 76" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 5" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 45" line=" 95" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 2" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 33" line=" 16" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Vehicle_Interface/vehicle_interface.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 15" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 32" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Graphics/graphics_structures.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 81" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 2" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 69" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 2" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 69" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 78" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 92" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 88" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 87" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 35" line=" 83" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 91" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 87" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 87" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 70" line=" 13" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 6" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 8" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 16" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 14" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Library/vectors_3d.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 38" line=" 82" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 8" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/shared_message_structure.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 16" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Swarm/swarm_structures_base.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 14" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Library/vectors_3d.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 22" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Library/vectors_3d.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 5" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Library/real_type.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 31" line=" 2" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 5" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 36" >
+      <vfs_project />
+      <vfs_file>/lab/usr/local/gnat/lib/gcc/x86_64-pc-linux-gnu/6.3.1/rts-native/adainclude/a-calend.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 61" line=" 54" >
+      <vfs_project />
+      <vfs_file>/lab/usr/local/gnat/lib/gcc/x86_64-pc-linux-gnu/6.3.1/rts-native/adainclude/a-calend.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 56" >
+      <vfs_project />
+      <vfs_file>/lab/usr/local/gnat/lib/gcc/x86_64-pc-linux-gnu/6.3.1/rts-native/adainclude/a-calend.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 54" line=" 69" >
+      <vfs_project />
+      <vfs_file>/lab/usr/local/gnat/lib/gcc/x86_64-pc-linux-gnu/6.3.1/rts-native/adainclude/a-calend.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 33" line=" 76" >
+      <vfs_project />
+      <vfs_file>/lab/usr/local/gnat/lib/gcc/x86_64-pc-linux-gnu/6.3.1/rts-native/adainclude/a-calend.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 86" >
+      <vfs_project />
+      <vfs_file>/lab/usr/local/gnat/lib/gcc/x86_64-pc-linux-gnu/6.3.1/rts-native/adainclude/a-calend.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 51" line=" 102" >
+      <vfs_project />
+      <vfs_file>/lab/usr/local/gnat/lib/gcc/x86_64-pc-linux-gnu/6.3.1/rts-native/adainclude/a-calend.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 33" line=" 103" >
+      <vfs_project />
+      <vfs_file>/lab/usr/local/gnat/lib/gcc/x86_64-pc-linux-gnu/6.3.1/rts-native/adainclude/a-calend.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 51" line=" 104" >
+      <vfs_project />
+      <vfs_file>/lab/usr/local/gnat/lib/gcc/x86_64-pc-linux-gnu/6.3.1/rts-native/adainclude/a-calend.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 68" line=" 105" >
+      <vfs_project />
+      <vfs_file>/lab/usr/local/gnat/lib/gcc/x86_64-pc-linux-gnu/6.3.1/rts-native/adainclude/a-calend.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 55" line=" 109" >
+      <vfs_project />
+      <vfs_file>/lab/usr/local/gnat/lib/gcc/x86_64-pc-linux-gnu/6.3.1/rts-native/adainclude/a-calend.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 87" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 87" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 86" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 85" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 87" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 45" line=" 73" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 99" line=" 85" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 22" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Library/vectors_3d.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 5" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Library/real_type.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 84" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 87" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 84" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 75" line=" 85" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 28" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 11" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 15" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 98" line=" 85" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 15" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 84" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 2" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_message_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 44" line=" 87" >
+      <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
+      <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 10" line=" 15" >
       <vfs_project>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr</vfs_project>
       <vfs_file>/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Sources/Student_Packages/vehicle_task_type.adb</vfs_file>
     </file_marker>

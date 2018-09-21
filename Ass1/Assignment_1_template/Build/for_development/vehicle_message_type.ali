@@ -90,13 +90,15 @@ RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U vehicle_message_type%b  vehicle_message_type.adb  1fd4a1af DE NE OO PK
+U vehicle_message_type%b  vehicle_message_type.adb  e8c95496 DE NE OO PK
 W ada%s			ada.ads			ada.ali
 W ada.calendar%s	a-calend.adb		a-calend.ali
 W ada.tags%s		a-tags.adb		a-tags.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.io%s		g-io.adb		g-io.ali
 W interfaces%s		interfac.ads		interfac.ali
 
-U vehicle_message_type%s  vehicle_message_type.ads  4030c774 DE EE NE OO PK
+U vehicle_message_type%s  vehicle_message_type.ads  0360a514 DE EE NE OO PK
 W shared_message_structure%s  shared_message_structure.ads  shared_message_structure.ali
 W swarm_structures_base%s  swarm_structures_base.ads  swarm_structures_base.ali
 
@@ -137,6 +139,8 @@ D gl-skinned_geometry.ads  20180921055724 0d393283 gl.skinned_geometry%s
 D gl-skins.ads		20180921055724 f0134d84 gl.skins%s
 D gl-textures.ads	20180921055724 6f569eb0 gl.textures%s
 D globe_3d.ads		20180921055724 4b81e8db globe_3d%s
+D gnat.ads		20170516105956 fd2ad2f1 gnat%s
+D g-io.ads		20170516105950 9f0d3ab2 gnat.io%s
 D graphics_structures.ads  20180921055725 168856d0 graphics_structures%s
 D interfac.ads		20170516105950 5ab55268 interfaces%s
 D i-c.ads		20170516105948 5421119b interfaces.c%s
@@ -146,7 +150,7 @@ D matrices.ads		20180921055726 85f7982e matrices%s
 D quaternions.ads	20180921055726 9d9d58c2 quaternions%s
 D real_type.ads		20180921055726 cdd2e5cc real_type%s
 D rotations.ads		20180921055726 3eeded66 rotations%s
-D shared_message_structure.ads  20180921074154 ee7109f3 shared_message_structure%s
+D shared_message_structure.ads  20180921091448 fd2b0da0 shared_message_structure%s
 D swarm_structures_base.ads  20180921055727 12dd854b swarm_structures_base%s
 D system.ads		20170516105953 6326c08a system%s
 D s-atacco.ads		20170516105954 4c36d12f system.address_to_access_conversions%s
@@ -188,16 +192,16 @@ D vectors_2d_n.ads	20180921055726 27f53fc0 vectors_2d_n%s
 D vectors_3d.ads	20180921055726 121733f3 vectors_3d%s
 D vectors_xd.ads	20180921055726 4c943a4c vectors_xd%s
 D vectors_xd_i.ads	20180921055726 32b570f3 vectors_xd_i%s
-D vehicle_message_type.ads  20180921074711 bc9c4bcc vehicle_message_type%s
-D vehicle_message_type.adb  20180921074853 8e17ebb7 vehicle_message_type%b
+D vehicle_message_type.ads  20180921095100 ec962dff vehicle_message_type%s
+D vehicle_message_type.adb  20180921095100 b60d420f vehicle_message_type%b
 D zip.ads		20180921055725 6e4a4be8 zip%s
 D zip_streams.ads	20180921055725 088b1cbe zip_streams%s
 X 1 ada.ads
-16K9*Ada 20e8 90|1r6 1r33
+16K9*Ada 20e8 92|1r6 1r33
 X 2 a-calend.ads
-36K13*Calendar 395e17 90|1w10 1r37
-44I9*Time<213I9> 90|43r26 57r26
-58V13*Clock{44I9} 90|43s34 57s34
+36K13*Calendar 395e17 92|1w10 1r37
+44I9*Time<213I9> 92|44r26 58r26
+58V13*Clock{44I9} 92|44s34 58s34
 213I9 Time_Rep<long_long_integer>
 X 7 a-cohama.ads
 53R9*Map<10|43R9>
@@ -205,64 +209,81 @@ X 12 a-iteint.ads
 24h9 Forward_Iterator
 X 29 gl-buffer-general.ads
 14R9 base_Object<28|20R9>
-X 47 shared_message_structure.ads
-3K9*Shared_Message_Structure 15e29 89|2w6 2r36
-6R9*Globe_Info_Record 9e14 89|13r70
-7a7*Globe{4A12} 90|62m18
-8i7*LastUpdateTime{2|44I9} 90|63m18
-11R9*Vehicle_Info_Record 14e14 89|12r72 29r36 90|120r36
-12i7*Vehicle_ID{positive} 90|47m20 124r15 124r36
-13i7*LastMetTime{2|44I9} 90|48m20
-X 48 swarm_structures_base.ads
-10K9*Swarm_Structures_Base 48e26 89|3w6 3r33
-36A9*Energy_Globes(31R9)<integer> 89|24r33 90|56r33
-X 68 s-stausa.ads
+X 38 gnat.ads
+34K9*GNAT 37e9 92|2r6 2r33
+X 39 g-io.ads
+41K14*IO 91e12 92|2w11 2r38
+X 40 graphics_structures.ads
+32A12*Point_3D{88|14A12}<88|10E9>
+X 49 shared_message_structure.ads
+3K9*Shared_Message_Structure 16e29 91|2w6 2r36
+6R9*Globe_Info_Record 10e14 91|13r70
+7a7*Globe_Position{50|15A12} 92|67m25
+8a7*Globe_Velocity{50|16A12} 92|66m25
+9i7*LastUpdateTime{2|44I9} 92|65m25
+12R9*Vehicle_Info_Record 15e14 91|12r72 29r36 92|126r36
+13i7*Vehicle_ID{positive} 92|48m20 130r15 130r36
+14i7*LastMetTime{2|44I9} 92|49m20
+X 50 swarm_structures_base.ads
+10K9*Swarm_Structures_Base 48e26 91|3w6 3r33
+15A12*Positions{40|32A12}<88|10E9>
+16A12*Velocities{88|14A12}<88|10E9>
+32a7*Position{15A12} 92|67r45
+33a7*Velocity{16A12} 92|66r45
+36A9*Energy_Globes(31R9)<integer> 91|24r35 92|57r35
+X 70 s-stausa.ads
 203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
 268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
-X 89 vehicle_message_type.ads
-7K9*Vehicle_Message_Type 31l5 31e25 90|2b14 131l5 131t25
+X 88 vectors_3d.ads
+14A12*Vector_3D{89|10A9[12]}<10E9>
+X 89 vectors_xd.ads
+10A9*Vector_xD(long_float)<88|10E9>
+X 91 vehicle_message_type.ads
+7K9*Vehicle_Message_Type 31l5 31e25 92|3b14 137l5 137t25
 9i4*Index_Max{integer} 12r58 13r56
-12A9*Known_Vehicles_Type(47|11R9)<integer> 18r27 21r52 23r57 25r76 90|8r52
-. 42r57 44r18 73r14
-13A9*Known_Globes_Type(47|6R9)<integer> 17r25 22r48 24r55 26r74 90|26r48
-. 56r55 58r16 86r14
+12A9*Known_Vehicles_Type(49|12R9)<integer> 18r27 21r52 23r57 25r76 92|9r52
+. 43r57 45r18 79r14
+13A9*Known_Globes_Type(49|6R9)<integer> 17r25 22r48 24r57 26r74 92|27r48
+. 57r57 59r16 92r14
 14R9*Inter_Vehicle_Messages 19e14 21r88 22r82 25r45 26r43 27r43 28r41 29r72
-. 90|8r88 26r82 72r17 85r17 98r17 111r17 120r72
-15i10*Globes_Size{integer} 90|31m20 31r45 32r44 117r22
-16i10*Vehicles_Size{integer} 90|14m23 14r50 15r49 103r22
-17a10*Known_Globes{13A9} 90|32m20 90r22
-18a10*Known_Vehicles{12A9} 90|15m23 77r22 123r26
-21U14*Add_Vehicle 21>27 21>41 21^73 90|8b14 20l8 20t19
-21i27 VS{integer} 90|8b27 17r28
-21a41 Vehicles{12A9} 90|8b41 12r16
-21p73 Local(14R9) 90|8b73 13r53 14r13 14r40 15r13 15r39
-22U14*Add_Globe 22>25 22>39 22^67 90|26b14 36l8 36t17
-22i25 GS{integer} 90|26b25 33r28
-22a39 Globes{13A9} 90|26b39 30r16
-22p67 Local(14R9) 90|26b67 31r10 31r35 32r10 32r34
-23V13*Init_Vehicle{12A9} 23>27 90|42b13 50l8 50t20
-23i27 Vehicle_ID{positive} 90|42b27 47r34
-24V13*Init_Globe{13A9} 24>25 90|56b13 65l8 65t18
-24a25 Globe{48|36A9} 90|56b25 62r27
-25V13*Read_Vehicles_Record{12A9} 25>35 90|71b13 78l8 78t28
-25r35 Records{14R9} 90|72b7 77r14
-26V13*Read_Globes_Record{13A9} 26>33 90|84b13 91l8 91t26
-26r33 Records{14R9} 90|85b7 90r14
-27V13*Read_Vehicles_Size{integer} 27>33 90|97b13 104l8 104t26
-27r33 Records{14R9} 90|98b7 103r14
-28V13*Read_Globes_Size{integer} 28>31 90|110b13 118l8 118t24
-28r31 Records{14R9} 90|111b7 117r14
-29V13*IsVehicleIn{boolean} 29>26 29^57 90|13s17 120b13 129l8 129t19
-29r26 Vehicle{47|11R9} 90|13r30 120b26 124r28
-29p57 Local(14R9) 90|13r44 120b57 123r16
-X 90 vehicle_message_type.adb
-9i7 Index{integer} 17r20 18m10 18r19
-12r11 v=12:16{47|11R9} 13r41 15r67
-27i7 Index{integer} 33r20 34m10 34r19
-30r11 g=30:16{47|6R9} 32r60
-43i7 TheTime{2|44I9} 48r35
-44a7 Vehicles{89|12A9} 47m7 48m7 49r14
-57i7 TheTime{2|44I9} 63r36
-58a7 Globes{89|13A9} 62m7 63m7 64r14
-123r11 v=123:11{47|11R9} 124r13
+. 92|9r88 27r82 78r17 91r17 104r17 117r17 126r72
+15i10*Globes_Size{integer} 92|32m20 32r45 33r44 123r22
+16i10*Vehicles_Size{integer} 92|15m23 15r50 16r49 109r22
+17a10*Known_Globes{13A9} 92|33m20 96r22
+18a10*Known_Vehicles{12A9} 92|16m23 83r22 129r26
+21U14*Add_Vehicle 21>27 21>41 21^73 92|9b14 21l8 21t19
+21i27 VS{integer} 92|9b27 18r28
+21a41 Vehicles{12A9} 92|9b41 13r16
+21p73 Local(14R9) 92|9b73 14r53 15r13 15r40 16r13 16r39
+22U14*Add_Globe 22>25 22>39 22^67 92|27b14 37l8 37t17
+22i25 GS{integer} 92|27b25 34r28
+22a39 Globes{13A9} 92|27b39 31r16
+22p67 Local(14R9) 92|27b67 32r10 32r35 33r10 33r34
+23V13*Init_Vehicle{12A9} 23>27 92|43b13 51l8 51t20
+23i27 Vehicle_ID{positive} 92|43b27 48r34
+24V13*Update_Globe{13A9} 24>27 92|57b13 71l8 71t20
+24a27 Globe{50|36A9} 92|57b27 64r16
+25V13*Read_Vehicles_Record{12A9} 25>35 92|77b13 84l8 84t28
+25r35 Records{14R9} 92|78b7 83r14
+26V13*Read_Globes_Record{13A9} 26>33 92|90b13 97l8 97t26
+26r33 Records{14R9} 92|91b7 96r14
+27V13*Read_Vehicles_Size{integer} 27>33 92|103b13 110l8 110t26
+27r33 Records{14R9} 92|104b7 109r14
+28V13*Read_Globes_Size{integer} 28>31 92|116b13 124l8 124t24
+28r31 Records{14R9} 92|117b7 123r14
+29V13*IsVehicleIn{boolean} 29>26 29^57 92|14s17 126b13 135l8 135t19
+29r26 Vehicle{49|12R9} 92|14r30 126b26 130r28
+29p57 Local(14R9) 92|14r44 126b57 129r16
+X 92 vehicle_message_type.adb
+10i7 Index{integer} 18r20 19m10 19r19
+13r11 v=13:16{49|12R9} 14r41 16r67
+28i7 Index{integer} 34r20 35m10 35r19
+31r11 g=31:16{49|6R9} 33r60
+44i7 TheTime{2|44I9} 49r35
+45a7 Vehicles{91|12A9} 48m7 49m7 50r14
+58i7 TheTime{2|44I9} 65r43
+59a7 Globes{91|13A9} 65m10 66m10 67m10 70r14
+60i7 Index{integer} 65r18 66r18 67r18 68m10 68r19
+64r11 g=64:16{50|31R9} 66r43 67r43
+129r11 v=129:11{49|12R9} 130r13
 

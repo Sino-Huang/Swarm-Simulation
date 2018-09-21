@@ -88,7 +88,7 @@ RV NO_DELAY
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U shared_message_structure%s  shared_message_structure.ads  d1f38d6c DE NE OO PK
+U shared_message_structure%s  shared_message_structure.ads  c2a9893f DE NE OO PK
 W ada%s			ada.ads			ada.ali
 W ada.calendar%s	a-calend.adb		a-calend.ali
 W swarm_structures_base%s  swarm_structures_base.ads  swarm_structures_base.ali
@@ -139,7 +139,7 @@ D matrices.ads		20180921055726 85f7982e matrices%s
 D quaternions.ads	20180921055726 9d9d58c2 quaternions%s
 D real_type.ads		20180921055726 cdd2e5cc real_type%s
 D rotations.ads		20180921055726 3eeded66 rotations%s
-D shared_message_structure.ads  20180921074154 ee7109f3 shared_message_structure%s
+D shared_message_structure.ads  20180921091448 fd2b0da0 shared_message_structure%s
 D swarm_structures_base.ads  20180921055727 12dd854b swarm_structures_base%s
 D system.ads		20170516105953 6326c08a system%s
 D s-atacco.ads		20170516105954 4c36d12f system.address_to_access_conversions%s
@@ -187,7 +187,7 @@ X 1 ada.ads
 16K9*Ada 20e8 47|2r6 2r37
 X 2 a-calend.ads
 36K13*Calendar 395e17 47|2w10 2r41
-44I9*Time<213I9> 47|8r24 13r21
+44I9*Time<213I9> 47|9r24 14r21
 213I9 Time_Rep<long_long_integer>
 X 7 a-cohama.ads
 53R9*Map<10|43R9>
@@ -195,19 +195,26 @@ X 12 a-iteint.ads
 24h9 Forward_Iterator
 X 29 gl-buffer-general.ads
 14R9 base_Object<28|20R9>
+X 38 graphics_structures.ads
+32A12*Point_3D{86|14A12}<86|10E9>
 X 47 shared_message_structure.ads
-3K9*Shared_Message_Structure 15l5 15e29
-4A12*Completed_Energy_Globes{48|36A9}<integer> 7r15
-6R9*Globe_Info_Record 9e14
-7a7*Globe{4A12}
-8i7*LastUpdateTime{2|44I9}
-11R9*Vehicle_Info_Record 14e14
-12i7*Vehicle_ID{positive}
-13i7*LastMetTime{2|44I9}
+3K9*Shared_Message_Structure 16l5 16e29
+6R9*Globe_Info_Record 10e14
+7a7*Globe_Position{48|15A12}
+8a7*Globe_Velocity{48|16A12}
+9i7*LastUpdateTime{2|44I9}
+12R9*Vehicle_Info_Record 15e14
+13i7*Vehicle_ID{positive}
+14i7*LastMetTime{2|44I9}
 X 48 swarm_structures_base.ads
 10K9*Swarm_Structures_Base 47|1w6 1r37 48|48e26
-36A9*Energy_Globes(31R9)<integer> 47|4r39
+15A12*Positions{38|32A12}<86|10E9> 47|7r24
+16A12*Velocities{86|14A12}<86|10E9> 47|8r24
 X 68 s-stausa.ads
 203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
 268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 86 vectors_3d.ads
+14A12*Vector_3D{87|10A9[12]}<10E9>
+X 87 vectors_xd.ads
+10A9*Vector_xD(long_float)<86|10E9>
 

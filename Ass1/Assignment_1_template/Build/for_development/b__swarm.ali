@@ -19,20 +19,20 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_OBSOLESCENT_FEATURES
 RV SPARK_05
 
-U ada_main%b		b__swarm.adb		83b89e43 NE OO PK IL
+U ada_main%b		b__swarm.adb		3e18ed70 NE OO PK IL
 W ada%s			ada.ads			ada.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
 W system%s		system.ads		system.ali
 W system.restrictions%s	s-restri.adb		s-restri.ali
 
-U ada_main%s		b__swarm.ads		7d53f805 EE NE OO PK IL
+U ada_main%s		b__swarm.ads		a11956ee EE NE OO PK IL
 W system%s		system.ads		system.ali
 
 D ada.ads		20170516105951 76789da1 ada%s
 D a-except.ads		20170516105953 291912d5 ada.exceptions%s
 D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
-D b__swarm.ads		20180921085325 1e75388f ada_main%s
-D b__swarm.adb		20180921085325 af49b26b ada_main%b
+D b__swarm.ads		20180921100409 c23f9664 ada_main%s
+D b__swarm.adb		20180921100409 cea36fb3 ada_main%b
 D system.ads		20170516105953 6326c08a system%s
 D s-parame.ads		20170516105955 7e2a0d7f system.parameters%s
 D s-restri.ads		20170516105952 1b9d0672 system.restrictions%s
@@ -622,7 +622,7 @@ X 5 b__swarm.adb
 110i4 E380{short_integer} 110m46 110r46 614m7 614r15
 111i4 E378{short_integer} 111m46 111r46 616m7 616r15
 112i4 E400{short_integer} 112m46 112r46 617m7 617r15
-113i4 E403{short_integer} 113m46 113r46 627m7 627r15
+113i4 E406{short_integer} 113m46 113r46 627m7 627r15
 114i4 E411{short_integer} 114m46 114r46 128m7 128r15 625m7 625r15
 115i4 E394{short_integer} 115m46 115r46 143m7 143r15 620m7 620r15
 116i4 E392{short_integer} 116m46 116r46 140m10 140r18 622m7 622r15

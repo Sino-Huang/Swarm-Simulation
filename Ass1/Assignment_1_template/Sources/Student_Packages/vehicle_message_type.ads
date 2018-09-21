@@ -21,7 +21,7 @@ package Vehicle_Message_Type is
    procedure Add_Vehicle (VS : Integer; Vehicles : Known_Vehicles_Type; Local : access Inter_Vehicle_Messages);
    procedure Add_Globe (GS : Integer; Globes : Known_Globes_Type; Local : access Inter_Vehicle_Messages);
    function Init_Vehicle (Vehicle_ID : Positive) return Known_Vehicles_Type;
-   function Init_Globe (Globe : Energy_Globes) return Known_Globes_Type;
+   function Update_Globe (Globe : Energy_Globes) return Known_Globes_Type;
    function Read_Vehicles_Record (Records : Inter_Vehicle_Messages) return Known_Vehicles_Type;
    function Read_Globes_Record (Records : Inter_Vehicle_Messages) return Known_Globes_Type;
    function Read_Vehicles_Size (Records : Inter_Vehicle_Messages) return Integer;

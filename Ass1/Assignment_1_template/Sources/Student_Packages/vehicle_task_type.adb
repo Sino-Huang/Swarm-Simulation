@@ -1,4 +1,5 @@
 -- Suggestions for packages which might be useful:
+with Real_Type; use Real_Type;
 
 --  with Ada.Real_Time;
 with Ada.Calendar;               use Ada.Calendar;
@@ -7,7 +8,7 @@ with Exceptions;                 use Exceptions;
 --  with Real_Type;                  use Real_Type;
 --  with Generic_Sliding_Statistics;
 --  with Rotations;                  use Rotations;
---  with Vectors_3D;                 use Vectors_3D;
+with Vectors_3D;                 use Vectors_3D;
 with Vehicle_Interface;          use Vehicle_Interface;
 with Swarm_Structures;           use Swarm_Structures;
 --  with Ada.Text_IO; use Ada.Text_IO;
@@ -26,6 +27,7 @@ package body Vehicle_Task_Type is
       Temp_Remote_Storage : Inter_Vehicle_Messages;
       Vehicle_Behaviour : Vehicle_Behaviour_Type := Idle; -- state and init the vehicle behaviour
       Whether_Init_Globe : Boolean := False;
+      Whether_Updated : Boolean := False;
 
    begin
 
@@ -39,7 +41,6 @@ package body Vehicle_Task_Type is
             Vehicle_No     := Set_Vehicle_No;
             Local_Task_Id  := Current_Task;
             -- initiate Local_Storage in this section
-
             Local_Storage.Globes_Size := 0;
             Local_Storage.Vehicles_Size := 1;
             Local_Storage.Known_Vehicles := Init_Vehicle (Vehicle_ID => Vehicle_No);
@@ -67,21 +68,33 @@ package body Vehicle_Task_Type is
             -- find Globes
             declare
                Temp_Globes : constant Energy_Globes := Energy_Globes_Around;
+               Start_Up_Time : constant Time := Clock;
             begin
-               if not (Temp_Globes'Size = 0) and then not (Whether_Init_Globe) then
+               if not (Temp_Globes'Size = 0)then
                   Local_Storage.Globes_Size := 1;
-                  --Local_Storage.Known_Globes(1).Globe := Temp_Globes;
-                  Local_Storage.Known_Globes(1).LastUpdateTime := Clock;
-                  Whether_Init_Globe := True;
-                  Put_Line ("Find Globes");
+                  Local_Storage.Known_Globes := Update_Globe(Globe    => Temp_Globes);
+                  Local_Storage.Globes_Size := Temp_Globes'Length;
+                  Whether_Updated := True;
+                  if not Whether_Init_Globe then
+                     Whether_Init_Globe := True; -- update the flag
+                  end if;
+               end if;
+               -- Set new destination
+               if Whether_Updated then
+                  -- Real (Long_Float (Clock - Start_Up_Time))
+                  Set_Destination (V => Local_Storage.Known_Globes (1).Globe_Position +  Real (0) * Local_Storage.Known_Globes (1).Globe_Velocity);
+
+                  Whether_Updated := False;
                end if;
             end;
+            -----
 
+            -----
 
             --
-            Send(Message => Local_Storage);
+            Send (Message => Local_Storage);
             if Messages_Waiting then
-               Receive(Message => Temp_Remote_Storage);
+               Receive (Message => Temp_Remote_Storage);
             end if;
 
          end loop Outer_task_loop;
