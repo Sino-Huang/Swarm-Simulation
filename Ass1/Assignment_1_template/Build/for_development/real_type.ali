@@ -1,4 +1,4 @@
-V "GNAT Lib v2017"
+V "GNAT Lib v7"
 A -gnatA
 A -g
 A -gnatVa
@@ -90,7 +90,7 @@ RV NO_STANDARD_STORAGE_POOLS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U real_type%s		real_type.ads		b3a16c8c DE NE OO PK
+U real_type%s		real_type.ads		752f2e8a DE NE OO PK
 W ada%s			ada.ads			ada.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
 W ada.numerics%s	a-numeri.ads		a-numeri.ali
@@ -100,29 +100,29 @@ W system.assertions%s	s-assert.adb		s-assert.ali
 W system.exn_llf%s	s-exnllf.adb		s-exnllf.ali
 W system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
 
-D ada.ads		20170516105951 76789da1 ada%s
-D a-except.ads		20170516105953 291912d5 ada.exceptions%s
-D a-numeri.ads		20170516105951 bb51c45a ada.numerics%s
-D a-numaux.ads		20170516105954 243fe0b7 ada.numerics.aux%s
-D a-ngelfu.ads		20170516105954 7e738940 ada.numerics.generic_elementary_functions%s
-D a-ngelfu.adb		20170516105952 a9022048 ada.numerics.generic_elementary_functions%b
-D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
-D real_type.ads		20180921055726 cdd2e5cc real_type%s
-D system.ads		20170516105953 6326c08a system%s
-D s-assert.ads		20170516105954 cd8d2c94 system.assertions%s
-D s-exctab.ads		20170516105954 54135002 system.exception_table%s
-D s-exnllf.ads		20170516105955 bc7ebbdc system.exn_llf%s
-D s-fatgen.ads		20170516105956 49cbaf86 system.fat_gen%s
-D s-fatlfl.ads		20170516105952 378cba9f system.fat_lflt%s
-D s-parame.ads		20170516105955 7e2a0d7f system.parameters%s
-D s-stalib.ads		20170516105955 09bd3940 system.standard_library%s
-D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D ada.ads		20170106103348 76789da1 ada%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-numeri.ads		20080324174807 bb51c45a ada.numerics%s
+D a-numaux.ads		20140801094828 243fe0b7 ada.numerics.aux%s
+D a-ngelfu.ads		20151016131424 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-ngelfu.adb		20151020124036 5e96a931 ada.numerics.generic_elementary_functions%b
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D real_type.ads		20180916130930 cdd2e5cc real_type%s
+D system.ads		20170510173650 4635ec04 system%s
+D s-assert.ads		20140225151544 cd8d2c94 system.assertions%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-exnllf.ads		20150526102925 bc7ebbdc system.exn_llf%s
+D s-fatgen.ads		20150107111315 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20090409150019 378cba9f system.fat_lflt%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
 X 1 ada.ads
 16K9*Ada 20e8 8|1r6 8r10
 X 3 a-numeri.ads
 16K13*Numerics 32e17 8|1r10 8r14
 X 5 a-ngelfu.ads
-39k22*Generic_Elementary_Functions 172e46 8|1w19 8r23
+39k22*Generic_Elementary_Functions 170e46 8|1w19 8r23
 X 8 real_type.ads
 3K9*Real_Type 10l5 10e14
 5F12*Real{long_float} 8r53

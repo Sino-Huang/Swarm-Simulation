@@ -1,0 +1,3 @@
+vehicle_task_group.adb:39:73: warning: formal parameter "Globe" is not referenced
+vehicle_task_group.adb:39:81: (style) "in" should be omitted
+vehicle_task_group.adb:39:103: warning: formal parameter "GS" is not referenced

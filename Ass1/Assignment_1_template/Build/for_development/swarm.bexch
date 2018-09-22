@@ -1,102 +1,105 @@
 [GENERATED OBJECT FILE]
 b__swarm.o
 [PROJECT FILES]
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr
-20180921055728
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/swarm_linux.gpr
+20180916130930
 [BOUND OBJECT FILES]
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/barrier_type.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/bzip2.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/exceptions.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/generic_protected.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/generic_realtime_buffer.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl-extended.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl-buffer.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl-io.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl-materials.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl-math.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl-geometry.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl-frustums.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/glu.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl-errors.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl-buffer-general.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl-textures.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl-buffer-texture_coords.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl-skins.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl-skinned_geometry.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/glut.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/glut_2d.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/real_type.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/generic_sliding_statistics.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/graphics_framerates.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/matrices.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/quaternions.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/screenshots.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vectors_xd.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vectors_2d.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vectors_3d.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/rotations.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vectors_3d_lf.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vectors_4d.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vectors_xd_i.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vectors_2d_i.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vectors_2d_n.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vectors_2d_p.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vectors_conversions.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vehicle_behaviour.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/zip_streams.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/zip-headers.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/zip.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/zip-crc.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/unzip-decompress-huffman.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/unzip.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/unzip-decompress.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/unzip-streams.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/globe_3d-options.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/globe_3d-math.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/globe_3d-textures.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/globe_3d.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/globe_3d-portals.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/globe_3d-software_anti_aliasing.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/globe_3d-stars_sky.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/game_control.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/actors.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/glut-windows.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/glut-devices.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/graphics_structures.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/graphics_configuration.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/keyboard.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/spaceship_p.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/sphere_p.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/models.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/graphics_data.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/graphics_setup.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/graphics_opengl.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/swarm_structures_base.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/shared_message_structure.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/swarm_configurations.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/swarm_configuration.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vehicle_message_type.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/swarm_structures.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/swarm_data.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/swarm_control.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vehicle_interface.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vehicle_task_type.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/swarm_control_concurrent_generic.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/callback_procedures.o
-/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/swarm.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/barrier_type.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/bzip2.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/exceptions.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/generic_protected.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/generic_realtime_buffer.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl-extended.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl-buffer.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl-io.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl-materials.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl-math.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl-geometry.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl-frustums.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/glu.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl-errors.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl-buffer-general.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl-textures.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl-buffer-texture_coords.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl-skins.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/gl-skinned_geometry.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/glut.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/glut_2d.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/real_type.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/generic_sliding_statistics.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/graphics_framerates.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/matrices.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/quaternions.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/screenshots.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vectors_xd.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vectors_2d.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vectors_3d.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/rotations.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vectors_3d_lf.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vectors_4d.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vectors_xd_i.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vectors_2d_i.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vectors_2d_n.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vectors_2d_p.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vectors_conversions.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vehicle_behaviour.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/zip_streams.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/zip-headers.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/zip.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/zip-crc.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/unzip-decompress-huffman.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/unzip.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/unzip-decompress.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/unzip-streams.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/globe_3d-options.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/globe_3d-math.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/globe_3d-textures.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/globe_3d.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/globe_3d-portals.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/globe_3d-software_anti_aliasing.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/globe_3d-stars_sky.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/game_control.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/actors.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/glut-windows.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/glut-devices.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/graphics_structures.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/graphics_configuration.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/keyboard.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/spaceship_p.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/sphere_p.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/models.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/graphics_data.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/graphics_setup.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/graphics_opengl.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/swarm_structures_base.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/shared_message_structure.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/swarm_configurations.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/swarm_configuration.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vehicle_message_type.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vehicle_protected_message_queue.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/swarm_structures.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/swarm_data.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/swarm_control.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vehicle_interface.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vehicle_task_type.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/swarm_control_concurrent_generic.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/callback_procedures.o
+/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/swarm.o
 [GENERATED SOURCE FILES]
 b__swarm.ads
 b__swarm.adb
 b__swarm.ali
 [RESULTING OPTIONS]
--L/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/
--L/students/u6492211/Documents/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/
--L/lab/usr/local/gnat/lib/gcc/x86_64-pc-linux-gnu/6.3.1/adalib/
--static
--static-libgcc
-/lab/usr/local/gnat/lib/gcc/x86_64-pc-linux-gnu/6.3.1/adalib/libgnarl.a
-/lab/usr/local/gnat/lib/gcc/x86_64-pc-linux-gnu/6.3.1/adalib/libgnat.a
+-L/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/
+-L/media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/
+-L/usr/lib/gcc/x86_64-linux-gnu/7/adalib/
+-shared
+-shared-libgcc
+-lgnarl-7
+-lgnat-7
 -lpthread
 -lrt
--ldl
+[RUN PATH OPTION]
+/usr/lib/gcc/x86_64-linux-gnu/7/adalib/
+/usr/lib

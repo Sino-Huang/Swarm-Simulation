@@ -1,4 +1,4 @@
-V "GNAT Lib v2017"
+V "GNAT Lib v7"
 A -gnatA
 A -g
 A -gnatVa
@@ -78,212 +78,189 @@ A -gnatE
 A -fstack-check=specific
 A -fno-strict-aliasing
 A -gnato
+A -gnatc
 A -mtune=generic
 A -march=x86-64
-P SS ZX
+P NO FX
 
 RN
 RV NO_CALENDAR
 RV NO_DELAY
-RV NO_STANDARD_STORAGE_POOLS
 RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U vehicle_message_type%b  vehicle_message_type.adb  e8c95496 DE NE OO PK
+U vehicle_message_type%b  vehicle_message_type.adb  c991d878 DE NE OO PK
+
+U vehicle_message_type%s  vehicle_message_type.ads  1b79a64b DE EE NE OO PK
 W ada%s			ada.ads			ada.ali
 W ada.calendar%s	a-calend.adb		a-calend.ali
-W ada.tags%s		a-tags.adb		a-tags.ali
-W gnat%s		gnat.ads		gnat.ali
-W gnat.io%s		g-io.adb		g-io.ali
-W interfaces%s		interfac.ads		interfac.ali
-
-U vehicle_message_type%s  vehicle_message_type.ads  0360a514 DE EE NE OO PK
 W shared_message_structure%s  shared_message_structure.ads  shared_message_structure.ali
 W swarm_structures_base%s  swarm_structures_base.ads  swarm_structures_base.ali
 
-D ada.ads		20170516105951 76789da1 ada%s
-D a-calend.ads		20170516105954 2d5f01d4 ada.calendar%s
-D a-charac.ads		20170516105954 2d3ec45b ada.characters%s
-D a-chlat1.ads		20170516105952 66457d31 ada.characters.latin_1%s
-D a-contai.ads		20170516105950 61e5e089 ada.containers%s
-D a-cohata.ads		20170516105956 80a8c839 ada.containers.hash_tables%s
-D a-cohama.ads		20170516105952 8205bf40 ada.containers.hashed_maps%s
-D a-conhel.ads		20170516105951 20298884 ada.containers.helpers%s
-D a-except.ads		20170516105953 291912d5 ada.exceptions%s
-D a-finali.ads		20170516105954 bf4f806b ada.finalization%s
-D a-ioexce.ads		20170516105949 e4a01f64 ada.io_exceptions%s
-D a-iteint.ads		20170516105952 7c7305e9 ada.iterator_interfaces%s
-D a-numeri.ads		20170516105951 bb51c45a ada.numerics%s
-D a-ngelfu.ads		20170516105954 7e738940 ada.numerics.generic_elementary_functions%s
-D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
-D a-ststio.ads		20170516105953 c3455b31 ada.streams.stream_io%s
-D a-string.ads		20170516105953 90ac6797 ada.strings%s
-D a-strmap.ads		20170516105953 e8bb714a ada.strings.maps%s
-D a-strunb.ads		20170516105950 ecdfa332 ada.strings.unbounded%s
-D a-stunha.ads		20170516105952 115e053b ada.strings.unbounded.hash%s
-D a-tags.ads		20170516105955 d3a89129 ada.tags%s
-D a-textio.ads		20170516105955 386df5d4 ada.text_io%s
-D a-tiflio.ads		20170516105949 56fbda09 ada.text_io.float_io%s
-D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
-D a-uncdea.ads		20170516105954 f15a5ed1 ada.unchecked_deallocation%s
-D generic_protected.ads	20180921055725 3536765d generic_protected%s
-D gl.ads		20180921055727 28e5b432 gl%s
-D gl-buffer.ads		20180921055724 d412d3a2 gl.buffer%s
-D gl-buffer-general.ads	20180921055723 8ae6eb44 gl.buffer.general%s
-D gl-buffer-texture_coords.ads  20180921055723 e6b92a39 gl.buffer.texture_coords%s
-D gl-frustums.ads	20180921055724 3d23f8e0 gl.frustums%s
-D gl-geometry.ads	20180921055724 398a5530 gl.geometry%s
-D gl-materials.ads	20180921055724 4d170091 gl.materials%s
-D gl-skinned_geometry.ads  20180921055724 0d393283 gl.skinned_geometry%s
-D gl-skins.ads		20180921055724 f0134d84 gl.skins%s
-D gl-textures.ads	20180921055724 6f569eb0 gl.textures%s
-D globe_3d.ads		20180921055724 4b81e8db globe_3d%s
-D gnat.ads		20170516105956 fd2ad2f1 gnat%s
-D g-io.ads		20170516105950 9f0d3ab2 gnat.io%s
-D graphics_structures.ads  20180921055725 168856d0 graphics_structures%s
-D interfac.ads		20170516105950 5ab55268 interfaces%s
-D i-c.ads		20170516105948 5421119b interfaces.c%s
-D i-cpoint.ads		20170516105956 ee8a93ec interfaces.c.pointers%s
-D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
-D matrices.ads		20180921055726 85f7982e matrices%s
-D quaternions.ads	20180921055726 9d9d58c2 quaternions%s
-D real_type.ads		20180921055726 cdd2e5cc real_type%s
-D rotations.ads		20180921055726 3eeded66 rotations%s
-D shared_message_structure.ads  20180921091448 fd2b0da0 shared_message_structure%s
-D swarm_structures_base.ads  20180921055727 12dd854b swarm_structures_base%s
-D system.ads		20170516105953 6326c08a system%s
-D s-atacco.ads		20170516105954 4c36d12f system.address_to_access_conversions%s
-D s-atocou.ads		20170516105956 b45c2d8d system.atomic_counters%s
-D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
-D s-exctab.ads		20170516105954 54135002 system.exception_table%s
-D s-fatgen.ads		20170516105956 49cbaf86 system.fat_gen%s
-D s-fatlfl.ads		20170516105952 378cba9f system.fat_lflt%s
-D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
-D s-finmas.ads		20170516105954 7811a767 system.finalization_masters%s
-D s-finroo.ads		20170516105954 4ff27390 system.finalization_root%s
-D s-linux.ads		20170516105951 2fda6ad1 system.linux%s
-D s-multip.ads		20170516105948 38ac9f73 system.multiprocessors%s
-D s-oscons.ads		20170516140513 5c5bfdaa system.os_constants%s
-D s-osinte.ads		20170516105949 e671c01a system.os_interface%s
-D s-parame.ads		20170516105955 7e2a0d7f system.parameters%s
-D s-pooglo.ads		20170516105948 ede33ef8 system.pool_global%s
-D s-secsta.ads		20170516105955 9751b57e system.secondary_stack%s
-D s-soflin.ads		20170516105951 14e1eb6c system.soft_links%s
-D s-stache.ads		20170516105955 a37c21ec system.stack_checking%s
-D s-stausa.ads		20170516105954 017a0a05 system.stack_usage%s
-D s-stalib.ads		20170516105955 09bd3940 system.standard_library%s
-D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
-D s-stoele.adb		20170516105954 ed88f8fb system.storage_elements%b
-D s-stopoo.ads		20170516105951 b16154c2 system.storage_pools%s
-D s-stposu.ads		20170516105949 97a6219c system.storage_pools.subpools%s
-D s-stratt.ads		20170516105949 aedef97e system.stream_attributes%s
-D s-string.ads		20170516105954 8fe54fb7 system.strings%s
-D s-ststop.ads		20170516105950 e6693757 system.strings.stream_ops%s
-D s-tasinf.ads		20170516105952 2b3f8252 system.task_info%s
-D s-taspri.ads		20170516105950 f40ac08d system.task_primitives%s
-D s-taskin.ads		20170516105956 05d6152c system.tasking%s
-D s-taprob.ads		20170516105950 acd6094d system.tasking.protected_objects%s
-D s-tpoben.ads		20170516105956 60ad3dae system.tasking.protected_objects.entries%s
-D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
-D s-unstyp.ads		20170516105953 34867c83 system.unsigned_types%s
-D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
-D vectors_2d_n.ads	20180921055726 27f53fc0 vectors_2d_n%s
-D vectors_3d.ads	20180921055726 121733f3 vectors_3d%s
-D vectors_xd.ads	20180921055726 4c943a4c vectors_xd%s
-D vectors_xd_i.ads	20180921055726 32b570f3 vectors_xd_i%s
-D vehicle_message_type.ads  20180921095100 ec962dff vehicle_message_type%s
-D vehicle_message_type.adb  20180921095100 b60d420f vehicle_message_type%b
-D zip.ads		20180921055725 6e4a4be8 zip%s
-D zip_streams.ads	20180921055725 088b1cbe zip_streams%s
+D ada.ads		20170106103348 76789da1 ada%s
+D a-calend.ads		20160420090448 2d5f01d4 ada.calendar%s
+D a-charac.ads		20070912115821 2d3ec45b ada.characters%s
+D a-chlat1.ads		20140225151544 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20151020122137 61e5e089 ada.containers%s
+D a-cohata.ads		20151020102346 80a8c839 ada.containers.hash_tables%s
+D a-cohama.ads		20151023123735 5b9a95f7 ada.containers.hashed_maps%s
+D a-conhel.ads		20160420102926 20298884 ada.containers.helpers%s
+D a-finali.ads		20151020095656 bf4f806b ada.finalization%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20110906092602 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20080324174807 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20151016131424 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-ststio.ads		20120709130952 c3455b31 ada.streams.stream_io%s
+D a-string.ads		20070406091342 90ac6797 ada.strings%s
+D a-strmap.ads		20140611123156 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20161012122725 ecdfa332 ada.strings.unbounded%s
+D a-stunha.ads		20070406091342 115e053b ada.strings.unbounded.hash%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiflio.ads		20140717063513 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D a-uncdea.ads		20070406091342 f15a5ed1 ada.unchecked_deallocation%s
+D generic_protected.ads	20180916130930 3536765d generic_protected%s
+D gl.ads		20180916130930 28e5b432 gl%s
+D gl-buffer.ads		20180916130930 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20180916130930 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20180916130930 e6b92a39 gl.buffer.texture_coords%s
+D gl-frustums.ads	20180916130930 3d23f8e0 gl.frustums%s
+D gl-geometry.ads	20180916130930 398a5530 gl.geometry%s
+D gl-materials.ads	20180916130930 4d170091 gl.materials%s
+D gl-skinned_geometry.ads  20180916130930 0d393283 gl.skinned_geometry%s
+D gl-skins.ads		20180916130930 f0134d84 gl.skins%s
+D gl-textures.ads	20180916130930 6f569eb0 gl.textures%s
+D globe_3d.ads		20180916130930 4b81e8db globe_3d%s
+D graphics_structures.ads  20180916130930 168856d0 graphics_structures%s
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-c.ads		20110801143639 5421119b interfaces.c%s
+D i-cpoint.ads		20130104124955 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D matrices.ads		20180916130930 85f7982e matrices%s
+D quaternions.ads	20180916130930 9d9d58c2 quaternions%s
+D real_type.ads		20180916130930 cdd2e5cc real_type%s
+D rotations.ads		20180916130930 3eeded66 rotations%s
+D shared_message_structure.ads  20180922083805 fd2b0da0 shared_message_structure%s
+D swarm_structures_base.ads  20180916130930 12dd854b swarm_structures_base%s
+D system.ads		20170510173650 4635ec04 system%s
+D s-atacco.ads		20120515093410 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20151020101020 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-finroo.ads		20120426095924 4ff27390 system.finalization_root%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+D vectors_2d_n.ads	20180916130930 27f53fc0 vectors_2d_n%s
+D vectors_3d.ads	20180916130930 121733f3 vectors_3d%s
+D vectors_xd.ads	20180916130930 4c943a4c vectors_xd%s
+D vectors_xd_i.ads	20180916130930 32b570f3 vectors_xd_i%s
+D vehicle_message_type.ads  20180922133125 d9d02f74 vehicle_message_type%s
+D vehicle_message_type.adb  20180922133128 1041f70c vehicle_message_type%b
+D zip.ads		20180916130930 6e4a4be8 zip%s
+D zip_streams.ads	20180916130930 088b1cbe zip_streams%s
 X 1 ada.ads
-16K9*Ada 20e8 92|1r6 1r33
+16K9*Ada 20e8 60|4r6 4r24
 X 2 a-calend.ads
-36K13*Calendar 395e17 92|1w10 1r37
-44I9*Time<213I9> 92|44r26 58r26
-58V13*Clock{44I9} 92|44s34 58s34
+36K13*Calendar 395e17 60|4w10 4r28
+44I9*Time<213I9> 60|20r24 61|91r26 105r26
+58V13*Clock{44I9} 60|20s32 61|16s40 91s34 105s34
+111V14*"<"{boolean} 61|31s40 195s65
 213I9 Time_Rep<long_long_integer>
 X 7 a-cohama.ads
-53R9*Map<10|43R9>
-X 12 a-iteint.ads
+53R9*Map<9|43R9>
+X 11 a-iteint.ads
 24h9 Forward_Iterator
-X 29 gl-buffer-general.ads
-14R9 base_Object<28|20R9>
-X 38 gnat.ads
-34K9*GNAT 37e9 92|2r6 2r33
-X 39 g-io.ads
-41K14*IO 91e12 92|2w11 2r38
-X 40 graphics_structures.ads
-32A12*Point_3D{88|14A12}<88|10E9>
-X 49 shared_message_structure.ads
-3K9*Shared_Message_Structure 16e29 91|2w6 2r36
-6R9*Globe_Info_Record 10e14 91|13r70
-7a7*Globe_Position{50|15A12} 92|67m25
-8a7*Globe_Velocity{50|16A12} 92|66m25
-9i7*LastUpdateTime{2|44I9} 92|65m25
-12R9*Vehicle_Info_Record 15e14 91|12r72 29r36 92|126r36
-13i7*Vehicle_ID{positive} 92|48m20 130r15 130r36
-14i7*LastMetTime{2|44I9} 92|49m20
-X 50 swarm_structures_base.ads
-10K9*Swarm_Structures_Base 48e26 91|3w6 3r33
-15A12*Positions{40|32A12}<88|10E9>
-16A12*Velocities{88|14A12}<88|10E9>
-32a7*Position{15A12} 92|67r45
-33a7*Velocity{16A12} 92|66r45
-36A9*Energy_Globes(31R9)<integer> 91|24r35 92|57r35
-X 70 s-stausa.ads
-203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
-268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
-X 88 vectors_3d.ads
-14A12*Vector_3D{89|10A9[12]}<10E9>
-X 89 vectors_xd.ads
-10A9*Vector_xD(long_float)<88|10E9>
-X 91 vehicle_message_type.ads
-7K9*Vehicle_Message_Type 31l5 31e25 92|3b14 137l5 137t25
-9i4*Index_Max{integer} 12r58 13r56
-12A9*Known_Vehicles_Type(49|12R9)<integer> 18r27 21r52 23r57 25r76 92|9r52
-. 43r57 45r18 79r14
-13A9*Known_Globes_Type(49|6R9)<integer> 17r25 22r48 24r57 26r74 92|27r48
-. 57r57 59r16 92r14
-14R9*Inter_Vehicle_Messages 19e14 21r88 22r82 25r45 26r43 27r43 28r41 29r72
-. 92|9r88 27r82 78r17 91r17 104r17 117r17 126r72
-15i10*Globes_Size{integer} 92|32m20 32r45 33r44 123r22
-16i10*Vehicles_Size{integer} 92|15m23 15r50 16r49 109r22
-17a10*Known_Globes{13A9} 92|33m20 96r22
-18a10*Known_Vehicles{12A9} 92|16m23 83r22 129r26
-21U14*Add_Vehicle 21>27 21>41 21^73 92|9b14 21l8 21t19
-21i27 VS{integer} 92|9b27 18r28
-21a41 Vehicles{12A9} 92|9b41 13r16
-21p73 Local(14R9) 92|9b73 14r53 15r13 15r40 16r13 16r39
-22U14*Add_Globe 22>25 22>39 22^67 92|27b14 37l8 37t17
-22i25 GS{integer} 92|27b25 34r28
-22a39 Globes{13A9} 92|27b39 31r16
-22p67 Local(14R9) 92|27b67 32r10 32r35 33r10 33r34
-23V13*Init_Vehicle{12A9} 23>27 92|43b13 51l8 51t20
-23i27 Vehicle_ID{positive} 92|43b27 48r34
-24V13*Update_Globe{13A9} 24>27 92|57b13 71l8 71t20
-24a27 Globe{50|36A9} 92|57b27 64r16
-25V13*Read_Vehicles_Record{12A9} 25>35 92|77b13 84l8 84t28
-25r35 Records{14R9} 92|78b7 83r14
-26V13*Read_Globes_Record{13A9} 26>33 92|90b13 97l8 97t26
-26r33 Records{14R9} 92|91b7 96r14
-27V13*Read_Vehicles_Size{integer} 27>33 92|103b13 110l8 110t26
-27r33 Records{14R9} 92|104b7 109r14
-28V13*Read_Globes_Size{integer} 28>31 92|116b13 124l8 124t24
-28r31 Records{14R9} 92|117b7 123r14
-29V13*IsVehicleIn{boolean} 29>26 29^57 92|14s17 126b13 135l8 135t19
-29r26 Vehicle{49|12R9} 92|14r30 126b26 130r28
-29p57 Local(14R9) 92|14r44 126b57 129r16
-X 92 vehicle_message_type.adb
-10i7 Index{integer} 18r20 19m10 19r19
-13r11 v=13:16{49|12R9} 14r41 16r67
-28i7 Index{integer} 34r20 35m10 35r19
-31r11 g=31:16{49|6R9} 33r60
-44i7 TheTime{2|44I9} 49r35
-45a7 Vehicles{91|12A9} 48m7 49m7 50r14
-58i7 TheTime{2|44I9} 65r43
-59a7 Globes{91|13A9} 65m10 66m10 67m10 70r14
-60i7 Index{integer} 65r18 66r18 67r18 68m10 68r19
-64r11 g=64:16{50|31R9} 66r43 67r43
-129r11 v=129:11{49|12R9} 130r13
+X 27 gl-buffer-general.ads
+14R9 base_Object<26|20R9>
+X 36 graphics_structures.ads
+32A12*Point_3D{57|14A12}<57|10E9>
+X 45 shared_message_structure.ads
+3K9*Shared_Message_Structure 16e29 60|2w6 2r36
+6R9*Globe_Info_Record 10e14 60|14r70 61|185r32
+7a7*Globe_Position{46|15A12} 61|114m25
+8a7*Globe_Velocity{46|16A12} 61|113m25
+9i7*LastUpdateTime{2|44I9} 61|112m25 195r50 195r69
+12R9*Vehicle_Info_Record 15e14 60|13r72 34r36 61|173r36
+13i7*Vehicle_ID{positive} 61|15r24 15r40 29r24 29r40 95m20 177r15 177r36
+14i7*LastMetTime{2|44I9} 61|16m25 31r28 31r44 32m28 32r45 96m20
+X 46 swarm_structures_base.ads
+10K9*Swarm_Structures_Base 48e26 60|3w6 3r33
+15A12*Positions{36|32A12}<57|10E9>
+16A12*Velocities{57|14A12}<57|10E9>
+32a7*Position{15A12} 61|114r45
+33a7*Velocity{16A12} 61|113r45
+36A9*Energy_Globes(31R9)<integer> 60|25r35 61|104r35
+X 57 vectors_3d.ads
+14A12*Vector_3D{58|10A9[12]}<10E9>
+X 58 vectors_xd.ads
+10A9*Vector_xD(long_float)<57|10E9>
+X 60 vehicle_message_type.ads
+8K9*Vehicle_Message_Type 29E14 37l5 37e25 61|1b14 208l5 208t25
+10i4*Index_Max{integer} 13r58 14r56
+13A9*Known_Vehicles_Type(45|12R9)<integer> 19r24 24r57 29r52 30r76 61|7r52
+. 90r57 92r18 126r14
+14A9*Known_Globes_Type(45|6R9)<integer> 18r25 25r57 26r48 31r74 35r36 35r62
+. 61|52r48 104r57 106r16 139r14 184r36 184r62 187r16
+15R9*Inter_Vehicle_Messages 21e14 23r39 23r78 26r82 29r88 30r45 31r43 32r43
+. 33r41 34r65 61|7r88 52r82 76r39 76r78 125r17 138r17 151r17 164r17 173r65
+16i10*Globes_Size{integer} 61|57m19 57r40 58r39 60r22 61m22 78r35 170r22
+17i10*Vehicles_Size{integer} 61|21m22 21r45 22r44 38m25 38r48 39r47 81r39
+. 156r22
+18a10*Known_Globes{14A9} 61|58m19 62m22 62r68 79r34 143r22
+19a7*Known_Vehicles{13A9} 61|14r32 22m22 28r32 39m25 82r38 130r22 176r22
+20i7*Last_Edit_Time{2|44I9}
+23U14*Update_Message 23>30 23=63 61|76b14 84l8 84t22
+23r30 Remote{15R9} 61|76b30 78r28 79r27 81r32 82r31
+23r63 Local{15R9} 61|76b63 80m27 83m31
+24V13*Init_Vehicle{13A9} 24>27 61|90b13 98l8 98t20
+24i27 Vehicle_ID{positive} 61|90b27 95r34
+25V13*Update_Globe{14A9} 25>27 61|104b13 118l8 118t20
+25a27 Globe{46|36A9} 61|104b27 111r16
+26U14*Add_Globe 26>25 26>39 26=67 61|52b14 69l8 69t17 78s7
+26i25 GS{integer} 61|52b25 55r10 64r31 78r18
+26a39 Globes{14A9} 61|52b39 56r19 79r17
+26r67 Local{15R9} 61|52b67 57m13 57r34 58m13 58r33 60r16 61m16 62m16 62r62
+. 80r17
+29U14 Add_Vehicle 29>27 29>41 29=73 61|7b14 46l8 46t19 81s7
+29i27 VS{integer} 61|7b27 43r28 81r20
+29a41 Vehicles{13A9} 61|7b41 11r16 82r19
+29r73 Local{15R9} 61|7b73 13r54 14r26 21m16 21r39 22m16 22r38 28r26 38m19
+. 38r42 39m19 39r41 83r19
+30V13 Read_Vehicles_Record{13A9} 30>35 61|124b13 131l8 131t28
+30r35 Records{15R9} 61|125b7 130r14
+31V13 Read_Globes_Record{14A9} 31>33 61|137b13 144l8 144t26
+31r33 Records{15R9} 61|138b7 143r14
+32V13 Read_Vehicles_Size{integer} 32>33 61|150b13 157l8 157t26
+32r33 Records{15R9} 61|151b7 156r14
+33V13 Read_Globes_Size{integer} 33>31 61|163b13 171l8 171t24
+33r31 Records{15R9} 61|164b7 170r14
+34V13 IsVehicleIn{boolean} 34>26 34>57 61|13s16 173b13 182l8 182t19
+34r26 Vehicle{45|12R9} 61|13r29 173b26 177r28
+34r57 Local{15R9} 61|13r43 173b57 176r16
+35V13 RefreshGlobes{14A9} 35>28 61|62s38 184b13 206l8 206t21
+35a28 Globe{14A9} 61|62r53 184b28 190r24
+X 61 vehicle_message_type.adb
+8i7 Index{integer} 12r13 43r20 44m10 44r19
+11r11 v{45|12R9} 13r40 15r22 22r62 29r22 31r42 32r43 39r65
+14r20 vl{45|12R9} 15r37 16m22
+26b16 Flag{boolean} 30m22 37r19
+28r20 vl{45|12R9} 29r37 31r25 32m25
+53i7 Index{integer} 64r23 65m13 65r22
+56r14 g{45|6R9} 58r55
+91i7 TheTime{2|44I9} 96r35
+92a7 Vehicles{60|13A9} 95m7 96m7 97r14
+105i7 TheTime{2|44I9} 112r43
+106a7 Globes{60|14A9} 112m10 113m10 114m10 117r14
+107i7 Index{integer} 112r18 113r18 114r18 115m10 115r19
+111r11 g{46|31R9} 113r43 114r43
+176r11 v{45|12R9} 177r13
+185a7 Temp(45|6R9) 193m13 195r41 196m16 196r33 197m16 203r24
+186i7 Current_Size{integer} 191r13 192m13 192r29 193r23 194r16
+187a7 Output{60|14A9} 203m10 205r14
+190r11 g{45|6R9} 193r40 195r67 197r28
+195i26 i{integer} 195r47
+202i11 i{integer} 203r18 203r30
 

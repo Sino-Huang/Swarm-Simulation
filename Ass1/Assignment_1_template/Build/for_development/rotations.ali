@@ -1,4 +1,4 @@
-V "GNAT Lib v2017"
+V "GNAT Lib v7"
 A -gnatA
 A -g
 A -gnatVa
@@ -101,38 +101,38 @@ W real_type%s		real_type.ads		real_type.ali
 W system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
 W vectors_3d%s		vectors_3d.adb		vectors_3d.ali
 
-D ada.ads		20170516105951 76789da1 ada%s
-D a-numeri.ads		20170516105951 bb51c45a ada.numerics%s
-D a-ngelfu.ads		20170516105954 7e738940 ada.numerics.generic_elementary_functions%s
-D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
-D interfac.ads		20170516105950 5ab55268 interfaces%s
-D matrices.ads		20180921055726 85f7982e matrices%s
-D matrices.adb		20180921055726 e7eca62c matrices%b
-D quaternions.ads	20180921055726 9d9d58c2 quaternions%s
-D real_type.ads		20180921055726 cdd2e5cc real_type%s
-D rotations.ads		20180921055726 3eeded66 rotations%s
-D rotations.adb		20180921055726 7715af31 rotations%b
-D system.ads		20170516105953 6326c08a system%s
-D s-exctab.ads		20170516105954 54135002 system.exception_table%s
-D s-fatgen.ads		20170516105956 49cbaf86 system.fat_gen%s
-D s-fatlfl.ads		20170516105952 378cba9f system.fat_lflt%s
-D s-stalib.ads		20170516105955 09bd3940 system.standard_library%s
-D vectors_3d.ads	20180921055726 121733f3 vectors_3d%s
-D vectors_xd.ads	20180921055726 4c943a4c vectors_xd%s
+D ada.ads		20170106103348 76789da1 ada%s
+D a-numeri.ads		20080324174807 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20151016131424 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D matrices.ads		20180916130930 85f7982e matrices%s
+D matrices.adb		20180916130930 e7eca62c matrices%b
+D quaternions.ads	20180916130930 9d9d58c2 quaternions%s
+D real_type.ads		20180916130930 cdd2e5cc real_type%s
+D rotations.ads		20180916130930 3eeded66 rotations%s
+D rotations.adb		20180916130930 7715af31 rotations%b
+D system.ads		20170510173650 4635ec04 system%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-fatgen.ads		20150107111315 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20090409150019 378cba9f system.fat_lflt%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D vectors_3d.ads	20180916130930 121733f3 vectors_3d%s
+D vectors_xd.ads	20180916130930 4c943a4c vectors_xd%s
 X 1 ada.ads
 16K9*Ada 20e8 11|5r6 5r24
 X 2 a-numeri.ads
 16K13*Numerics 32e17 11|5w10 5r28
 21N4*Pi 11|11r73 15r63
 X 3 a-ngelfu.ads
-44V13*Sqrt{long_float} 11|71s15[9|7] 72s15[9|7] 73s15[9|7] 74s15[9|7] 117s15[9|7]
+42V13*Sqrt{long_float} 11|71s15[9|7] 72s15[9|7] 73s15[9|7] 74s15[9|7] 117s15[9|7]
 . 118s15[9|7] 119s15[9|7] 120s15[9|7] 173s43[9|7]
-82V13*Sin{long_float} 11|37s44[9|7] 52s32[9|7] 53s32[9|7] 54s32[9|7] 355s29[9|7]
+80V13*Sin{long_float} 11|37s44[9|7] 52s32[9|7] 53s32[9|7] 54s32[9|7] 355s29[9|7]
 . 358s29[9|7] 361s29[9|7] 412s29[9|7] 415s29[9|7] 418s29[9|7]
-90V13*Cos{long_float} 11|38s44[9|7] 52s82[9|7] 53s82[9|7] 54s82[9|7] 354s29[9|7]
+88V13*Cos{long_float} 11|38s44[9|7] 52s82[9|7] 53s82[9|7] 54s82[9|7] 354s29[9|7]
 . 357s29[9|7] 360s29[9|7] 411s29[9|7] 414s29[9|7] 417s29[9|7]
-108V13*Arcsin{long_float} 11|309s7[9|7] 336s60[9|7]
-120V13*Arctan{long_float} 11|303s18[9|7] 319s25[9|7] 321s25[9|7] 323s18[9|7]
+106V13*Arcsin{long_float} 11|309s7[9|7] 336s60[9|7]
+118V13*Arctan{long_float} 11|303s18[9|7] 319s25[9|7] 321s25[9|7] 323s18[9|7]
 . 332s10[9|7] 342s10[9|7] 344s10[9|7]
 X 6 matrices.ads
 8i4 Dimension{positive} 10|16r52 17r52

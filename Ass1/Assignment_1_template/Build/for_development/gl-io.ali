@@ -1,4 +1,4 @@
-V "GNAT Lib v2017"
+V "GNAT Lib v7"
 A -gnatA
 A -g
 A -gnatVa
@@ -104,7 +104,7 @@ RV NO_IMPLICIT_LOOPS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U gl.io%b		gl-io.adb		08d819da DE OO PK IU
+U gl.io%b		gl-io.adb		2dcb3554 DE OO PK IU
 W ada%s			ada.ads			ada.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
 W ada.streams%s		a-stream.adb		a-stream.ali
@@ -133,44 +133,44 @@ W system%s		system.ads		system.ali
 W system.exception_table%s  s-exctab.adb	s-exctab.ali
 W system.standard_library%s  s-stalib.adb	s-stalib.ali
 
-D ada.ads		20170516105951 76789da1 ada%s
-D a-except.ads		20170516105953 291912d5 ada.exceptions%s
-D a-ioexce.ads		20170516105949 e4a01f64 ada.io_exceptions%s
-D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
-D a-ststio.ads		20170516105953 c3455b31 ada.streams.stream_io%s
-D a-tags.ads		20170516105955 d3a89129 ada.tags%s
-D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
-D a-uncdea.ads		20170516105954 f15a5ed1 ada.unchecked_deallocation%s
-D gl.ads		20180921055727 28e5b432 gl%s
-D gl.adb		20180921055727 c6fe6214 gl%b
-D gl-extended.ads	20180921055727 7be628b8 gl.extended%s
-D gl-io.ads		20180921055724 baba5f4e gl.io%s
-D gl-io.adb		20180921055724 c915d25c gl.io%b
-D interfac.ads		20170516105950 5ab55268 interfaces%s
-D i-c.ads		20170516105948 5421119b interfaces.c%s
-D i-cstrin.ads		20170516105953 341d0ddf interfaces.c.strings%s
-D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
-D system.ads		20170516105953 6326c08a system%s
-D s-atacco.ads		20170516105954 4c36d12f system.address_to_access_conversions%s
-D s-conca2.ads		20170516105952 02a0d7d0 system.concat_2%s
-D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
-D s-exctab.ads		20170516105954 54135002 system.exception_table%s
-D s-fatflt.ads		20170516105953 11beb392 system.fat_flt%s
-D s-fatgen.ads		20170516105956 49cbaf86 system.fat_gen%s
-D s-fatlfl.ads		20170516105952 378cba9f system.fat_lflt%s
-D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
-D s-imgint.ads		20170516105950 02dbe0c2 system.img_int%s
-D s-parame.ads		20170516105955 7e2a0d7f system.parameters%s
-D s-secsta.ads		20170516105955 9751b57e system.secondary_stack%s
-D s-soflin.ads		20170516105951 14e1eb6c system.soft_links%s
-D s-stache.ads		20170516105955 a37c21ec system.stack_checking%s
-D s-stalib.ads		20170516105955 09bd3940 system.standard_library%s
-D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
-D s-stratt.ads		20170516105949 aedef97e system.stream_attributes%s
-D s-string.ads		20170516105954 8fe54fb7 system.strings%s
-D s-ststop.ads		20170516105950 e6693757 system.strings.stream_ops%s
-D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
-D s-unstyp.ads		20170516105953 34867c83 system.unsigned_types%s
+D ada.ads		20170106103348 76789da1 ada%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-ststio.ads		20120709130952 c3455b31 ada.streams.stream_io%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D a-uncdea.ads		20070406091342 f15a5ed1 ada.unchecked_deallocation%s
+D gl.ads		20180916130930 28e5b432 gl%s
+D gl.adb		20180916130930 c6fe6214 gl%b
+D gl-extended.ads	20180916130930 7be628b8 gl.extended%s
+D gl-io.ads		20180916130930 baba5f4e gl.io%s
+D gl-io.adb		20180916130930 c915d25c gl.io%b
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-c.ads		20110801143639 5421119b interfaces.c%s
+D i-cstrin.ads		20140611122922 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D system.ads		20170510173650 4635ec04 system%s
+D s-atacco.ads		20120515093410 4c36d12f system.address_to_access_conversions%s
+D s-conca2.ads		20140225151544 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-fatflt.ads		20090409150019 11beb392 system.fat_flt%s
+D s-fatgen.ads		20150107111315 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20090409150019 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-imgint.ads		20090409150019 02dbe0c2 system.img_int%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-secsta.ads		20170112134946 9751b57e system.secondary_stack%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-stratt.ads		20131014135145 aedef97e system.stream_attributes%s
+D s-string.ads		20140225151139 8fe54fb7 system.strings%s
+D s-ststop.ads		20140225151139 e6693757 system.strings.stream_ops%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
 X 1 ada.ads
 16K9*Ada 20e8 12|42r6 43r6 55r9 72r30 83r40 98r43 115r44 148r38 157r19 13|10r6
 . 10r45 11r6 16r8 79r27 97r14 133r40 153r33 418r44 466r44 740r40 786r27 803r17
@@ -528,14 +528,14 @@ X 13 gl-io.adb
 829m10 bfOffBits{20M9} 866m18 883r39 903r34
 834R12 Bitmap_Info_Header 846e17 847r20 848r11 850r29 866r31 869r32
 835m10 biSize{20M9} 869m16 905r32
-836i10 biWidth{22I9} 870m16 878r62 906r37
-837i10 biHeight{22I9} 871m16 879r34 907r37
+836i10 biWidth{22I9} 870m16 878r62 906m37 906r37
+837i10 biHeight{22I9} 871m16 879r34 907m37 907r37
 838m10 biPlanes{19M9} 872m16 908r32
 839m10 biBitCount{19M9} 873m16 909r32
 840m10 biCompression{20M9} 874m16 910r32
 841m10 biSizeImage{20M9} 875m16 883r60 911r32
-842i10 biXPelsPerMeter{22I9} 912r37
-843i10 biYPelsPerMeter{22I9} 913r37
+842i10 biXPelsPerMeter{22I9} 912m37 912r37
+843i10 biYPelsPerMeter{22I9} 913m37 913r37
 844m10 biClrUsed{20M9} 914r32
 845m10 biClrImportant{20M9} 915r32
 850r7 FileInfo{834R12} 869m7 870m7 871m7 872m7 873m7 874m7 875m7 878r53 879r25

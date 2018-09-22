@@ -1,4 +1,4 @@
-V "GNAT Lib v2017"
+V "GNAT Lib v7"
 A -gnatA
 A -g
 A -gnatVa
@@ -92,16 +92,16 @@ U matrices%b		matrices.adb		621b3e02 DE NE OO PK GE
 U matrices%s		matrices.ads		48257de2 BN DE EE NE OO PK GE
 W real_type%s		real_type.ads		real_type.ali
 
-D ada.ads		20170516105951 76789da1 ada%s
-D a-numeri.ads		20170516105951 bb51c45a ada.numerics%s
-D a-ngelfu.ads		20170516105954 7e738940 ada.numerics.generic_elementary_functions%s
-D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
-D matrices.ads		20180921055726 85f7982e matrices%s
-D matrices.adb		20180921055726 e7eca62c matrices%b
-D real_type.ads		20180921055726 cdd2e5cc real_type%s
-D system.ads		20170516105953 6326c08a system%s
-D s-exctab.ads		20170516105954 54135002 system.exception_table%s
-D s-stalib.ads		20170516105955 09bd3940 system.standard_library%s
+D ada.ads		20170106103348 76789da1 ada%s
+D a-numeri.ads		20080324174807 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20151016131424 b8fdcb46 ada.numerics.generic_elementary_functions%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D matrices.ads		20180916130930 85f7982e matrices%s
+D matrices.adb		20180916130930 e7eca62c matrices%b
+D real_type.ads		20180916130930 cdd2e5cc real_type%s
+D system.ads		20170510173650 4635ec04 system%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
 X 5 matrices.ads
 8i4 Dimension{positive} 12r31 12r47
 10k9*Matrices 8z4 20l5 20e13 6|5b14 46l5 46t13

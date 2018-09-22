@@ -1,6 +1,6 @@
 -- Suggestions for packages which might be useful:
 with Real_Type; use Real_Type;
-
+with Vehicle_Protected_Message_Queue; use Vehicle_Protected_Message_Queue;
 --  with Ada.Real_Time;
 with Ada.Calendar;               use Ada.Calendar;
 --  with Ada.Text_IO;                use Ada.Text_IO;
@@ -24,10 +24,17 @@ package body Vehicle_Task_Type is
       Vehicle_No : Positive; -- pragma Unreferenced (Vehicle_No);
       -- You will want to take the pragma out, once you use the "Vehicle_No"
       Local_Storage : aliased Inter_Vehicle_Messages; -- Store the communication content
+      Local_Message_Queue : Protected_Queue;
       Temp_Remote_Storage : Inter_Vehicle_Messages;
       Vehicle_Behaviour : Vehicle_Behaviour_Type := Idle; -- state and init the vehicle behaviour
       Whether_Init_Globe : Boolean := False;
       Whether_Updated : Boolean := False;
+
+      task type testTask;
+      task body testTask is
+      begin
+         Put_Line ("hello");
+      end testTask;
 
    begin
 
@@ -41,8 +48,6 @@ package body Vehicle_Task_Type is
             Vehicle_No     := Set_Vehicle_No;
             Local_Task_Id  := Current_Task;
             -- initiate Local_Storage in this section
-            Local_Storage.Globes_Size := 0;
-            Local_Storage.Vehicles_Size := 1;
             Local_Storage.Known_Vehicles := Init_Vehicle (Vehicle_ID => Vehicle_No);
 
          end;
@@ -69,22 +74,28 @@ package body Vehicle_Task_Type is
             declare
                Temp_Globes : constant Energy_Globes := Energy_Globes_Around;
                Start_Up_Time : constant Time := Clock;
+               -- Real_Task : testTask; -- test code
             begin
-               if not (Temp_Globes'Size = 0)then
+               if not (Temp_Globes'Size = 0) then
                   Local_Storage.Globes_Size := 1;
-                  Local_Storage.Known_Globes := Update_Globe(Globe    => Temp_Globes);
+                  Local_Storage.Known_Globes := Update_Globe (Globe    => Temp_Globes);
                   Local_Storage.Globes_Size := Temp_Globes'Length;
+
                   Whether_Updated := True;
                   if not Whether_Init_Globe then
+                     Put_Line ("Find Globe"); -- test code
+                     -- Put_Line (Vehicle_Charges'Image(Current_Charge));
                      Whether_Init_Globe := True; -- update the flag
                   end if;
                end if;
                -- Set new destination
                if Whether_Updated then
                   -- Real (Long_Float (Clock - Start_Up_Time))
+                  Set_Throttle (T => 0.5); -- test the minimum Throttle that can make vehicle surround with the globe
                   Set_Destination (V => Local_Storage.Known_Globes (1).Globe_Position +  Real (0) * Local_Storage.Known_Globes (1).Globe_Velocity);
 
                   Whether_Updated := False;
+                  -- Put_Line (Vehicle_Charges'Image(Current_Charge));
                end if;
             end;
             -----
@@ -96,6 +107,8 @@ package body Vehicle_Task_Type is
             if Messages_Waiting then
                Receive (Message => Temp_Remote_Storage);
             end if;
+
+
 
          end loop Outer_task_loop;
       end select;

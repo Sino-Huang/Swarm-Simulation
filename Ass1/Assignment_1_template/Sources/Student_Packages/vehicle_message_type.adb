@@ -1,19 +1,44 @@
-with Ada.Calendar;          use Ada.Calendar;
-with GNAT.IO;               use GNAT.IO;
 package body Vehicle_Message_Type is
 
    -----------------
    -- Add_Vehicle --
    -----------------
 
-   procedure Add_Vehicle (VS : Integer; Vehicles : Known_Vehicles_Type; Local : access Inter_Vehicle_Messages) is
+   procedure Add_Vehicle (VS : Integer; Vehicles : Known_Vehicles_Type; Local : in out Inter_Vehicle_Messages) is
       Index : Integer := 1;
    begin
       --  Generated stub: replace with real body!
       for v of Vehicles loop
-         if not IsVehicleIn (Vehicle => v, Local => Local) then
-            Local.all.Vehicles_Size := Local.all.Vehicles_Size + 1;
-            Local.all.Known_Vehicles (Local.all.Vehicles_Size) := v;
+         if Index = 1 then -- the first vehicle is the sender, thus we need to update its LastMetTime
+            if IsVehicleIn (Vehicle => v, Local   => Local) then
+               for vl of Local.Known_Vehicles loop
+                  if v.Vehicle_ID = vl.Vehicle_ID then
+                     vl.LastMetTime := Clock;
+                     exit;
+                  end if;
+               end loop;
+            else
+               Local.Vehicles_Size := Local.Vehicles_Size + 1;
+               Local.Known_Vehicles (Local.Vehicles_Size) := v;
+            end if;
+         else
+            declare
+               Flag : Boolean := True;
+            begin
+               for vl of Local.Known_Vehicles loop
+                  if v.Vehicle_ID = vl.Vehicle_ID then
+                     Flag := False;
+                     if vl.LastMetTime < v.LastMetTime then
+                        vl.LastMetTime := v.LastMetTime;
+                     end if;
+                     exit;
+                  end if;
+               end loop;
+               if Flag then -- if there is no vehicle found in the local storage, we add it
+                  Local.Vehicles_Size := Local.Vehicles_Size + 1;
+                  Local.Known_Vehicles (Local.Vehicles_Size) := v;
+               end if;
+            end;
          end if;
          exit when Index = VS;
          Index := Index + 1;
@@ -24,17 +49,39 @@ package body Vehicle_Message_Type is
    -- Add_Globe --
    ---------------
 
-   procedure Add_Globe (GS : Integer; Globes : Known_Globes_Type; Local : access Inter_Vehicle_Messages) is
+   procedure Add_Globe (GS : Integer; Globes : Known_Globes_Type; Local : in out Inter_Vehicle_Messages) is
       Index : Integer := 1;
    begin
-      --  Generated stub: replace with real body!
-      for g of Globes loop
-         Local.all.Globes_Size := Local.all.Globes_Size + 1;
-         Local.all.Known_Globes (Local.all.Globes_Size) := g;
-         exit when Index = GS;
-         Index := Index + 1;
-      end loop;
+      if GS > 0 then -- if Globe_Size = 0 then do not update the Globe..
+         for g of Globes loop
+            Local.Globes_Size := Local.Globes_Size + 1;
+            Local.Known_Globes (Local.Globes_Size) := g;
+         -- only the Globe will have the overflow issue, in that case we need to clean up the earlier data in the array
+            if Local.Globes_Size = 100 then
+               Local.Globes_Size := 6;
+               Local.Known_Globes := RefreshGlobes (Globe => Local.Known_Globes);
+            end if;
+            exit when Index = GS;
+            Index := Index + 1;
+         end loop;
+      end if;
+
    end Add_Globe;
+
+   --------------------
+   -- Update_Message --
+   --------------------
+   -- In this Update_Message, Both Add_Globe and Add_Vehicle have automated Refresh mechanism.
+
+   procedure Update_Message (Remote : Inter_Vehicle_Messages; Local : in out Inter_Vehicle_Messages) is
+   begin
+      Add_Globe (GS     => Remote.Globes_Size,
+                Globes => Remote.Known_Globes,
+                Local  => Local);
+      Add_Vehicle (VS       => Remote.Vehicles_Size,
+                  Vehicles => Remote.Known_Vehicles,
+                  Local    => Local);
+   end Update_Message;
 
    ------------------
    -- Init_Vehicle --
@@ -123,15 +170,39 @@ package body Vehicle_Message_Type is
       return Records.Globes_Size;
    end Read_Globes_Size;
 
-   function IsVehicleIn (Vehicle : Vehicle_Info_Record; Local : access Inter_Vehicle_Messages) return Boolean is
+   function IsVehicleIn (Vehicle : Vehicle_Info_Record; Local : Inter_Vehicle_Messages) return Boolean is
    begin
       --  Generated stub: replace with real body!
-      for v of Local.all.Known_Vehicles loop
+      for v of Local.Known_Vehicles loop
          if v.Vehicle_ID = Vehicle.Vehicle_ID then
             return True;
          end if;
       end loop;
       return False;
    end IsVehicleIn;
+
+   function RefreshGlobes (Globe : Known_Globes_Type) return Known_Globes_Type is
+      Temp : array (1 .. 6) of Globe_Info_Record;
+      Current_Size : Integer := 0;
+      Output : Known_Globes_Type;
+   begin
+      -- this function will return length 6 array
+      for g of reverse Globe loop
+         if Current_Size < 6 then
+            Current_Size := Current_Size + 1;
+            Temp (7 - Current_Size) := g; -- reversely store too
+         elsif Current_Size = 6 then
+            if (for some i in 1 .. 6 => Temp (i).LastUpdateTime < g.LastUpdateTime) then
+               Temp (1 .. 5) := Temp (2 .. 6);
+               Temp (6) := g;
+            end if;
+         end if;
+      end loop;
+
+      for i in 1 .. 6 loop
+         Output (i) := Temp (i);
+      end loop;
+      return Output;
+   end RefreshGlobes;
 
 end Vehicle_Message_Type;
