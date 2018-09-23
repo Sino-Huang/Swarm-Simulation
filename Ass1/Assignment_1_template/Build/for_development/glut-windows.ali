@@ -1,4 +1,4 @@
-V "GNAT Lib v7"
+V "GNAT Lib v2017"
 A -gnatA
 A -g
 A -gnatVa
@@ -76,10 +76,9 @@ A -gnata
 A -gnatf
 A -gnatE
 A -fstack-check=specific
-A -fno-strict-aliasing
 A -gnato
 A -mtune=generic
-A -march=x86-64
+A -march=pentium4
 P SS ZX
 
 RN
@@ -106,7 +105,7 @@ RV NO_IMPLICIT_LOOPS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U glut.windows%b	glut-windows.adb	affd9d77 DE OO PK IU
+U glut.windows%b	glut-windows.adb	0d88c89d DE OO PK IU
 W actors%s		actors.adb		actors.ali
 W ada%s			ada.ads			ada.ali
 W ada.calendar%s	a-calend.adb		a-calend.ali
@@ -132,12 +131,11 @@ W system.exception_table%s  s-exctab.adb	s-exctab.ali
 W system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
 W system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
 W system.img_int%s	s-imgint.adb		s-imgint.ali
-W system.img_lli%s	s-imglli.adb		s-imglli.ali
 W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 W system.soft_links%s	s-soflin.adb		s-soflin.ali
 W system.standard_library%s  s-stalib.adb	s-stalib.ali
 
-U glut.windows%s	glut-windows.ads	4961c650 DE EE OO PF PK IU
+U glut.windows%s	glut-windows.ads	eb1493ba DE EE OO PF PK IU
 W ada%s			ada.ads			ada.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
 W ada.streams%s		a-stream.adb		a-stream.ali
@@ -162,31 +160,31 @@ W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
 W system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
 
 D actors.ads		20180916130930 49785326 actors%s
-D ada.ads		20170106103348 76789da1 ada%s
-D a-calend.ads		20160420090448 2d5f01d4 ada.calendar%s
-D a-charac.ads		20070912115821 2d3ec45b ada.characters%s
-D a-chlat1.ads		20140225151544 66457d31 ada.characters.latin_1%s
-D a-contai.ads		20151020122137 61e5e089 ada.containers%s
-D a-cohata.ads		20151020102346 80a8c839 ada.containers.hash_tables%s
-D a-cohama.ads		20151023123735 5b9a95f7 ada.containers.hashed_maps%s
-D a-conhel.ads		20160420102926 20298884 ada.containers.helpers%s
-D a-except.ads		20151016123252 291912d5 ada.exceptions%s
-D a-finali.ads		20151020095656 bf4f806b ada.finalization%s
-D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
-D a-iteint.ads		20110906092602 7c7305e9 ada.iterator_interfaces%s
-D a-numeri.ads		20080324174807 bb51c45a ada.numerics%s
-D a-ngelfu.ads		20151016131424 b8fdcb46 ada.numerics.generic_elementary_functions%s
-D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
-D a-ststio.ads		20120709130952 c3455b31 ada.streams.stream_io%s
-D a-string.ads		20070406091342 90ac6797 ada.strings%s
-D a-strmap.ads		20140611123156 e8bb714a ada.strings.maps%s
-D a-strunb.ads		20161012122725 ecdfa332 ada.strings.unbounded%s
-D a-stunha.ads		20070406091342 115e053b ada.strings.unbounded.hash%s
-D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
-D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
-D a-tiflio.ads		20140717063513 56fbda09 ada.text_io.float_io%s
-D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
-D a-uncdea.ads		20070406091342 f15a5ed1 ada.unchecked_deallocation%s
+D ada.ads		20170516105950 76789da1 ada%s
+D a-calend.ads		20170516105954 2d5f01d4 ada.calendar%s
+D a-charac.ads		20170516105954 2d3ec45b ada.characters%s
+D a-chlat1.ads		20170516105952 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20170516105950 61e5e089 ada.containers%s
+D a-cohata.ads		20170516105956 80a8c839 ada.containers.hash_tables%s
+D a-cohama.ads		20170516105952 8205bf40 ada.containers.hashed_maps%s
+D a-conhel.ads		20170516105950 20298884 ada.containers.helpers%s
+D a-except.ads		20170516105952 291912d5 ada.exceptions%s
+D a-finali.ads		20170516105954 bf4f806b ada.finalization%s
+D a-ioexce.ads		20170516105948 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20170516105952 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20170516105950 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20170516105954 7e738940 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-ststio.ads		20170516105952 c3455b31 ada.streams.stream_io%s
+D a-string.ads		20170516105952 90ac6797 ada.strings%s
+D a-strmap.ads		20170516105952 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20170516105950 ecdfa332 ada.strings.unbounded%s
+D a-stunha.ads		20170516105952 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20170516105954 d3a89129 ada.tags%s
+D a-textio.ads		20170516105954 386df5d4 ada.text_io%s
+D a-tiflio.ads		20170516105948 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D a-uncdea.ads		20170516105954 f15a5ed1 ada.unchecked_deallocation%s
 D game_control.ads	20180916130930 9ee05dde game_control%s
 D gl.ads		20180916130930 28e5b432 gl%s
 D gl-buffer.ads		20180916130930 d412d3a2 gl.buffer%s
@@ -204,50 +202,49 @@ D globe_3d-math.ads	20180916130930 a86860bb globe_3d.math%s
 D globe_3d-software_anti_aliasing.ads  20180916130930 0a21aab2 globe_3d.software_anti_aliasing%s
 D globe_3d-software_anti_aliasing.adb  20180916130930 1e50631b globe_3d.software_anti_aliasing%b
 D glu.ads		20180916130930 d0f1aa67 glu%s
-D glut.ads		20180916130930 7ea5e4c8 glut%s
+D glut.ads		20180916130930 dcd0b122 glut%s
 D glut-devices.ads	20180916130930 e69207c9 glut.devices%s
 D glut-windows.ads	20180916130930 e8e83366 glut.windows%s
 D glut-windows.adb	20180916130930 5c5051f5 glut.windows%b
 D glut_2d.ads		20180916130930 561ab8e1 glut_2d%s
-D interfac.ads		20160502101001 5ab55268 interfaces%s
-D i-c.ads		20110801143639 5421119b interfaces.c%s
-D i-cpoint.ads		20130104124955 ee8a93ec interfaces.c.pointers%s
-D i-cstrin.ads		20140611122922 341d0ddf interfaces.c.strings%s
-D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
-D system.ads		20170510173650 4635ec04 system%s
-D s-atacco.ads		20120515093410 4c36d12f system.address_to_access_conversions%s
-D s-atocou.ads		20151020101020 b45c2d8d system.atomic_counters%s
-D s-conca2.ads		20140225151544 02a0d7d0 system.concat_2%s
-D s-conca3.ads		20140225151544 0b705ca5 system.concat_3%s
-D s-conca4.ads		20140225151544 7e642b20 system.concat_4%s
-D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
-D s-exctab.ads		20140225151139 54135002 system.exception_table%s
-D s-fatflt.ads		20090409150019 11beb392 system.fat_flt%s
-D s-fatgen.ads		20150107111315 49cbaf86 system.fat_gen%s
-D s-fatlfl.ads		20090409150019 378cba9f system.fat_lflt%s
-D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
-D s-finmas.ads		20151016130316 7811a767 system.finalization_masters%s
-D s-finroo.ads		20120426095924 4ff27390 system.finalization_root%s
-D s-imgint.ads		20090409150019 02dbe0c2 system.img_int%s
-D s-imglli.ads		20090409150019 114f55d1 system.img_lli%s
-D s-memory.ads		20160622104833 597d6634 system.memory%s
-D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
-D s-pooglo.ads		20151118103153 ede33ef8 system.pool_global%s
-D s-secsta.ads		20170112134946 9751b57e system.secondary_stack%s
-D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
-D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
-D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
-D s-stalib.adb		20140225151139 f2fe2716 system.standard_library%b
-D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
-D s-stoele.adb		20140801093848 ed88f8fb system.storage_elements%b
-D s-stopoo.ads		20131010103753 b16154c2 system.storage_pools%s
-D s-stposu.ads		20151020120548 97a6219c system.storage_pools.subpools%s
-D s-stratt.ads		20131014135145 aedef97e system.stream_attributes%s
-D s-string.ads		20140225151139 8fe54fb7 system.strings%s
-D s-ststop.ads		20140225151139 e6693757 system.strings.stream_ops%s
-D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
-D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
-D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-c.ads		20170516105948 5421119b interfaces.c%s
+D i-cpoint.ads		20170516105956 ee8a93ec interfaces.c.pointers%s
+D i-cstrin.ads		20170516105952 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
+D system.ads		20170516105954 32a08138 system%s
+D s-atacco.ads		20170516105954 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20170516105956 b45c2d8d system.atomic_counters%s
+D s-conca2.ads		20170516105952 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20170516105954 0b705ca5 system.concat_3%s
+D s-conca4.ads		20170516105954 7e642b20 system.concat_4%s
+D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-fatflt.ads		20170516105952 11beb392 system.fat_flt%s
+D s-fatgen.ads		20170516105956 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20170516105952 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
+D s-finmas.ads		20170516105954 7811a767 system.finalization_masters%s
+D s-finroo.ads		20170516105954 4ff27390 system.finalization_root%s
+D s-imgint.ads		20170516105950 02dbe0c2 system.img_int%s
+D s-memory.ads		20170516105952 597d6634 system.memory%s
+D s-parame.ads		20170516105954 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20170516105948 ede33ef8 system.pool_global%s
+D s-secsta.ads		20170516105954 9751b57e system.secondary_stack%s
+D s-soflin.ads		20170516105950 14e1eb6c system.soft_links%s
+D s-stache.ads		20170516105954 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
+D s-stalib.adb		20170516105948 f2fe2716 system.standard_library%b
+D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20170516105954 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20170516105950 b16154c2 system.storage_pools%s
+D s-stposu.ads		20170516105948 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20170516105948 aedef97e system.stream_attributes%s
+D s-string.ads		20170516105954 8fe54fb7 system.strings%s
+D s-ststop.ads		20170516105950 e6693757 system.strings.stream_ops%s
+D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170516105952 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
 D zip.ads		20180916130930 6e4a4be8 zip%s
 D zip_streams.ads	20180916130930 088b1cbe zip_streams%s
 X 1 actors.ads
@@ -290,10 +287,10 @@ X 14 a-numeri.ads
 16K13*Numerics 32e17 47|21w10 21r49
 21N4*Pi 47|36r32
 X 15 a-ngelfu.ads
-73V14*"**"<50|65F9> 47|394s28[39|103]
-80V13*Sin<50|65F9> 47|182s46[39|103]
-96V13*Tan<50|65F9> 47|170s35[39|103]
-118V13*Arctan<50|65F9> 47|179s31[39|103]
+75V14*"**"<50|65F9> 47|394s28[39|103]
+82V13*Sin<50|65F9> 47|182s46[39|103]
+98V13*Tan<50|65F9> 47|170s35[39|103]
+120V13*Arctan<50|65F9> 47|179s31[39|103]
 X 18 a-string.ads
 16K13*Strings 35e16 46|17r10 84r30 84r72 47|34r12
 X 20 a-strunb.ads
@@ -465,42 +462,42 @@ X 43 glu.ads
 602f27 zNear{28|128F9} 47|140r24
 603f27 zFar{28|128F9} 47|141r24
 X 44 glut.ads
-22K9*GLUT 877e9 46|15r6 21r9 125r5 47|9w36 9r77 30r14 47r14 191r30 204r13
+21K9*GLUT 867e9 46|15r6 21r9 125r5 47|9w36 9r77 30r14 47r14 191r30 204r13
 . 206r13 206r29 318r7 370r19 370r29 516r53 516r81 521r11 525r22 525r39 525r54
 . 525r67 525r81 529r42 545r7 546r7 547r7 548r7 550r7 590r7 591r7 591r23 591r52
 . 592r7 592r23 614r7 723r5
-24M12*Unsigned{50|43M9} 47|525r27
-26V14*"or"=26:74{50|43M9} 47|525r51 525r64 525r78 529r39
-31N4*RGBA 47|525r59
-34N4*DOUBLE 47|525r44
-36N4*ALPHA 47|525r72
-37N4*DEPTH 47|525r86
-39N4*MULTISAMPLE 47|529r47
-98N4*HIDDEN 47|516r58
-101N4*FULLY_COVERED 47|516r86
-201N4*ELAPSED_TIME 47|370r34
-288N4*CURSOR_NONE 47|206r34
-296U14*Init 47|590s12
-303N4*ACTION_CONTINUE_EXECUTION 47|592r52
-305N4*ACTION_ON_WINDOW_CLOSE 47|592r28
-307N4*GLUT_RENDERING_CONTEXT 47|591r28
-310N4*GLUT_USE_CURRENT_CONTEXT 47|591r57
-312U14*SetOption 47|591s12 592s12
-315U14*InitDisplayMode 47|532s7
-323U14*InitWindowPosition 47|537s7
-326U14*InitWindowSize 47|536s7
-345V13*CreateWindow{integer} 47|539s27
-356U14*DestroyWindow 47|608s7
-365U14*SwapBuffers 47|318s12
-371V13*GetWindowData{54|67M9} 47|47s51
-374U14*SetWindow 47|614s12
-377U14*SetWindowData 47|548s12
-411U14*FullScreen 47|204s18
-414U14*SetCursor 47|206s18
-529U14*CloseFunc 47|545s12
-538U14*ReshapeFunc 47|546s12
-666U14*WindowStatusFunc 47|547s12
-689V13*Get{integer} 47|370s24
+23M12*Unsigned{50|43M9} 47|525r27
+25V14*"or"=25:74{50|43M9} 47|525r51 525r64 525r78 529r39
+30N4*RGBA 47|525r59
+33N4*DOUBLE 47|525r44
+35N4*ALPHA 47|525r72
+36N4*DEPTH 47|525r86
+38N4*MULTISAMPLE 47|529r47
+97N4*HIDDEN 47|516r58
+100N4*FULLY_COVERED 47|516r86
+191N4*ELAPSED_TIME 47|370r34
+278N4*CURSOR_NONE 47|206r34
+286U14*Init 47|590s12
+293N4*ACTION_CONTINUE_EXECUTION 47|592r52
+295N4*ACTION_ON_WINDOW_CLOSE 47|592r28
+297N4*GLUT_RENDERING_CONTEXT 47|591r28
+300N4*GLUT_USE_CURRENT_CONTEXT 47|591r57
+302U14*SetOption 47|591s12 592s12
+305U14*InitDisplayMode 47|532s7
+313U14*InitWindowPosition 47|537s7
+316U14*InitWindowSize 47|536s7
+335V13*CreateWindow{integer} 47|539s27
+346U14*DestroyWindow 47|608s7
+355U14*SwapBuffers 47|318s12
+361V13*GetWindowData{54|67M9} 47|47s51
+364U14*SetWindow 47|614s12
+367U14*SetWindowData 47|548s12
+401U14*FullScreen 47|204s18
+404U14*SetCursor 47|206s18
+519U14*CloseFunc 47|545s12
+528U14*ReshapeFunc 47|546s12
+656U14*WindowStatusFunc 47|547s12
+679V13*Get{integer} 47|370s24
 X 45 glut-devices.ads
 11K14*Devices 60e17 46|15w11 75r59 76r59 115r30 116r30 47|550r12 685r58 687r55
 13U14*Initialize 47|550s20
@@ -509,7 +506,7 @@ X 45 glut-devices.ads
 50R9*Mouse 54e17 46|116r38
 56P9*p_Mouse(50R9) 46|76r67 47|687r63
 X 46 glut-windows.ads
-21K14*Windows 44|22k9 46|80E9 125l10 125e17 47|30b19 47r19 191r35 723l10
+21K14*Windows 44|21k9 46|80E9 125l10 125e17 47|30b19 47r19 191r35 723l10
 . 723t17
 23U14*Initialize 47|587b14 593l8 593t18
 25R9*Window<39|455R9> 26r35 28p14 28r37 29p14 29r37 31p14 31r37 32p14 32r37
@@ -589,7 +586,7 @@ X 46 glut-windows.ads
 100i10 forget_mouse{natural} 47|194m22 207m32 409r19 412m19 412r44
 101b10 full_screen{boolean} 47|208m32 402r60
 102f10 Alpha{28|128F9} 47|422m19 422r37 425m19 425r37 429r25 430m22 431r25
-. 432m22 436m63 436r63
+. 432m22 436r63
 106i10 last_time{integer} 47|376r48 379m16
 107a10 sample{80A9} 47|382r33 382r62 383m19 383r42 384r67 387m16 387r33 390r61
 108f10 Average{39|102F12} 47|267r83 278r38 380m16 384m19 384r42 389m16 389r36
@@ -676,7 +673,7 @@ X 47 glut-windows.adb
 519U14 Start_GLUTs 519b14 519=27 561l8 561t19 598s7
 519r27 Self{46|25R9} 528r10 534m17 536r36 536r65 539m7 541r10 548m65 548r65
 523V16 to_Address[25|20]{54|67M9} 548s30
-525m7 GLUT_options{44|24M12} 529m10 529r26 532r24
+525m7 GLUT_options{44|23M12} 529m10 529r26 532r24
 563U14 Start_GLs 563b14 563=25 585l8 585t17 599s7
 563r25 Self{46|25R9} 570m33 572r10 578m21 580r10
 565a7 fog_colour{28|153A9} 574m31 574r31
@@ -703,12 +700,12 @@ X 50 i-c.ads
 64F9*C_float<float>
 65F9*double<long_float>
 X 54 system.ads
-37K9*System 47|44r59 523r79 54|156e11
+37K9*System 47|44r59 523r79 54|200e11
 67M9*Address 47|44r66 523r86
-X 70 s-memory.ads
+X 69 s-memory.ads
 53V13*Alloc{54|67M9} 103i<c,__gnat_malloc>22
 68U14*Free 104i<c,__gnat_free>22
 76V13*Realloc{54|67M9} 105i<c,__gnat_realloc>22
-X 77 s-stalib.adb
+X 76 s-stalib.adb
 93U14 Break_Start 94i<c,__gnat_break_start>22
 

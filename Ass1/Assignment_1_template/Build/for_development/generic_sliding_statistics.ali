@@ -1,4 +1,4 @@
-V "GNAT Lib v7"
+V "GNAT Lib v2017"
 A -gnatA
 A -g
 A -gnatVa
@@ -76,10 +76,9 @@ A -gnata
 A -gnatf
 A -gnatE
 A -fstack-check=specific
-A -fno-strict-aliasing
 A -gnato
 A -mtune=generic
-A -march=x86-64
+A -march=pentium4
 P ZX
 
 RN
@@ -93,16 +92,16 @@ U generic_sliding_statistics%b  generic_sliding_statistics.adb  20095f7e DE NE O
 U generic_sliding_statistics%s  generic_sliding_statistics.ads  bb10ab49 BN DE EE NE OO PK GE
 W real_type%s		real_type.ads		real_type.ali
 
-D ada.ads		20170106103348 76789da1 ada%s
-D a-numeri.ads		20080324174807 bb51c45a ada.numerics%s
-D a-ngelfu.ads		20151016131424 b8fdcb46 ada.numerics.generic_elementary_functions%s
-D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D ada.ads		20170516105950 76789da1 ada%s
+D a-numeri.ads		20170516105950 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20170516105954 7e738940 ada.numerics.generic_elementary_functions%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
 D generic_sliding_statistics.ads  20180916130930 76c24e85 generic_sliding_statistics%s
 D generic_sliding_statistics.adb  20180916130930 56cb11fb generic_sliding_statistics%b
 D real_type.ads		20180916130930 cdd2e5cc real_type%s
-D system.ads		20170510173650 4635ec04 system%s
-D s-exctab.ads		20140225151139 54135002 system.exception_table%s
-D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D system.ads		20170516105954 32a08138 system%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
 X 5 generic_sliding_statistics.ads
 9+9 Element 14r41 17r40 17r63 18r33 18r63 21r39 21r55 22r55 29r40 33r35 33r51
 . 34r35 34r51 35r51 36r51 6|3r45 9r39 9r55 18r31 23r29 42r35 42r51 51r35

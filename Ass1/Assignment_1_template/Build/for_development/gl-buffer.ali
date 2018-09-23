@@ -1,4 +1,4 @@
-V "GNAT Lib v7"
+V "GNAT Lib v2017"
 A -gnatA
 A -g
 A -gnatVa
@@ -76,10 +76,9 @@ A -gnata
 A -gnatf
 A -gnatE
 A -fstack-check=specific
-A -fno-strict-aliasing
 A -gnato
 A -mtune=generic
-A -march=x86-64
+A -march=pentium4
 P SS ZX
 
 RN
@@ -111,30 +110,30 @@ W system.standard_library%s  s-stalib.adb	s-stalib.ali
 W system.storage_elements%s  s-stoele.adb	s-stoele.ali
 W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
 
-D ada.ads		20170106103348 76789da1 ada%s
-D a-except.ads		20151016123252 291912d5 ada.exceptions%s
-D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
-D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
-D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D ada.ads		20170516105950 76789da1 ada%s
+D a-except.ads		20170516105952 291912d5 ada.exceptions%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-tags.ads		20170516105954 d3a89129 ada.tags%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
 D gl.ads		20180916130930 28e5b432 gl%s
 D gl-buffer.ads		20180916130930 d412d3a2 gl.buffer%s
 D gl-buffer.adb		20180916130930 5762f56b gl.buffer%b
-D interfac.ads		20160502101001 5ab55268 interfaces%s
-D i-c.ads		20110801143639 5421119b interfaces.c%s
-D system.ads		20170510173650 4635ec04 system%s
-D s-atacco.ads		20120515093410 4c36d12f system.address_to_access_conversions%s
-D s-assert.ads		20140225151544 cd8d2c94 system.assertions%s
-D s-exctab.ads		20140225151139 54135002 system.exception_table%s
-D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
-D s-secsta.ads		20170112134946 9751b57e system.secondary_stack%s
-D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
-D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
-D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
-D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
-D s-stoele.adb		20140801093848 ed88f8fb system.storage_elements%b
-D s-stratt.ads		20131014135145 aedef97e system.stream_attributes%s
-D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
-D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-c.ads		20170516105948 5421119b interfaces.c%s
+D system.ads		20170516105954 32a08138 system%s
+D s-atacco.ads		20170516105954 4c36d12f system.address_to_access_conversions%s
+D s-assert.ads		20170516105954 cd8d2c94 system.assertions%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-parame.ads		20170516105954 7e2a0d7f system.parameters%s
+D s-secsta.ads		20170516105954 9751b57e system.secondary_stack%s
+D s-soflin.ads		20170516105950 14e1eb6c system.soft_links%s
+D s-stache.ads		20170516105954 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
+D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20170516105954 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20170516105948 aedef97e system.stream_attributes%s
+D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170516105952 34867c83 system.unsigned_types%s
 X 6 gl.ads
 66K9*GL 4501e7 7|14r9 16r24 25r55 54r80 55r80 66r5 8|18r14 28r7 37r7 58r7
 . 64r7 65r7 71r72 71r90 76r80 76r98 93r5

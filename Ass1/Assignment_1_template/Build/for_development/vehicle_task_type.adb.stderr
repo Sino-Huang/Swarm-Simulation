@@ -1,8 +1,0 @@
-vehicle_task_type.adb:5:09: warning: no entities of "Ada.Calendar" are referenced
-vehicle_task_type.adb:11:06: warning: no entities of "Vectors_3D" are referenced
-vehicle_task_type.adb:33:07: warning: variable "Pioneer" is assigned but never read
-vehicle_task_type.adb:36:07: warning: variable "Vehicle_Position_Val" is assigned but never read
-vehicle_task_type.adb:37:07: warning: variable "Vehicle_Velocity_Val" is assigned but never read
-vehicle_task_type.adb:38:07: warning: variable "Vehicle_Acceleartion_Val" is assigned but never read
-vehicle_task_type.adb:56:53: (style) space required
-vehicle_task_type.adb:66:01: (style) multiple blank lines

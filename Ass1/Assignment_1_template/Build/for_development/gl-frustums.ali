@@ -1,4 +1,4 @@
-V "GNAT Lib v7"
+V "GNAT Lib v2017"
 A -gnatA
 A -g
 A -gnatVa
@@ -76,10 +76,9 @@ A -gnata
 A -gnatf
 A -gnatE
 A -fstack-check=specific
-A -fno-strict-aliasing
 A -gnato
 A -mtune=generic
-A -march=x86-64
+A -march=pentium4
 P ZX
 
 RN
@@ -98,37 +97,37 @@ W ada.tags%s		a-tags.adb		a-tags.ali
 W gl%s			gl.adb			gl.ali
 W gl.geometry%s		gl-geometry.adb		gl-geometry.ali
 
-D ada.ads		20170106103348 76789da1 ada%s
-D a-except.ads		20151016123252 291912d5 ada.exceptions%s
-D a-finali.ads		20151020095656 bf4f806b ada.finalization%s
-D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
-D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
-D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
-D a-uncdea.ads		20070406091342 f15a5ed1 ada.unchecked_deallocation%s
+D ada.ads		20170516105950 76789da1 ada%s
+D a-except.ads		20170516105952 291912d5 ada.exceptions%s
+D a-finali.ads		20170516105954 bf4f806b ada.finalization%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-tags.ads		20170516105954 d3a89129 ada.tags%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D a-uncdea.ads		20170516105954 f15a5ed1 ada.unchecked_deallocation%s
 D gl.ads		20180916130930 28e5b432 gl%s
 D gl-frustums.ads	20180916130930 3d23f8e0 gl.frustums%s
 D gl-frustums.adb	20180916130930 e3297d93 gl.frustums%b
 D gl-geometry.ads	20180916130930 398a5530 gl.geometry%s
-D interfac.ads		20160502101001 5ab55268 interfaces%s
-D i-c.ads		20110801143639 5421119b interfaces.c%s
-D i-cpoint.ads		20130104124955 ee8a93ec interfaces.c.pointers%s
-D system.ads		20170510173650 4635ec04 system%s
-D s-atacco.ads		20120515093410 4c36d12f system.address_to_access_conversions%s
-D s-exctab.ads		20140225151139 54135002 system.exception_table%s
-D s-fatflt.ads		20090409150019 11beb392 system.fat_flt%s
-D s-fatgen.ads		20150107111315 49cbaf86 system.fat_gen%s
-D s-finmas.ads		20151016130316 7811a767 system.finalization_masters%s
-D s-finroo.ads		20120426095924 4ff27390 system.finalization_root%s
-D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
-D s-pooglo.ads		20151118103153 ede33ef8 system.pool_global%s
-D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
-D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
-D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
-D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
-D s-stopoo.ads		20131010103753 b16154c2 system.storage_pools%s
-D s-stratt.ads		20131014135145 aedef97e system.stream_attributes%s
-D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
-D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-c.ads		20170516105948 5421119b interfaces.c%s
+D i-cpoint.ads		20170516105956 ee8a93ec interfaces.c.pointers%s
+D system.ads		20170516105954 32a08138 system%s
+D s-atacco.ads		20170516105954 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-fatflt.ads		20170516105952 11beb392 system.fat_flt%s
+D s-fatgen.ads		20170516105956 49cbaf86 system.fat_gen%s
+D s-finmas.ads		20170516105954 7811a767 system.finalization_masters%s
+D s-finroo.ads		20170516105954 4ff27390 system.finalization_root%s
+D s-parame.ads		20170516105954 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20170516105948 ede33ef8 system.pool_global%s
+D s-soflin.ads		20170516105950 14e1eb6c system.soft_links%s
+D s-stache.ads		20170516105954 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
+D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20170516105950 b16154c2 system.storage_pools%s
+D s-stratt.ads		20170516105948 aedef97e system.stream_attributes%s
+D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170516105952 34867c83 system.unsigned_types%s
 X 8 gl.ads
 66K9*GL 4501e7 9|17r6 19r9 23r44 31r5 10|1r14 5r11 17r41 18r41 19r33 23r7
 . 23r21 24r7 24r21 49r33 50r33 51r33 52r33 55r32 56r32 57r32 58r32 61r31

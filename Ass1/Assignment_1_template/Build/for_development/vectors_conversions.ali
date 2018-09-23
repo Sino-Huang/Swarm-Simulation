@@ -1,4 +1,4 @@
-V "GNAT Lib v7"
+V "GNAT Lib v2017"
 A -gnatA
 A -g
 A -gnatVa
@@ -76,10 +76,9 @@ A -gnata
 A -gnatf
 A -gnatE
 A -fstack-check=specific
-A -fno-strict-aliasing
 A -gnato
 A -mtune=generic
-A -march=x86-64
+A -march=pentium4
 P ZX
 
 RN
@@ -98,14 +97,14 @@ W vectors_2d_p%s	vectors_2d_p.ads	vectors_2d_p.ali
 W vectors_3d%s		vectors_3d.adb		vectors_3d.ali
 W vectors_3d_lf%s	vectors_3d_lf.adb	vectors_3d_lf.ali
 
-D ada.ads		20170106103348 76789da1 ada%s
-D a-numeri.ads		20080324174807 bb51c45a ada.numerics%s
-D a-ngelfu.ads		20151016131424 b8fdcb46 ada.numerics.generic_elementary_functions%s
-D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D ada.ads		20170516105950 76789da1 ada%s
+D a-numeri.ads		20170516105950 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20170516105954 7e738940 ada.numerics.generic_elementary_functions%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
 D real_type.ads		20180916130930 cdd2e5cc real_type%s
-D system.ads		20170510173650 4635ec04 system%s
-D s-exctab.ads		20140225151139 54135002 system.exception_table%s
-D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D system.ads		20170516105954 32a08138 system%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
 D vectors_2d.ads	20180916130930 4caa2c60 vectors_2d%s
 D vectors_2d_i.ads	20180916130930 09ddac6c vectors_2d_i%s
 D vectors_2d_n.ads	20180916130930 27f53fc0 vectors_2d_n%s

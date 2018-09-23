@@ -21,6 +21,67 @@ package body Vehicle_Task_Type is
    type Vehicle_Behaviour_Type is (Idle, Patrol_Out, Patrol_Back, Dying, To_Globe); -- set up several vehicle type
    package Behaviour_Type_IO is new Text_IO.Enumeration_IO (Vehicle_Behaviour_Type);
    use Behaviour_Type_IO;
+   protected type Vehicle_Attributes is
+      function ReadPosition return Positions;
+      function ReadVelocity return Velocities;
+      function ReadAccelearation return Accelerations;
+      function ReadThrottle return Throttle_T;
+      function ReadDestination return Vector_3D;
+      function ReadCharge return Vehicle_Charges;
+      procedure WritePosition (Val : Positions);
+      procedure WriteVelocity (Val : Velocities);
+      procedure WriteAccelearation (Val : Accelerations);
+      procedure WriteThrottle  (Val : Throttle_T);
+      procedure WriteDestination  (Val : Vector_3D);
+      procedure WriteCharge (Val : Vehicle_Charges);
+
+   private
+      Vehicle_Position_Val : Positions;
+      Vehicle_Velocity_Val : Velocities;
+      Vehicle_Acceleartion_Val : Accelerations;
+      Vehicle_Throttle_Val : Throttle_T;
+      Vehicle_Destination_Val : Vector_3D;
+      Vehicle_Charge_Val : Vehicle_Charges;
+
+   end Vehicle_Attributes;
+
+   protected body Vehicle_Attributes is
+      function ReadPosition return Positions is (Vehicle_Position_Val);
+      function ReadVelocity return Velocities is (Vehicle_Velocity_Val);
+      function ReadAccelearation return Accelerations is (Vehicle_Acceleartion_Val);
+      function ReadThrottle return Throttle_T is (Vehicle_Throttle_Val);
+      function ReadDestination return Vector_3D is (Vehicle_Destination_Val);
+      function ReadCharge return Vehicle_Charges is (Vehicle_Charge_Val);
+      procedure WritePosition (Val : Positions) is
+      begin
+         Vehicle_Position_Val := Val;
+      end WritePosition;
+
+      procedure WriteVelocity (Val : Velocities) is
+      begin
+         Vehicle_Velocity_Val := Val;
+      end WriteVelocity;
+
+      procedure WriteAccelearation (Val : Accelerations) is
+      begin
+         Vehicle_Acceleartion_Val := Val;
+      end WriteAccelearation;
+      procedure WriteThrottle  (Val : Throttle_T) is
+      begin
+         Vehicle_Throttle_Val := Val;
+      end WriteThrottle;
+
+      procedure WriteDestination  (Val : Vector_3D) is
+      begin
+         Vehicle_Destination_Val := Val;
+      end WriteDestination;
+
+      procedure WriteCharge (Val : Vehicle_Charges) is
+      begin
+         Vehicle_Charge_Val := Val;
+      end WriteCharge;
+
+   end Vehicle_Attributes;
 
    task body Vehicle_Task is
 
@@ -29,13 +90,9 @@ package body Vehicle_Task_Type is
       Local_Storage : Inter_Vehicle_Messages; -- Store the communication content
       Local_Message_Queue : Protected_Queue;
       Vehicle_Behaviour : Vehicle_Behaviour_Type := Idle; -- state and init the vehicle behaviour
-      Whether_Change_Movement : Boolean := True;
+      Whether_Change_Movement : Boolean := False;
       Pioneer : Boolean := False; -- Indicate he finds the globe by himself
-      Movement_Loop : Integer := 1;
-      Vehicle_Charge_Val : Vehicle_Charges;
-      Vehicle_Position_Val : Positions;
-      Vehicle_Velocity_Val : Velocities;
-      Vehicle_Acceleartion_Val : Accelerations;
+      Vehicle_Attribute : Vehicle_Attributes;
 
       task type ChangeMovement is
          entry Idle_Movement;
@@ -45,64 +102,72 @@ package body Vehicle_Task_Type is
          entry To_Globe_Movement;
       end ChangeMovement;
 
-      type ChangeMovement_Pr is access ChangeMovement;
-
       task body ChangeMovement is
 
       begin
          loop
             select
-               when Whether_Change_Movement => accept Idle_Movement  do
-                     Put_Line (Vehicle_Charges'Image(Vehicle_Charge_Val));
-
-                     Put_Line ("Vehicle " & Positive'Image (Vehicle_No) & " Movement " & Integer'Image (Movement_Loop));
-                     Movement_Loop := Movement_Loop + 1;
-                     Put_Line ("Vehicle " & Positive'Image (Vehicle_No) & " Idle");
-                     if abs (Vehicle_Charges (Real (1.0)) - Vehicle_Charge_Val) > Vehicle_Charges (Real (0.001)) then -- switch to find globe state
+               when True => accept Idle_Movement  do
+                     if abs (Vehicle_Charges (Real (1.0)) - Vehicle_Attribute.ReadCharge) > Vehicle_Charges (Real (0.15)) then -- switch to find globe state
                         Vehicle_Behaviour := To_Globe;
                      end if;
-
-
-                     Put_Line ("Vehicle " & Positive'Image (Vehicle_No) & " Finsh");
                end Idle_Movement;
             or
-               when Whether_Change_Movement => accept Patrol_Out_Movement  do
-                     Put_Line ("Vehicle " & Positive'Image (Vehicle_No) & " Movement " & Integer'Image (Movement_Loop));
-                     Movement_Loop := Movement_Loop + 1;
+               when True => accept Patrol_Out_Movement  do
 
-                     if Current_Charge < Vehicle_Charges (Real (0.55)) then
+                     if Vehicle_Attribute.ReadCharge < Vehicle_Charges (Real (0.55)) then
                         Vehicle_Behaviour := Patrol_Back;
                      end if;
 
                end Patrol_Out_Movement;
             or
-               when Whether_Change_Movement => accept Patrol_Back_Movement  do
-                     Put_Line ("Vehicle " & Positive'Image (Vehicle_No) & " Movement " & Integer'Image (Movement_Loop));
-                     Movement_Loop := Movement_Loop + 1;
+               when True => accept Patrol_Back_Movement  do
+                     if abs (Vehicle_Charges (Real (1.0)) - Vehicle_Attribute.ReadCharge) < Vehicle_Charges (Real (0.001)) then
+                        Vehicle_Behaviour := Patrol_Out;
+                     else
+                        Vehicle_Attribute.WriteThrottle (0.8);
+                        Vehicle_Attribute.WriteDestination (Local_Storage.Known_Globes (Local_Storage.Globes_Size).Globe_Position +
+                                                              Real (Long_Float (Clock - Local_Storage.Known_Globes (Local_Storage.Globes_Size).LastUpdateTime))
+                                                            * Local_Storage.Known_Globes (Local_Storage.Globes_Size).Globe_Velocity);
+                        Whether_Change_Movement := True;
+                     end if;
+
                end Patrol_Back_Movement;
             or
-               when Whether_Change_Movement => accept Dying_Movement  do
-                     Put_Line ("Vehicle " & Positive'Image (Vehicle_No) & " Movement " & Integer'Image (Movement_Loop));
-                     Movement_Loop := Movement_Loop + 1;
+               when True => accept Dying_Movement  do
+                     Vehicle_Attribute.WriteThrottle (1.0);
+                     Vehicle_Attribute.WriteDestination (Local_Storage.Known_Globes (1).Globe_Position +
+                                                           Real (Long_Float (Clock - Local_Storage.Known_Globes (1).LastUpdateTime))
+                                                         * Local_Storage.Known_Globes (1).Globe_Velocity);
+                     Whether_Change_Movement := True;
                end Dying_Movement;
             or
-               when Whether_Change_Movement => accept To_Globe_Movement  do
-                     Put_Line ("Vehicle " & Positive'Image (Vehicle_No) & " Movement " & Integer'Image (Movement_Loop));
-                     Movement_Loop := Movement_Loop + 1;
-                     if abs (Vehicle_Charges (Real (1.0)) - Current_Charge) < Vehicle_Charges (Real (0.001)) then -- means it reaches the globe
-                        Vehicle_Behaviour := Idle;
-                        Set_Throttle (T => 0.0);
+               accept To_Globe_Movement  do
+
+                  if abs (Vehicle_Charges (Real (1.0)) - Vehicle_Attribute.ReadCharge) < Vehicle_Charges (Real (0.001)) then -- means it reaches the globe
+                     if Pioneer then
+                        Vehicle_Behaviour := Patrol_Out;
                      else
-                        null;
+                        Vehicle_Behaviour := Idle;
+                        Vehicle_Attribute.WriteThrottle (0.0);
+                        Whether_Change_Movement := True;
                      end if;
-                     Whether_Change_Movement := False; -- Close the guard
+
+                  else
+                     Vehicle_Attribute.WriteThrottle (0.5); -- do not require high speed
+                     Vehicle_Attribute.WriteDestination (Local_Storage.Known_Globes (Local_Storage.Globes_Size).Globe_Position +
+                                                           Real (Long_Float (Clock - Local_Storage.Known_Globes (Local_Storage.Globes_Size).LastUpdateTime))
+                                                         * Local_Storage.Known_Globes (Local_Storage.Globes_Size).Globe_Velocity);
+                     Whether_Change_Movement := True;
+                  end if;
+                     -- Whether_Change_Movement := False; -- Close the guard
                end To_Globe_Movement;
             end select;
 
          end loop;
       end ChangeMovement;
 
-      Movement_Task : constant ChangeMovement_Pr := new ChangeMovement;
+      Movement_Task : ChangeMovement;
  ----------------------------
  -- Dequeue and update task--
  ----------------------------
@@ -119,17 +184,16 @@ package body Vehicle_Task_Type is
                                Local  => Local_Storage);
                if Local_Storage.Globes_Size > 0 then
                   if Vehicle_Behaviour = Idle then
-                     Movement_Task.all.Idle_Movement;
+                     Movement_Task.Idle_Movement;
                   elsif Vehicle_Behaviour = Patrol_Out then
-                     Movement_Task.all.Patrol_Out_Movement;
+                     Movement_Task.Patrol_Out_Movement;
                   elsif Vehicle_Behaviour = Patrol_Back then
-                     Movement_Task.all.Patrol_Back_Movement;
+                     Movement_Task.Patrol_Back_Movement;
                   elsif Vehicle_Behaviour = Dying then
-                     Movement_Task.all.Dying_Movement;
+                     Movement_Task.Dying_Movement;
                   elsif Vehicle_Behaviour = To_Globe then
-                     Movement_Task.all.To_Globe_Movement;
+                     Movement_Task.To_Globe_Movement;
                   end if;
-                  Put_Line ("end this");
                end if;
             end;
          end loop;
@@ -174,24 +238,24 @@ package body Vehicle_Task_Type is
 
             -- Your vehicle should respond to the world here: sense, listen, talk, act?
 
---                 -- Set new destination
---                 if Whether_Updated then
---                    -- Real (Long_Float (Clock - Start_Up_Time))
---                    Set_Throttle (T => 0.5); -- test the minimum Throttle that can make vehicle surround with the globe
---                    Set_Destination (V => Local_Storage.Known_Globes (1).Globe_Position +  Real (0) * Local_Storage.Known_Globes (1).Globe_Velocity);
---
---                    Whether_Updated := False;
---                    -- Put_Line (Vehicle_Charges'Image(Current_Charge));
---                 end if;
---              end;
+            -- movement settle
+            if Whether_Change_Movement then
+               Set_Throttle (Vehicle_Attribute.ReadThrottle);
+               Set_Destination (Vehicle_Attribute.ReadDestination);
+               Whether_Change_Movement := False; -- close the guard
+            end if;
+
+            -- Update current Attributes
+            Vehicle_Attribute.WriteCharge (Val => Current_Charge);
+            Vehicle_Attribute.WriteVelocity (Velocity);
+            Vehicle_Attribute.WritePosition (Position);
+            Vehicle_Attribute.WriteAccelearation (Acceleration);
+
             declare
                Temp_Receive : Inter_Vehicle_Messages;
                Globe : constant Energy_Globes := Energy_Globes_Around; -- everytime check globes
             begin
-               Vehicle_Charge_Val := Current_Charge; -- Get current charge
-               Vehicle_Position_Val := Position;
-               Vehicle_Velocity_Val := Velocity;
-               Vehicle_Acceleartion_Val := Acceleration;
+               Put_Line (Positive'Image (Vehicle_No) & "Know " & Integer'Image (Local_Storage.Vehicles_Size));
 
                if Globe'Length > 0 then
                   if Local_Storage.Globes_Size = 0 then
@@ -201,11 +265,7 @@ package body Vehicle_Task_Type is
                   Temp_Receive.Globes_Size := Globe'Length;
                   Temp_Receive.Vehicles_Size := 0;
                   Temp_Receive.Known_Globes := Update_Globe (Globe);
-                  select
-                     Local_Message_Queue.Enqueue (Item => Temp_Receive);
-                  else
-                     null;
-                  end select;
+                  Local_Message_Queue.Enqueue (Item => Temp_Receive);
 
                end if;
                Send (Message => Local_Storage); -- send message

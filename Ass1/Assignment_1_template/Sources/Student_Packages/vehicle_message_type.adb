@@ -53,15 +53,24 @@ package body Vehicle_Message_Type is
 
    procedure Add_Globe (GS : Integer; Globes : Known_Globes_Type; Local : in out Inter_Vehicle_Messages) is
       Index : Integer := 1;
+      Old_Size : constant Integer := Local.Globes_Size;
    begin
       if GS > 0 then -- if Globe_Size = 0 then do not update the Globe..
-         for g of Globes loop
-            Local.Globes_Size := Local.Globes_Size + 1;
-            Local.Known_Globes (Local.Globes_Size) := g;
+         for g of Globes loop  -- in this Globe array, we will only add the latest globe information
+            if Local.Globes_Size = 0 then -- must add the information no matter what
+               Local.Globes_Size := Local.Globes_Size + 1;
+               Local.Known_Globes (Local.Globes_Size) := g;
+            else
+               if g.LastUpdateTime > Local.Known_Globes (Old_Size).LastUpdateTime then
+                  Local.Globes_Size := Local.Globes_Size + 1;
+                  Local.Known_Globes (Local.Globes_Size) := g;
+               end if;
+            end if;
+
          -- only the Globe will have the overflow issue, in that case we need to clean up the earlier data in the array
             if Local.Globes_Size = 100 then
                Local.Globes_Size := 6;
-               Local.Known_Globes := RefreshGlobes (Globe => Local.Known_Globes);
+               Local.Known_Globes (1 .. 6) := Local.Known_Globes (95 .. 100);
             end if;
             exit when Index = GS;
             Index := Index + 1;
@@ -184,29 +193,5 @@ package body Vehicle_Message_Type is
       end loop;
       return False;
    end IsVehicleIn;
-
-   function RefreshGlobes (Globe : Known_Globes_Type) return Known_Globes_Type is
-      Temp : array (1 .. 6) of Globe_Info_Record;
-      Current_Size : Integer := 0;
-      Output : Known_Globes_Type;
-   begin
-      -- this function will return length 6 array
-      for g of reverse Globe loop
-         if Current_Size < 6 then
-            Current_Size := Current_Size + 1;
-            Temp (7 - Current_Size) := g; -- reversely store too
-         elsif Current_Size = 6 then
-            if (for some i in 1 .. 6 => Temp (i).LastUpdateTime < g.LastUpdateTime) then
-               Temp (1 .. 5) := Temp (2 .. 6);
-               Temp (6) := g;
-            end if;
-         end if;
-      end loop;
-
-      for i in 1 .. 6 loop
-         Output (i) := Temp (i);
-      end loop;
-      return Output;
-   end RefreshGlobes;
 
 end Vehicle_Message_Type;

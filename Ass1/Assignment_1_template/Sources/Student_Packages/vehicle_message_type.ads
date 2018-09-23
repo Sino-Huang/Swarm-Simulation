@@ -34,6 +34,4 @@ private
    function Read_Vehicles_Size (Records : Inter_Vehicle_Messages) return Integer;
    function Read_Globes_Size (Records : Inter_Vehicle_Messages) return Integer;
    function IsVehicleIn (Vehicle : Vehicle_Info_Record; Local : Inter_Vehicle_Messages) return Boolean;
-   function RefreshGlobes (Globe : Known_Globes_Type) return Known_Globes_Type; -- it will give a length 6 array with latest globe information
-
 end Vehicle_Message_Type;
