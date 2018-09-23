@@ -1,8 +1,8 @@
-vehicle_task_type.adb:27:07: warning: variable "Local_Message_Queue" is not referenced
-vehicle_task_type.adb:29:07: warning: declaration hides "Vehicle_Behaviour" at vehicle_behaviour.ads:1
-vehicle_task_type.adb:29:07: warning: variable "Vehicle_Behaviour" is not referenced
-vehicle_task_type.adb:33:17: warning: type "testTask" is not referenced
-vehicle_task_type.adb:78:16: warning: constant "Start_Up_Time" is not referenced
-vehicle_task_type.adb:89:53: (style) space required
-vehicle_task_type.adb:100:50: (style) space required
-vehicle_task_type.adb:112:01: (style) multiple blank lines
+vehicle_task_type.adb:5:09: warning: no entities of "Ada.Calendar" are referenced
+vehicle_task_type.adb:11:06: warning: no entities of "Vectors_3D" are referenced
+vehicle_task_type.adb:33:07: warning: variable "Pioneer" is assigned but never read
+vehicle_task_type.adb:36:07: warning: variable "Vehicle_Position_Val" is assigned but never read
+vehicle_task_type.adb:37:07: warning: variable "Vehicle_Velocity_Val" is assigned but never read
+vehicle_task_type.adb:38:07: warning: variable "Vehicle_Acceleartion_Val" is assigned but never read
+vehicle_task_type.adb:56:53: (style) space required
+vehicle_task_type.adb:66:01: (style) multiple blank lines

@@ -1,4 +1,4 @@
-              
+20180923032018
 -c
 -x
 ada
@@ -15,4 +15,3 @@ ada
 -fstack-check
 -fno-strict-aliasing
 -gnato
--gnatc

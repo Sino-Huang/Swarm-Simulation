@@ -92,11 +92,12 @@ RV NO_PROTECTED_TYPES
 RV NO_STANDARD_STORAGE_POOLS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
 RV PURE_BARRIERS
 RV SPARK_05
 RV MAX_PROTECTED_ENTRIES=2
 
-U vehicle_protected_message_queue%b  vehicle_protected_message_queue.adb  5bf7cde6 DE NE OO PK
+U vehicle_protected_message_queue%b  vehicle_protected_message_queue.adb  7906472b DE NE OO PK
 W ada.tags%s		a-tags.adb		a-tags.ali
 W interfaces%s		interfac.ads		interfac.ali
 W system%s		system.ads		system.ali
@@ -105,10 +106,14 @@ W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
 W system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
 W system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
 
-U vehicle_protected_message_queue%s  vehicle_protected_message_queue.ads  9d71a358 DE EE NE OO PK
+U vehicle_protected_message_queue%s  vehicle_protected_message_queue.ads  bee44bfc DE EE OO PF PK
 W ada.exceptions%s	a-except.adb		a-except.ali
 W ada.tags%s		a-tags.adb		a-tags.ali
 W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
 W system.tasking%s	s-taskin.adb		s-taskin.ali
 W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
 W system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
@@ -173,6 +178,7 @@ D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
 D s-finmas.ads		20151016130316 7811a767 system.finalization_masters%s
 D s-finroo.ads		20120426095924 4ff27390 system.finalization_root%s
 D s-linux.ads		20150107101203 2fda6ad1 system.linux%s
+D s-memory.ads		20160622104833 597d6634 system.memory%s
 D s-multip.ads		20101011073009 38ac9f73 system.multiprocessors%s
 D s-oscons.ads		20180512150149 7b5577db system.os_constants%s
 D s-osinte.ads		20170314092617 ad16bc4a system.os_interface%s
@@ -183,6 +189,7 @@ D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
 D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
 D s-stausa.ads		20110804134155 017a0a05 system.stack_usage%s
 D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stalib.adb		20140225151139 f2fe2716 system.standard_library%b
 D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
 D s-stoele.adb		20140801093848 ed88f8fb system.storage_elements%b
 D s-stopoo.ads		20131010103753 b16154c2 system.storage_pools%s
@@ -203,9 +210,9 @@ D vectors_2d_n.ads	20180916130930 27f53fc0 vectors_2d_n%s
 D vectors_3d.ads	20180916130930 121733f3 vectors_3d%s
 D vectors_xd.ads	20180916130930 4c943a4c vectors_xd%s
 D vectors_xd_i.ads	20180916130930 32b570f3 vectors_xd_i%s
-D vehicle_message_type.ads  20180922105057 e4adeded vehicle_message_type%s
-D vehicle_protected_message_queue.ads  20180922103317 79dc4eb5 vehicle_protected_message_queue%s
-D vehicle_protected_message_queue.adb  20180922103331 222b8353 vehicle_protected_message_queue%b
+D vehicle_message_type.ads  20180922182858 ae646b9e vehicle_message_type%s
+D vehicle_protected_message_queue.ads  20180923031942 10802062 vehicle_protected_message_queue%s
+D vehicle_protected_message_queue.adb  20180923032520 69866749 vehicle_protected_message_queue%b
 D zip.ads		20180916130930 6e4a4be8 zip%s
 D zip_streams.ads	20180916130930 088b1cbe zip_streams%s
 X 7 a-cohama.ads
@@ -214,32 +221,41 @@ X 12 a-iteint.ads
 24h9 Forward_Iterator
 X 29 gl-buffer-general.ads
 14R9 base_Object<28|20R9>
-X 68 s-stausa.ads
+X 49 system.ads
+67M9*Address
+X 60 s-memory.ads
+53V13*Alloc{49|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{49|67M9} 105i<c,__gnat_realloc>22
+X 69 s-stausa.ads
 203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
 268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
-X 90 vehicle_message_type.ads
-8K9*Vehicle_Message_Type 36e25 91|2w6 2r32
-15R9*Inter_Vehicle_Messages 21e14 91|10r33 11r33 24r39 92|14r29 25r33
-X 91 vehicle_protected_message_queue.ads
-3K9*Vehicle_Protected_Message_Queue 24E9 31l5 31e36 92|2b14 63l5 63t36
-4M9*Queue_Size 24r24 26r19 26r35 92|17r24 28r23 38r23 39r24
-6R9*Queue_Type 19r15 25c9 29e14
-8W19*Protected_Queue 19E7 21l8 21e23 92|8b19 61l8 61t23
-10Y13 Enqueue 10>22 92|14b13 19l11 19t18
-10r22 Item{90|15R9} 92|16r41
-11Y13 Dequeue 11<22 92|25b13 30l11 30t18
-11r22 Item{90|15R9} 92|27m10
-13U17 Empty_The_Queue 92|36b17 41l11 41t26
-15V16 Is_Empty{boolean} 92|25s62 47b16 50l11 50t19
-16V16 Is_Full{boolean} 92|14s62 56b16 59l11 59t18
-19r7 Queue{6R9} 92|16r10 16r26 17r10 17r41 18r10 27r18 27r34 28r10 28r40
+X 71 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 92 vehicle_message_type.ads
+8K9*Vehicle_Message_Type 39e25 93|2w6 2r32
+15R9*Inter_Vehicle_Messages 21e14 93|10r33 11r33 25r39 94|14r29 25r33
+X 93 vehicle_protected_message_queue.ads
+3K9*Vehicle_Protected_Message_Queue 25E9 32l5 32e36 94|2b14 63l5 63t36
+4M9*Queue_Size 25r24 27r19 27r35 94|17r24 28r23 38r23 39r24
+6R9*Queue_Type 19r15 26c9 30e14
+8W19*Protected_Queue 19E7 21l8 21e23 22r42 94|8b19 61l8 61t23
+10Y13 Enqueue 10>22 94|14b13 19l11 19t18
+10r22 Item{92|15R9} 94|16r41
+11Y13 Dequeue 11<22 94|25b13 30l11 30t18
+11r22 Item{92|15R9} 94|27m10
+13U17 Empty_The_Queue 94|36b17 41l11 41t26
+15V16 Is_Empty{boolean} 94|25s66 47b16 50l11 50t19
+16V16 Is_Full{boolean} 94|14s62 56b16 59l11 59t18
+19r7 Queue{6R9} 94|16r10 16r26 17r10 17r41 18r10 27r18 27r34 28r10 28r40
 . 29r10 29r28 29r40 38r10 39r10 40r10 49r17 58r22 58r46 58r58
-24A9 List(90|15R9)<4M9> 28r19
-26m7*Top{4M9} 92|27r40 28m16 28r46 29r34 38m16 58r52
-26m12*Free{4M9} 92|16r32 17m16 17r47 29r46 39m16 58r64
-27b7*Is_Empty{boolean} 92|18m16 29m16 40m16 49r23 58r28
-28a7*Elements{24A9} 92|16m16 27r24
-X 92 vehicle_protected_message_queue.adb
-14r22 Item{90|15R9}
-25r22 Item{90|15R9}
+22P9*Protected_Queue_Pr(8W19)
+25A9 List(92|15R9)<4M9> 29r19
+27m7*Top{4M9} 94|27r40 28m16 28r46 29r34 38m16 58r52
+27m12*Free{4M9} 94|16r32 17m16 17r47 29r46 39m16 58r64
+28b7*Is_Empty{boolean} 94|18m16 29m16 40m16 49r23 58r28
+29a7*Elements{25A9} 94|16m16 27r24
+X 94 vehicle_protected_message_queue.adb
+14r22 Item{92|15R9}
+25r22 Item{92|15R9}
 

@@ -20,6 +20,8 @@ package Vehicle_Message_Type is
       Last_Edit_Time : Time := Clock;
    end record;
 
+   type Inter_Vehicle_Messages_Pr is access all Inter_Vehicle_Messages;
+
    procedure Update_Message (Remote : Inter_Vehicle_Messages; Local : in out Inter_Vehicle_Messages);
    function Init_Vehicle (Vehicle_ID : Positive) return Known_Vehicles_Type;
    function Update_Globe (Globe : Energy_Globes) return Known_Globes_Type;

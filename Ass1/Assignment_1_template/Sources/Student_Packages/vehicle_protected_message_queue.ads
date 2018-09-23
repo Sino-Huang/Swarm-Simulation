@@ -1,7 +1,7 @@
 pragma Initialize_Scalars;
 with Vehicle_Message_Type; use Vehicle_Message_Type;
 package Vehicle_Protected_Message_Queue is
-   type Queue_Size   is mod 10;
+   type Queue_Size   is mod 30;
 
    type Queue_Type is limited private;
 
@@ -19,6 +19,7 @@ package Vehicle_Protected_Message_Queue is
       Queue : Queue_Type;
 
    end Protected_Queue;
+   type Protected_Queue_Pr is access all Protected_Queue;
 
 private
    type List is array (Queue_Size) of Inter_Vehicle_Messages;

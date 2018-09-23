@@ -1,3 +1,4 @@
-vehicle_task_group.adb:39:73: warning: formal parameter "Globe" is not referenced
-vehicle_task_group.adb:39:81: (style) "in" should be omitted
-vehicle_task_group.adb:39:103: warning: formal parameter "GS" is not referenced
+vehicle_task_group.adb:4:10: warning: no entities of "GNAT.IO" are referenced
+vehicle_task_group.adb:18:01: (style) multiple blank lines
+vehicle_task_group.adb:26:73: warning: formal parameter "Globe" is not referenced
+vehicle_task_group.adb:26:100: warning: formal parameter "GS" is not referenced

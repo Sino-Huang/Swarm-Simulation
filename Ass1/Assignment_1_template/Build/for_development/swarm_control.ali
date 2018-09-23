@@ -109,7 +109,7 @@ RV MAX_TASKS=1+
 RV MAX_ASYNCHRONOUS_SELECT_NESTING=1+
 RV MAX_ENTRY_QUEUE_LENGTH=1+
 
-U swarm_control%b	swarm_control.adb	f659619b DE NE OO PK
+U swarm_control%b	swarm_control.adb	bc90e7e8 DE NE OO PK
 W ada%s			ada.ads			ada.ali
 W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
 W ada.containers%s	a-contai.ads		a-contai.ali
@@ -275,7 +275,7 @@ D vectors_3d_lf.ads	20180916130930 e76b7655 vectors_3d_lf%s
 D vectors_conversions.ads  20180916130930 de572ea9 vectors_conversions%s
 D vectors_xd.ads	20180916130930 4c943a4c vectors_xd%s
 D vectors_xd_i.ads	20180916130930 32b570f3 vectors_xd_i%s
-D vehicle_message_type.ads  20180922105057 e4adeded vehicle_message_type%s
+D vehicle_message_type.ads  20180922182858 ae646b9e vehicle_message_type%s
 D vehicle_task_type.ads	20180916130930 9ebc7351 vehicle_task_type%s
 D zip.ads		20180916130930 6e4a4be8 zip%s
 D zip_streams.ads	20180916130930 088b1cbe zip_streams%s
@@ -704,7 +704,7 @@ X 115 vectors_conversions.ads
 X 116 vectors_xd.ads
 10A9*Vector_xD(long_float)<113|10E9>
 X 118 vehicle_message_type.ads
-8K9*Vehicle_Message_Type 61|15w6 15r45 118|36e25
+8K9*Vehicle_Message_Type 61|15w6 15r45 118|39e25
 15R9*Inter_Vehicle_Messages 61|429r35 118|21e14
 X 119 vehicle_task_type.ads
 3K9*Vehicle_Task_Type 61|16w6 16r45 119|9e22

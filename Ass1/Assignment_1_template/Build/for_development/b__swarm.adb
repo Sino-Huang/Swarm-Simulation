@@ -45,9 +45,9 @@ package body ada_main is
    E118 : Short_Integer; pragma Import (Ada, E118, "system__tasking__protected_objects_E");
    E122 : Short_Integer; pragma Import (Ada, E122, "system__tasking__protected_objects__entries_E");
    E116 : Short_Integer; pragma Import (Ada, E116, "system__tasking__queuing_E");
-   E392 : Short_Integer; pragma Import (Ada, E392, "system__tasking__stages_E");
-   E401 : Short_Integer; pragma Import (Ada, E401, "system__interrupt_management__operations_E");
-   E399 : Short_Integer; pragma Import (Ada, E399, "system__tasking__async_delays_E");
+   E394 : Short_Integer; pragma Import (Ada, E394, "system__tasking__stages_E");
+   E405 : Short_Integer; pragma Import (Ada, E405, "system__interrupt_management__operations_E");
+   E403 : Short_Integer; pragma Import (Ada, E403, "system__tasking__async_delays_E");
    E380 : Short_Integer; pragma Import (Ada, E380, "barrier_type_E");
    E270 : Short_Integer; pragma Import (Ada, E270, "bzip2_E");
    E102 : Short_Integer; pragma Import (Ada, E102, "exceptions_E");
@@ -73,8 +73,8 @@ package body ada_main is
    E311 : Short_Integer; pragma Import (Ada, E311, "quaternions_E");
    E360 : Short_Integer; pragma Import (Ada, E360, "screenshots_E");
    E313 : Short_Integer; pragma Import (Ada, E313, "vectors_3d_E");
-   E403 : Short_Integer; pragma Import (Ada, E403, "vectors_3d_lf_E");
-   E405 : Short_Integer; pragma Import (Ada, E405, "vectors_conversions_E");
+   E407 : Short_Integer; pragma Import (Ada, E407, "vectors_3d_lf_E");
+   E409 : Short_Integer; pragma Import (Ada, E409, "vectors_conversions_E");
    E278 : Short_Integer; pragma Import (Ada, E278, "zip_streams_E");
    E274 : Short_Integer; pragma Import (Ada, E274, "zip_E");
    E276 : Short_Integer; pragma Import (Ada, E276, "zip__headers_E");
@@ -106,13 +106,13 @@ package body ada_main is
    E364 : Short_Integer; pragma Import (Ada, E364, "swarm_configurations_E");
    E362 : Short_Integer; pragma Import (Ada, E362, "swarm_configuration_E");
    E384 : Short_Integer; pragma Import (Ada, E384, "vehicle_message_type_E");
-   E397 : Short_Integer; pragma Import (Ada, E397, "vehicle_protected_message_queue_E");
-   E390 : Short_Integer; pragma Import (Ada, E390, "vehicle_task_type_E");
-   E395 : Short_Integer; pragma Import (Ada, E395, "vehicle_interface_E");
+   E401 : Short_Integer; pragma Import (Ada, E401, "vehicle_protected_message_queue_E");
+   E387 : Short_Integer; pragma Import (Ada, E387, "vehicle_task_type_E");
    E378 : Short_Integer; pragma Import (Ada, E378, "swarm_structures_E");
+   E399 : Short_Integer; pragma Import (Ada, E399, "vehicle_interface_E");
    E376 : Short_Integer; pragma Import (Ada, E376, "swarm_data_E");
    E375 : Short_Integer; pragma Import (Ada, E375, "swarm_control_E");
-   E410 : Short_Integer; pragma Import (Ada, E410, "swarm_control_concurrent_generic_E");
+   E414 : Short_Integer; pragma Import (Ada, E414, "swarm_control_concurrent_generic_E");
    E049 : Short_Integer; pragma Import (Ada, E049, "callback_procedures_E");
 
    Local_Priority_Specific_Dispatching : constant String := "";
@@ -122,7 +122,7 @@ package body ada_main is
 
    procedure finalize_library is
    begin
-      E395 := E395 - 1;
+      E399 := E399 - 1;
       E375 := E375 - 1;
       declare
          procedure F1;
@@ -137,165 +137,172 @@ package body ada_main is
          E376 := E376 - 1;
          F2;
       end;
-      E378 := E378 - 1;
       declare
          procedure F3;
-         pragma Import (Ada, F3, "swarm_structures__finalize_spec");
+         pragma Import (Ada, F3, "vehicle_interface__finalize_spec");
       begin
          F3;
       end;
+      E378 := E378 - 1;
       declare
          procedure F4;
-         pragma Import (Ada, F4, "vehicle_interface__finalize_spec");
+         pragma Import (Ada, F4, "swarm_structures__finalize_spec");
       begin
          F4;
       end;
+      E401 := E401 - 1;
       declare
          procedure F5;
-         pragma Import (Ada, F5, "swarm_structures_base__finalize_spec");
+         pragma Import (Ada, F5, "vehicle_protected_message_queue__finalize_spec");
       begin
-         E365 := E365 - 1;
          F5;
       end;
       declare
          procedure F6;
-         pragma Import (Ada, F6, "graphics_structures__finalize_spec");
+         pragma Import (Ada, F6, "swarm_structures_base__finalize_spec");
+      begin
+         E365 := E365 - 1;
+         F6;
+      end;
+      declare
+         procedure F7;
+         pragma Import (Ada, F7, "graphics_structures__finalize_spec");
       begin
          E305 := E305 - 1;
-         F6;
+         F7;
       end;
       E350 := E350 - 1;
       declare
-         procedure F7;
-         pragma Import (Ada, F7, "glut__windows__finalize_spec");
+         procedure F8;
+         pragma Import (Ada, F8, "glut__windows__finalize_spec");
       begin
-         F7;
+         F8;
       end;
       E164 := E164 - 1;
       declare
-         procedure F8;
-         pragma Import (Ada, F8, "globe_3d__textures__finalize_body");
+         procedure F9;
+         pragma Import (Ada, F9, "globe_3d__textures__finalize_body");
       begin
          E257 := E257 - 1;
-         F8;
-      end;
-      declare
-         procedure F9;
-         pragma Import (Ada, F9, "globe_3d__finalize_spec");
-      begin
          F9;
       end;
-      E284 := E284 - 1;
       declare
          procedure F10;
-         pragma Import (Ada, F10, "unzip__streams__finalize_spec");
+         pragma Import (Ada, F10, "globe_3d__finalize_spec");
       begin
          F10;
       end;
-      E278 := E278 - 1;
+      E284 := E284 - 1;
       declare
          procedure F11;
-         pragma Import (Ada, F11, "zip_streams__finalize_spec");
+         pragma Import (Ada, F11, "unzip__streams__finalize_spec");
       begin
          F11;
       end;
+      E278 := E278 - 1;
       declare
          procedure F12;
-         pragma Import (Ada, F12, "glut__finalize_body");
+         pragma Import (Ada, F12, "zip_streams__finalize_spec");
+      begin
+         F12;
+      end;
+      declare
+         procedure F13;
+         pragma Import (Ada, F13, "glut__finalize_body");
       begin
          E298 := E298 - 1;
-         F12;
+         F13;
       end;
       E185 := E185 - 1;
       declare
-         procedure F13;
-         pragma Import (Ada, F13, "gl__skins__finalize_spec");
-      begin
-         F13;
-      end;
-      E239 := E239 - 1;
-      declare
          procedure F14;
-         pragma Import (Ada, F14, "gl__textures__finalize_spec");
+         pragma Import (Ada, F14, "gl__skins__finalize_spec");
       begin
          F14;
       end;
-      E210 := E210 - 1;
+      E239 := E239 - 1;
       declare
          procedure F15;
-         pragma Import (Ada, F15, "gl__geometry__finalize_spec");
+         pragma Import (Ada, F15, "gl__textures__finalize_spec");
       begin
          F15;
       end;
-      E202 := E202 - 1;
+      E210 := E210 - 1;
       declare
          procedure F16;
-         pragma Import (Ada, F16, "gl__buffer__finalize_spec");
+         pragma Import (Ada, F16, "gl__geometry__finalize_spec");
       begin
          F16;
       end;
-      E380 := E380 - 1;
+      E202 := E202 - 1;
       declare
          procedure F17;
-         pragma Import (Ada, F17, "barrier_type__finalize_spec");
+         pragma Import (Ada, F17, "gl__buffer__finalize_spec");
       begin
          F17;
       end;
-      E122 := E122 - 1;
+      E380 := E380 - 1;
       declare
          procedure F18;
-         pragma Import (Ada, F18, "system__tasking__protected_objects__entries__finalize_spec");
+         pragma Import (Ada, F18, "barrier_type__finalize_spec");
       begin
          F18;
       end;
-      E188 := E188 - 1;
+      E122 := E122 - 1;
       declare
          procedure F19;
-         pragma Import (Ada, F19, "system__pool_global__finalize_spec");
+         pragma Import (Ada, F19, "system__tasking__protected_objects__entries__finalize_spec");
       begin
          F19;
       end;
-      E212 := E212 - 1;
+      E188 := E188 - 1;
       declare
          procedure F20;
-         pragma Import (Ada, F20, "ada__strings__unbounded__finalize_spec");
+         pragma Import (Ada, F20, "system__pool_global__finalize_spec");
       begin
          F20;
       end;
-      E134 := E134 - 1;
+      E212 := E212 - 1;
       declare
          procedure F21;
-         pragma Import (Ada, F21, "ada__text_io__finalize_spec");
+         pragma Import (Ada, F21, "ada__strings__unbounded__finalize_spec");
       begin
          F21;
       end;
-      E194 := E194 - 1;
+      E134 := E134 - 1;
       declare
          procedure F22;
-         pragma Import (Ada, F22, "system__storage_pools__subpools__finalize_spec");
+         pragma Import (Ada, F22, "ada__text_io__finalize_spec");
       begin
          F22;
       end;
-      E196 := E196 - 1;
+      E194 := E194 - 1;
       declare
          procedure F23;
-         pragma Import (Ada, F23, "system__finalization_masters__finalize_spec");
+         pragma Import (Ada, F23, "system__storage_pools__subpools__finalize_spec");
       begin
          F23;
       end;
-      E245 := E245 - 1;
+      E196 := E196 - 1;
       declare
          procedure F24;
-         pragma Import (Ada, F24, "ada__streams__stream_io__finalize_spec");
+         pragma Import (Ada, F24, "system__finalization_masters__finalize_spec");
       begin
          F24;
       end;
+      E245 := E245 - 1;
       declare
          procedure F25;
-         pragma Import (Ada, F25, "system__file_io__finalize_body");
+         pragma Import (Ada, F25, "ada__streams__stream_io__finalize_spec");
+      begin
+         F25;
+      end;
+      declare
+         procedure F26;
+         pragma Import (Ada, F26, "system__file_io__finalize_body");
       begin
          E138 := E138 - 1;
-         F25;
+         F26;
       end;
       declare
          procedure Reraise_Library_Exception_If_Any;
@@ -398,12 +405,12 @@ package body ada_main is
            False, True, True, False, True, True, False, True, 
            True, True, True, False, True, True, True, True, 
            False, False, True, False, True, True, False, True, 
-           False, False, True, True, True, True, True, False, 
+           True, False, True, True, True, True, True, False, 
            False, True, False, True, True, True, False, True, 
            True, False, True, True, True, True, False, True, 
            True, False, False, False, True, True, True, True, 
            True, True, False),
-         Count => (0, 0, 0, 2, 2, 1, 3, 2, 7, 0),
+         Count => (0, 0, 0, 2, 5, 1, 4, 2, 7, 0),
          Unknown => (False, False, False, False, False, False, True, True, True, False));
       Priority_Specific_Dispatching :=
         Local_Priority_Specific_Dispatching'Address;
@@ -500,11 +507,11 @@ package body ada_main is
       System.Tasking.Queuing'Elab_Body;
       E116 := E116 + 1;
       System.Tasking.Stages'Elab_Body;
-      E392 := E392 + 1;
+      E394 := E394 + 1;
       System.Interrupt_Management.Operations'Elab_Body;
-      E401 := E401 + 1;
+      E405 := E405 + 1;
       System.Tasking.Async_Delays'Elab_Body;
-      E399 := E399 + 1;
+      E403 := E403 + 1;
       Barrier_Type'Elab_Spec;
       E380 := E380 + 1;
       E270 := E270 + 1;
@@ -543,8 +550,8 @@ package body ada_main is
       E311 := E311 + 1;
       E360 := E360 + 1;
       E313 := E313 + 1;
-      E403 := E403 + 1;
-      E405 := E405 + 1;
+      E407 := E407 + 1;
+      E409 := E409 + 1;
       Zip_Streams'Elab_Spec;
       Zip'Elab_Spec;
       E278 := E278 + 1;
@@ -601,18 +608,19 @@ package body ada_main is
       Swarm_Configuration'Elab_Spec;
       E362 := E362 + 1;
       E384 := E384 + 1;
-      E397 := E397 + 1;
-      Vehicle_Interface'Elab_Spec;
+      Vehicle_Protected_Message_Queue'Elab_Spec;
+      E401 := E401 + 1;
       Swarm_Structures'Elab_Spec;
       E378 := E378 + 1;
+      Vehicle_Interface'Elab_Spec;
       Swarm_Data'Elab_Spec;
       E376 := E376 + 1;
       Swarm_Control'Elab_Spec;
       E375 := E375 + 1;
-      E395 := E395 + 1;
       Vehicle_Task_Type'Elab_Body;
-      E390 := E390 + 1;
-      E410 := E410 + 1;
+      E387 := E387 + 1;
+      E399 := E399 + 1;
+      E414 := E414 + 1;
       Callback_Procedures'Elab_Body;
       E049 := E049 + 1;
    end adainit;
@@ -689,7 +697,6 @@ package body ada_main is
    --   /media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vectors_2d_n.o
    --   /media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vectors_2d_p.o
    --   /media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vectors_conversions.o
-   --   /media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vehicle_behaviour.o
    --   /media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/zip_streams.o
    --   /media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/zip-headers.o
    --   /media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/zip.o
@@ -727,8 +734,8 @@ package body ada_main is
    --   /media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/swarm_structures.o
    --   /media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/swarm_data.o
    --   /media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/swarm_control.o
-   --   /media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vehicle_interface.o
    --   /media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vehicle_task_type.o
+   --   /media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/vehicle_interface.o
    --   /media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/swarm_control_concurrent_generic.o
    --   /media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/callback_procedures.o
    --   /media/sukai/C2E6270DE62700F1/Users/huang/Documents/ANU YEAR 2/COMP2310/COMP2310_Ass1/Ass1/Assignment_1_template/Build/for_development/swarm.o

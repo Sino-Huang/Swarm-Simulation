@@ -205,7 +205,7 @@ D vectors_2d_n.ads	20180916130930 27f53fc0 vectors_2d_n%s
 D vectors_3d.ads	20180916130930 121733f3 vectors_3d%s
 D vectors_xd.ads	20180916130930 4c943a4c vectors_xd%s
 D vectors_xd_i.ads	20180916130930 32b570f3 vectors_xd_i%s
-D vehicle_message_type.ads  20180922105057 e4adeded vehicle_message_type%s
+D vehicle_message_type.ads  20180922182858 ae646b9e vehicle_message_type%s
 D vehicle_task_type.ads	20180916130930 9ebc7351 vehicle_task_type%s
 D zip.ads		20180916130930 6e4a4be8 zip%s
 D zip_streams.ads	20180916130930 088b1cbe zip_streams%s

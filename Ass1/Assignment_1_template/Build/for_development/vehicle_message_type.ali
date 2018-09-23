@@ -78,21 +78,23 @@ A -gnatE
 A -fstack-check=specific
 A -fno-strict-aliasing
 A -gnato
-A -gnatc
 A -mtune=generic
 A -march=x86-64
-P NO FX
+P SS ZX
 
 RN
 RV NO_CALENDAR
 RV NO_DELAY
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
 RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U vehicle_message_type%b  vehicle_message_type.adb  c991d878 DE NE OO PK
+U vehicle_message_type%b  vehicle_message_type.adb  3b37f4b0 DE NE OO PK
+W interfaces%s		interfac.ads		interfac.ali
 
-U vehicle_message_type%s  vehicle_message_type.ads  1b79a64b DE EE NE OO PK
+U vehicle_message_type%s  vehicle_message_type.ads  6ccde2a1 DE EE NE OO PK
 W ada%s			ada.ads			ada.ali
 W ada.calendar%s	a-calend.adb		a-calend.ali
 W shared_message_structure%s  shared_message_structure.ads  shared_message_structure.ali
@@ -106,6 +108,7 @@ D a-contai.ads		20151020122137 61e5e089 ada.containers%s
 D a-cohata.ads		20151020102346 80a8c839 ada.containers.hash_tables%s
 D a-cohama.ads		20151023123735 5b9a95f7 ada.containers.hashed_maps%s
 D a-conhel.ads		20160420102926 20298884 ada.containers.helpers%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
 D a-finali.ads		20151020095656 bf4f806b ada.finalization%s
 D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
 D a-iteint.ads		20110906092602 7c7305e9 ada.iterator_interfaces%s
@@ -117,6 +120,7 @@ D a-string.ads		20070406091342 90ac6797 ada.strings%s
 D a-strmap.ads		20140611123156 e8bb714a ada.strings.maps%s
 D a-strunb.ads		20161012122725 ecdfa332 ada.strings.unbounded%s
 D a-stunha.ads		20070406091342 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
 D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
 D a-tiflio.ads		20140717063513 56fbda09 ada.text_io.float_io%s
 D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
@@ -148,119 +152,151 @@ D system.ads		20170510173650 4635ec04 system%s
 D s-atacco.ads		20120515093410 4c36d12f system.address_to_access_conversions%s
 D s-atocou.ads		20151020101020 b45c2d8d system.atomic_counters%s
 D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-fatgen.ads		20150107111315 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20090409150019 378cba9f system.fat_lflt%s
 D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-finmas.ads		20151016130316 7811a767 system.finalization_masters%s
 D s-finroo.ads		20120426095924 4ff27390 system.finalization_root%s
+D s-linux.ads		20150107101203 2fda6ad1 system.linux%s
+D s-multip.ads		20101011073009 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20180512150149 7b5577db system.os_constants%s
+D s-osinte.ads		20170314092617 ad16bc4a system.os_interface%s
 D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20151118103153 ede33ef8 system.pool_global%s
+D s-secsta.ads		20170112134946 9751b57e system.secondary_stack%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stausa.ads		20110804134155 017a0a05 system.stack_usage%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140801093848 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20131010103753 b16154c2 system.storage_pools%s
+D s-stposu.ads		20151020120548 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20131014135145 aedef97e system.stream_attributes%s
+D s-string.ads		20140225151139 8fe54fb7 system.strings%s
+D s-ststop.ads		20140225151139 e6693757 system.strings.stream_ops%s
+D s-tasinf.ads		20140613095942 2b3f8252 system.task_info%s
+D s-taspri.ads		20141120144719 e3ab4429 system.task_primitives%s
+D s-taskin.ads		20170112134946 05d6152c system.tasking%s
+D s-taprob.ads		20170106114239 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20170106115015 60ad3dae system.tasking.protected_objects.entries%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
 D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
 D vectors_2d_n.ads	20180916130930 27f53fc0 vectors_2d_n%s
 D vectors_3d.ads	20180916130930 121733f3 vectors_3d%s
 D vectors_xd.ads	20180916130930 4c943a4c vectors_xd%s
 D vectors_xd_i.ads	20180916130930 32b570f3 vectors_xd_i%s
-D vehicle_message_type.ads  20180922133125 d9d02f74 vehicle_message_type%s
-D vehicle_message_type.adb  20180922133128 1041f70c vehicle_message_type%b
+D vehicle_message_type.ads  20180922182858 ae646b9e vehicle_message_type%s
+D vehicle_message_type.adb  20180923052007 95539f2e vehicle_message_type%b
 D zip.ads		20180916130930 6e4a4be8 zip%s
 D zip_streams.ads	20180916130930 088b1cbe zip_streams%s
 X 1 ada.ads
-16K9*Ada 20e8 60|4r6 4r24
+16K9*Ada 20e8 89|4r6 4r24
 X 2 a-calend.ads
-36K13*Calendar 395e17 60|4w10 4r28
-44I9*Time<213I9> 60|20r24 61|91r26 105r26
-58V13*Clock{44I9} 60|20s32 61|16s40 91s34 105s34
-111V14*"<"{boolean} 61|31s40 195s65
+36K13*Calendar 395e17 89|4w10 4r28
+44I9*Time<213I9> 89|20r24 90|95r26 109r26
+58V13*Clock{44I9} 89|20s32 90|17s43 86s31 95s34 109s34
+111V14*"<"{boolean} 90|32s43 199s65
 213I9 Time_Rep<long_long_integer>
 X 7 a-cohama.ads
-53R9*Map<9|43R9>
-X 11 a-iteint.ads
+53R9*Map<10|43R9>
+X 12 a-iteint.ads
 24h9 Forward_Iterator
-X 27 gl-buffer-general.ads
-14R9 base_Object<26|20R9>
-X 36 graphics_structures.ads
-32A12*Point_3D{57|14A12}<57|10E9>
-X 45 shared_message_structure.ads
-3K9*Shared_Message_Structure 16e29 60|2w6 2r36
-6R9*Globe_Info_Record 10e14 60|14r70 61|185r32
-7a7*Globe_Position{46|15A12} 61|114m25
-8a7*Globe_Velocity{46|16A12} 61|113m25
-9i7*LastUpdateTime{2|44I9} 61|112m25 195r50 195r69
-12R9*Vehicle_Info_Record 15e14 60|13r72 34r36 61|173r36
-13i7*Vehicle_ID{positive} 61|15r24 15r40 29r24 29r40 95m20 177r15 177r36
-14i7*LastMetTime{2|44I9} 61|16m25 31r28 31r44 32m28 32r45 96m20
-X 46 swarm_structures_base.ads
-10K9*Swarm_Structures_Base 48e26 60|3w6 3r33
-15A12*Positions{36|32A12}<57|10E9>
-16A12*Velocities{57|14A12}<57|10E9>
-32a7*Position{15A12} 61|114r45
-33a7*Velocity{16A12} 61|113r45
-36A9*Energy_Globes(31R9)<integer> 60|25r35 61|104r35
-X 57 vectors_3d.ads
-14A12*Vector_3D{58|10A9[12]}<10E9>
-X 58 vectors_xd.ads
-10A9*Vector_xD(long_float)<57|10E9>
-X 60 vehicle_message_type.ads
-8K9*Vehicle_Message_Type 29E14 37l5 37e25 61|1b14 208l5 208t25
+X 29 gl-buffer-general.ads
+14R9 base_Object<28|20R9>
+X 38 graphics_structures.ads
+32A12*Point_3D{86|14A12}<86|10E9>
+X 47 shared_message_structure.ads
+3K9*Shared_Message_Structure 16e29 89|2w6 2r36
+6R9*Globe_Info_Record 10e14 89|14r70 90|189r32
+7a7*Globe_Position{48|15A12} 90|118m25
+8a7*Globe_Velocity{48|16A12} 90|117m25
+9i7*LastUpdateTime{2|44I9} 90|116m25 199r50 199r69
+12R9*Vehicle_Info_Record 15e14 89|13r72 36r36 90|177r36
+13i7*Vehicle_ID{positive} 90|16r27 16r43 30r27 30r43 99m20 181r15 181r36
+14i7*LastMetTime{2|44I9} 90|17m28 32r31 32r47 33m31 33r48 100m20
+X 48 swarm_structures_base.ads
+10K9*Swarm_Structures_Base 48e26 89|3w6 3r33
+15A12*Positions{38|32A12}<86|10E9>
+16A12*Velocities{86|14A12}<86|10E9>
+32a7*Position{15A12} 90|118r45
+33a7*Velocity{16A12} 90|117r45
+36A9*Energy_Globes(31R9)<integer> 89|27r35 90|108r35
+X 68 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 86 vectors_3d.ads
+14A12*Vector_3D{87|10A9[12]}<10E9>
+X 87 vectors_xd.ads
+10A9*Vector_xD(long_float)<86|10E9>
+X 89 vehicle_message_type.ads
+8K9*Vehicle_Message_Type 31E14 39l5 39e25 90|1b14 212l5 212t25
 10i4*Index_Max{integer} 13r58 14r56
-13A9*Known_Vehicles_Type(45|12R9)<integer> 19r24 24r57 29r52 30r76 61|7r52
-. 90r57 92r18 126r14
-14A9*Known_Globes_Type(45|6R9)<integer> 18r25 25r57 26r48 31r74 35r36 35r62
-. 61|52r48 104r57 106r16 139r14 184r36 184r62 187r16
-15R9*Inter_Vehicle_Messages 21e14 23r39 23r78 26r82 29r88 30r45 31r43 32r43
-. 33r41 34r65 61|7r88 52r82 76r39 76r78 125r17 138r17 151r17 164r17 173r65
-16i10*Globes_Size{integer} 61|57m19 57r40 58r39 60r22 61m22 78r35 170r22
-17i10*Vehicles_Size{integer} 61|21m22 21r45 22r44 38m25 38r48 39r47 81r39
-. 156r22
-18a10*Known_Globes{14A9} 61|58m19 62m22 62r68 79r34 143r22
-19a7*Known_Vehicles{13A9} 61|14r32 22m22 28r32 39m25 82r38 130r22 176r22
-20i7*Last_Edit_Time{2|44I9}
-23U14*Update_Message 23>30 23=63 61|76b14 84l8 84t22
-23r30 Remote{15R9} 61|76b30 78r28 79r27 81r32 82r31
-23r63 Local{15R9} 61|76b63 80m27 83m31
-24V13*Init_Vehicle{13A9} 24>27 61|90b13 98l8 98t20
-24i27 Vehicle_ID{positive} 61|90b27 95r34
-25V13*Update_Globe{14A9} 25>27 61|104b13 118l8 118t20
-25a27 Globe{46|36A9} 61|104b27 111r16
-26U14*Add_Globe 26>25 26>39 26=67 61|52b14 69l8 69t17 78s7
-26i25 GS{integer} 61|52b25 55r10 64r31 78r18
-26a39 Globes{14A9} 61|52b39 56r19 79r17
-26r67 Local{15R9} 61|52b67 57m13 57r34 58m13 58r33 60r16 61m16 62m16 62r62
-. 80r17
-29U14 Add_Vehicle 29>27 29>41 29=73 61|7b14 46l8 46t19 81s7
-29i27 VS{integer} 61|7b27 43r28 81r20
-29a41 Vehicles{13A9} 61|7b41 11r16 82r19
-29r73 Local{15R9} 61|7b73 13r54 14r26 21m16 21r39 22m16 22r38 28r26 38m19
-. 38r42 39m19 39r41 83r19
-30V13 Read_Vehicles_Record{13A9} 30>35 61|124b13 131l8 131t28
-30r35 Records{15R9} 61|125b7 130r14
-31V13 Read_Globes_Record{14A9} 31>33 61|137b13 144l8 144t26
-31r33 Records{15R9} 61|138b7 143r14
-32V13 Read_Vehicles_Size{integer} 32>33 61|150b13 157l8 157t26
-32r33 Records{15R9} 61|151b7 156r14
-33V13 Read_Globes_Size{integer} 33>31 61|163b13 171l8 171t24
-33r31 Records{15R9} 61|164b7 170r14
-34V13 IsVehicleIn{boolean} 34>26 34>57 61|13s16 173b13 182l8 182t19
-34r26 Vehicle{45|12R9} 61|13r29 173b26 177r28
-34r57 Local{15R9} 61|13r43 173b57 176r16
-35V13 RefreshGlobes{14A9} 35>28 61|62s38 184b13 206l8 206t21
-35a28 Globe{14A9} 61|62r53 184b28 190r24
-X 61 vehicle_message_type.adb
-8i7 Index{integer} 12r13 43r20 44m10 44r19
-11r11 v{45|12R9} 13r40 15r22 22r62 29r22 31r42 32r43 39r65
-14r20 vl{45|12R9} 15r37 16m22
-26b16 Flag{boolean} 30m22 37r19
-28r20 vl{45|12R9} 29r37 31r25 32m25
-53i7 Index{integer} 64r23 65m13 65r22
-56r14 g{45|6R9} 58r55
-91i7 TheTime{2|44I9} 96r35
-92a7 Vehicles{60|13A9} 95m7 96m7 97r14
-105i7 TheTime{2|44I9} 112r43
-106a7 Globes{60|14A9} 112m10 113m10 114m10 117r14
-107i7 Index{integer} 112r18 113r18 114r18 115m10 115r19
-111r11 g{46|31R9} 113r43 114r43
-176r11 v{45|12R9} 177r13
-185a7 Temp(45|6R9) 193m13 195r41 196m16 196r33 197m16 203r24
-186i7 Current_Size{integer} 191r13 192m13 192r29 193r23 194r16
-187a7 Output{60|14A9} 203m10 205r14
-190r11 g{45|6R9} 193r40 195r67 197r28
-195i26 i{integer} 195r47
-202i11 i{integer} 203r18 203r30
+13A9*Known_Vehicles_Type(47|12R9)<integer> 19r24 26r57 31r52 32r76 90|7r52
+. 94r57 96r18 130r14
+14A9*Known_Globes_Type(47|6R9)<integer> 18r25 27r57 28r48 33r74 37r36 37r62
+. 90|54r48 108r57 110r16 143r14 188r36 188r62 191r16
+15R9*Inter_Vehicle_Messages 21e14 23r49 25r39 25r78 28r82 31r88 32r45 33r43
+. 34r43 35r41 36r65 90|7r88 54r82 78r39 78r78 129r17 142r17 155r17 168r17
+. 177r65
+16i10*Globes_Size{integer} 90|59m19 59r40 60r39 62r22 63m22 80r35 174r22
+17i10*Vehicles_Size{integer} 90|22m25 22r48 23r47 39m28 39r51 40r50 83r39
+. 160r22
+18a10*Known_Globes{14A9} 90|60m19 64m22 64r68 81r34 147r22
+19a7*Known_Vehicles{13A9} 90|15r35 23m25 29r35 40m28 84r38 134r22 180r22
+20i7*Last_Edit_Time{2|44I9} 90|86m13
+23P9*Inter_Vehicle_Messages_Pr(15R9)
+25U14*Update_Message 25>30 25=63 90|78b14 88l8 88t22
+25r30 Remote{15R9} 90|78b30 80r28 81r27 83r32 84r31
+25r63 Local{15R9} 90|78b63 82m27 85m32 86m7
+26V13*Init_Vehicle{13A9} 26>27 90|94b13 102l8 102t20
+26i27 Vehicle_ID{positive} 90|94b27 99r34
+27V13*Update_Globe{14A9} 27>27 90|108b13 122l8 122t20
+27a27 Globe{48|36A9} 90|108b27 115r16
+28U14*Add_Globe 28>25 28>39 28=67 90|54b14 71l8 71t17 80s7
+28i25 GS{integer} 90|54b25 57r10 66r31 80r18
+28a39 Globes{14A9} 90|54b39 58r19 81r17
+28r67 Local{15R9} 90|54b67 59m13 59r34 60m13 60r33 62r16 63m16 64m16 64r62
+. 82r17
+31U14 Add_Vehicle 31>27 31>41 31=73 90|7b14 48l8 48t19 83s7
+31i27 VS{integer} 90|7b27 10r10 44r31 83r20
+31a41 Vehicles{13A9} 90|7b41 12r19 84r19
+31r73 Local{15R9} 90|7b73 14r57 15m29 15r29 22m19 22r42 23m19 23r41 29m29
+. 29r29 39m22 39r45 40m22 40r44 85r20
+32V13 Read_Vehicles_Record{13A9} 32>35 90|128b13 135l8 135t28
+32r35 Records{15R9} 90|129b7 134r14
+33V13 Read_Globes_Record{14A9} 33>33 90|141b13 148l8 148t26
+33r33 Records{15R9} 90|142b7 147r14
+34V13 Read_Vehicles_Size{integer} 34>33 90|154b13 161l8 161t26
+34r33 Records{15R9} 90|155b7 160r14
+35V13 Read_Globes_Size{integer} 35>31 90|167b13 175l8 175t24
+35r31 Records{15R9} 90|168b7 174r14
+36V13 IsVehicleIn{boolean} 36>26 36>57 90|14s19 177b13 186l8 186t19
+36r26 Vehicle{47|12R9} 90|14r32 177b26 181r28
+36r57 Local{15R9} 90|14r46 177b57 180r16
+37V13 RefreshGlobes{14A9} 37>28 90|64s38 188b13 210l8 210t21
+37a28 Globe{14A9} 90|64r53 188b28 194r24
+X 90 vehicle_message_type.adb
+8i7 Index{integer} 13r16 44r23 45m13 45r22
+12r14 v=12:19{47|12R9} 14r43 16r25 23r65 30r25 32r45 33r46 40r68
+15r23 vl=15:23{47|12R9} 16r40 17r25
+27b19 Flag{boolean} 31m25 38r22
+29r23 vl=29:23{47|12R9} 30r40 32r28 33r28
+55i7 Index{integer} 66r23 67m13 67r22
+58r14 g=58:19{47|6R9} 60r55
+95i7 TheTime{2|44I9} 100r35
+96a7 Vehicles{89|13A9} 99m7 100m7 101r14
+109i7 TheTime{2|44I9} 116r43
+110a7 Globes{89|14A9} 116m10 117m10 118m10 121r14
+111i7 Index{integer} 116r18 117r18 118r18 119m10 119r19
+115r11 g=115:16{48|31R9} 117r43 118r43
+180r11 v=180:11{47|12R9} 181r13
+189a7 Temp(47|6R9) 197m13 199r41 200m16 200r33 201m16 207r24
+190i7 Current_Size{integer} 195r13 196m13 196r29 197r23 198r16
+191a7 Output{89|14A9} 207m10 209r14
+194r11 g=194:24{47|6R9} 197r40 199r67 201r28
+199i26 i{integer} 199r47
+206i11 i{integer} 207r18 207r30
 

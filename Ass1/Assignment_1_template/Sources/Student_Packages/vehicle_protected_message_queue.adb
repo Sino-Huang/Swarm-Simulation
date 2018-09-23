@@ -22,7 +22,7 @@ package body Vehicle_Protected_Message_Queue is
       -- Dequeue --
       -------------
 
-      entry Dequeue (Item : out Inter_Vehicle_Messages) when Is_Empty is
+      entry Dequeue (Item : out Inter_Vehicle_Messages) when not Is_Empty is
       begin
          Item := Queue.Elements (Queue.Top);
          Queue.Top := Queue_Size'Succ (Queue.Top);
