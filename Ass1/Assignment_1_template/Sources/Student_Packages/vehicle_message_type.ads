@@ -1,37 +1,71 @@
 -- Suggestions for packages which might be useful:
-with Shared_Message_Structure; use Shared_Message_Structure;
 with Swarm_Structures_Base; use Swarm_Structures_Base;
 with Ada.Calendar; use Ada.Calendar;
+with Maybe_Type;
 --  with Ada.Real_Time;         use Ada.Real_Time;
 --  with Vectors_3D;            use Vectors_3D;
 
 package Vehicle_Message_Type is
+   package Maybe_Positive is new Maybe_Type (Element => Positive);
+   package Maybe_Position is new Maybe_Type (Element => Positions);
 
-   Index_Max : constant Integer := 100;
-
-   -- Replace this record definition by what your vehicles need to communicate.
-   type Known_Vehicles_Type is array (Integer range 1 .. Index_Max) of Vehicle_Info_Record;
-   type Known_Globes_Type is array (Integer range 1 .. Index_Max) of Globe_Info_Record;
-   type Inter_Vehicle_Messages is record
-         Globes_Size : Integer := 0;
-         Vehicles_Size : Integer := 1;
-         Known_Globes : Known_Globes_Type;
-      Known_Vehicles : Known_Vehicles_Type;
-      Last_Edit_Time : Time := Clock;
+   type Globe_Record is record
+      Globe_Position : Positions;
+      Globe_Velocity : Velocities;
+      Globe_ID : Positive;
+      LastUpdateTime : Time;
    end record;
 
-   type Inter_Vehicle_Messages_Pr is access all Inter_Vehicle_Messages;
+   type Vehicle_Record is record
+      Vehicle_ID : Positive;
+      Vehicle_Charge : Vehicle_Charges;
+      Vehicle_Position : Positions;
+      Vehicle_Velocity : Velocities;
+      Vehicle_Destination : Maybe_Position.Maybe := Maybe_Position.Invalid_Value;
+      LastUpdateTime : Time;
+   end record;
 
-   procedure Update_Message (Remote : Inter_Vehicle_Messages; Local : in out Inter_Vehicle_Messages);
-   function Init_Vehicle (Vehicle_ID : Positive) return Known_Vehicles_Type;
-   function Update_Globe (Globe : Energy_Globes) return Known_Globes_Type;
-   procedure Add_Globe (GS : Integer; Globes : Known_Globes_Type; Local : in out Inter_Vehicle_Messages);
+   package Maybe_Vehicle_Record is new Maybe_Type (Element => Vehicle_Record);
+   package Maybe_Globe_Record is new Maybe_Type (Element => Globe_Record);
 
-private
-   procedure Add_Vehicle (VS : Integer; Vehicles : Known_Vehicles_Type; Local : in out Inter_Vehicle_Messages);
-   function Read_Vehicles_Record (Records : Inter_Vehicle_Messages) return Known_Vehicles_Type;
-   function Read_Globes_Record (Records : Inter_Vehicle_Messages) return Known_Globes_Type;
-   function Read_Vehicles_Size (Records : Inter_Vehicle_Messages) return Integer;
-   function Read_Globes_Size (Records : Inter_Vehicle_Messages) return Integer;
-   function IsVehicleIn (Vehicle : Vehicle_Info_Record; Local : Inter_Vehicle_Messages) return Boolean;
+   type Vehicles_Array is array (1 .. 64) of Maybe_Vehicle_Record.Maybe;
+   type Globes_Array is array (1 .. 2) of Maybe_Globe_Record.Maybe;
+   type WhoAlive_Array is array (1 .. 42) of Maybe_Positive.Maybe;
+   type WhoFeed_Array is array (1 .. 8) of Maybe_Positive.Maybe;
+
+   type Inter_Vehicle_Messages is record
+      Vehicles : Vehicles_Array := (others => Maybe_Vehicle_Record.Invalid_Value);
+      Globes : Globes_Array := (others => Maybe_Globe_Record.Invalid_Value);
+      Sender_ID : Positive;
+      Message_Time : Time;
+      ------------- Concensus Part -----------
+      --- this loop concensus mechanism need
+      -- 1. Double Direction Feedback
+      -- 2. Passing Mechanism
+      -- 3. Skip entry mechanism (some entry may missing)
+      ConcensusFlag : Boolean := False;
+      FeedbackFlag : Boolean := False;
+      ConcensusTaskConfirm : Boolean := False;
+      SkipFlag : Boolean := False;
+      SkipIndex : Positive := 1;
+
+      -----------------
+      WhoAlive : WhoAlive_Array := (others => Maybe_Positive.Invalid_Value);
+      WhoFeed : WhoFeed_Array := (others => Maybe_Positive.Invalid_Value);
+   end record;
+
+   protected type Local_Storage is
+      function Read return Inter_Vehicle_Messages;
+      function NeedPassing return Boolean;
+      procedure Change (Val : Inter_Vehicle_Messages);
+      procedure Update (Val : Inter_Vehicle_Messages);
+      entry ShutPassingFlag;
+
+   private
+      PassingFlag : Boolean := False;
+      Local : Inter_Vehicle_Messages;
+      Passing : Inter_Vehicle_Messages; -- support passing mechanism
+
+   end Local_Storage;
+
 end Vehicle_Message_Type;
