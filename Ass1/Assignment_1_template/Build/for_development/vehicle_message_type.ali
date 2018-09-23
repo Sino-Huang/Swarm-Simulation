@@ -83,15 +83,19 @@ A -march=pentium4
 P NO FX
 
 RN
+RV SIMPLE_BARRIERS
 RV NO_CALENDAR
 RV NO_DELAY
+RV NO_EXCEPTIONS
 RV NO_FLOATING_POINT
 RV NO_PROTECTED_TYPES
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 RV MAX_PROTECTED_ENTRIES=1
 
-U vehicle_message_type%s  vehicle_message_type.ads  ac7a8906 DE EE NE OO PK
+U vehicle_message_type%b  vehicle_message_type.adb  502195c6 DE NE OO PK
+
+U vehicle_message_type%s  vehicle_message_type.ads  e7d9c255 DE EE NE OO PK
 W ada%s			ada.ads			ada.ali
 W ada.calendar%s	a-calend.adb		a-calend.ali
 W maybe_type%s		maybe_type.ads		maybe_type.ali
@@ -156,7 +160,8 @@ D vectors_2d_n.ads	20180911080944 27f53fc0 vectors_2d_n%s
 D vectors_3d.ads	20180911080944 121733f3 vectors_3d%s
 D vectors_xd.ads	20180911080944 4c943a4c vectors_xd%s
 D vectors_xd_i.ads	20180911080944 32b570f3 vectors_xd_i%s
-D vehicle_message_type.ads  20180923141312 520b64d1 vehicle_message_type%s
+D vehicle_message_type.ads  20180923141914 19a82f82 vehicle_message_type%s
+D vehicle_message_type.adb  20180923142012 4989ba44 vehicle_message_type%b
 D zip.ads		20180911080944 6e4a4be8 zip%s
 D zip_streams.ads	20180911080944 088b1cbe zip_streams%s
 X 1 ada.ads
@@ -189,7 +194,7 @@ X 57 vectors_3d.ads
 X 58 vectors_xd.ads
 10A9*Vector_xD(long_float)<57|10E9>
 X 60 vehicle_message_type.ads
-8K9*Vehicle_Message_Type 71l5 71e25
+8K9*Vehicle_Message_Type 74l5 74e25 61|1b14 64l5 64t25
 9K12*Maybe_Positive[42|4] 33r46 34r44 53r47 54r45
 10K12*Maybe_Position[42|4] 24r29 24r53
 12R9*Globe_Record 17e14 29r61
@@ -210,10 +215,11 @@ X 60 vehicle_message_type.ads
 32A9*Globes_Array(42|5R9[29])<integer> 38r16
 33A9*WhoAlive_Array(42|5R9[9])<integer> 53r18
 34A9*WhoFeed_Array(42|5R9[9])<integer> 54r17
-36R9*Inter_Vehicle_Messages 55e14 58r28 60r31 61r31 66r15 67r17
+36R9*Inter_Vehicle_Messages 55e14 58r33 59r35 61r31 62r43 67r15 68r17 61|13r33
+. 18r35 34r31 46r43
 37a7*Vehicles{31A9}
 38a7*Globes{32A9}
-39i7*Sender_ID{positive}
+39i7*Sender_ID{positive} 61|36r22 36r40
 40i7*Message_Time{2|44I9}
 46b7*ConcensusFlag{boolean}
 47b7*FeedbackFlag{boolean}
@@ -222,15 +228,18 @@ X 60 vehicle_message_type.ads
 50i7*SkipIndex{positive}
 53a7*WhoAlive{33A9}
 54a7*WhoFeed{34A9}
-57W19*Local_Storage 65E7 69l8 69e21
-58V16 Read{36R9}
-59V16 NeedPassing{boolean}
-60U17 Change 60>25
-60r25 Val{36R9}
-61U17 Update 61>25
-61r25 Val{36R9}
-62Y13 ShutPassingFlag
-65b7 PassingFlag{boolean}
-66r7 Local{36R9}
-67r7 Passing{36R9}
+57W19*Local_Storage 66E7 70l8 70e21 61|7b19 62l8 62t21
+58V16 ReadLocal{36R9} 61|13b16 16l11 16t20
+59V16 ReadPassing{36R9} 61|18b16
+60V16 NeedPassing{boolean} 61|25b16 28l11 28t22
+61U17 Change 61>25 61|34b17 40l11 40t17
+61r25 Val{36R9} 61|34b25 36r18 39r19
+62U17 Analyze_And_Update 62>37 61|46b17 51l11 51t29
+62r37 Val{36R9} 61|46b37
+63Y13 ShutPassingFlag 61|57b13 60l11 60t26
+66b7 PassingFlag{boolean} 61|27r17 57r38 59m10
+67r7 Local{36R9} 61|15r17 36r34 39m10
+68r7 Passing{36R9} 61|18r62
+72X4*BadChange 61|37r19
+72X15*BadUpdate
 

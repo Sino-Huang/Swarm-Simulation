@@ -55,10 +55,11 @@ package Vehicle_Message_Type is
    end record;
 
    protected type Local_Storage is
-      function Read return Inter_Vehicle_Messages;
+      function ReadLocal return Inter_Vehicle_Messages;
+      function ReadPassing return Inter_Vehicle_Messages;
       function NeedPassing return Boolean;
       procedure Change (Val : Inter_Vehicle_Messages);
-      procedure Update (Val : Inter_Vehicle_Messages);
+      procedure Analyze_And_Update (Val : Inter_Vehicle_Messages);
       entry ShutPassingFlag;
 
    private
@@ -67,5 +68,7 @@ package Vehicle_Message_Type is
       Passing : Inter_Vehicle_Messages; -- support passing mechanism
 
    end Local_Storage;
+
+   BadChange, BadUpdate : exception;
 
 end Vehicle_Message_Type;

@@ -1,0 +1,3 @@
+vehicle_message_type.adb:19:01: (style) multiple blank lines
+vehicle_message_type.adb:46:37: warning: formal parameter "Val" is not referenced
+vehicle_message_type.adb:49:39: warning: Analyze_And_Update unimplemented
